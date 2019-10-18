@@ -4,6 +4,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import { PopupRouteList } from './RouteTable';
 import { Navs, Doc, Header, PopHeader, Footer } from 'components';
 import { Login } from 'containers/pages';
+import EggLayout from 'layout/Layout';
 
 const PopupRoute = props => {
   const getRouteInfo = (cate, id) => {
@@ -23,10 +24,17 @@ const PopupRoute = props => {
   console.log('PopupRoute:props', props);
   return (
     <Fragment>
+      {/*
       {visible && <Doc />}
       {popup && visible && <PopHeader name={name} />}
       {popup && visible && <Route path={url} component={page ? page : Login} />}
       {popup && visible && visible && <Footer />}
+     */}
+      <EggLayout>
+        {popup && visible && (
+          <Route path={url} component={page ? page : Login} />
+        )}
+      </EggLayout>
     </Fragment>
   );
 };
