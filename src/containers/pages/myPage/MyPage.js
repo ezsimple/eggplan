@@ -12,7 +12,9 @@ class MyPage extends Component {
     return (
       <Fragment>
         {/* 디자인 영역 */}
-        <div>마이페이지</div>
+        <div>
+          <Trans>m.마이페이지</Trans>
+        </div>
         {/* 디자인 영역 */}
       </Fragment>
     );

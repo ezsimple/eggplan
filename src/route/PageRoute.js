@@ -5,6 +5,8 @@ import { PageRouteList } from '../route/RouteTable';
 import { Login } from '../containers/pages';
 import { Navs, Doc, Header, PopHeader, Footer } from 'components';
 
+import EggLayout from '../layout/Layout';
+
 class PageRoute extends Component {
   constructor(props) {
     super(props);
@@ -28,11 +30,16 @@ class PageRoute extends Component {
     // console.log(route, name, page, menuNav, visible);
     return (
       <Fragment>
+        {/*
         {visible && <Doc />}
         {menuNav && visible && !popup && <Header cate={cate} id={id} />}
         {!menuNav && visible && popup && <PopHeader name={name} />}
         {visible && <Route path={url} component={page ? page : Login} />}
         {(menuNav || popup) && visible && <Footer />}
+         */}
+        <EggLayout>
+          {visible && <Route path={url} component={page ? page : Login} />}
+        </EggLayout>
       </Fragment>
     );
   }
