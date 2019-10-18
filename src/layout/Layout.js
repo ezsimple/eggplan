@@ -92,13 +92,13 @@ class EggLayout extends React.Component {
               }
             >
               <Menu.Item key="11">
-                <Link to="/page/iot/5">계군</Link>
+                <Link to="/page/iot/6">계군</Link>
               </Menu.Item>
               <Menu.Item key="12">
-                <Link to="/page/iot/5">계사 입식</Link>
+                <Link to="/page/iot/7">계사 입식</Link>
               </Menu.Item>
               <Menu.Item key="13">
-                <Link to="/page/iot/5">이동</Link>
+                <Link to="/page/iot/8">이동</Link>
               </Menu.Item>
               <Menu.Item key="14">
                 <Link to="/popup/iot/0">육성</Link>

@@ -1,7 +1,8 @@
 {
-  "name": "pigplanMobile",
-  "version": "0.2.1",
+  "name": "eggplan",
+  "version": "0.0.1",
   "private": true,
+  "homepage": "https://ezsimple.github.io/eggplan",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-solid-svg-icons": "^5.10.1",
@@ -16,6 +17,7 @@
     "babel-plugin-root-import": "^6.4.1",
     "bootstrap": "^4.3.1",
     "cors": "^2.8.5",
+    "gh-pages": "^2.1.1",
     "i18next": "^17.1.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
@@ -51,6 +53,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "deploy": "gh-pages -d build",
     "test": "react-app-rewired test --env=jsdom"
   },
   "eslintConfig": {
