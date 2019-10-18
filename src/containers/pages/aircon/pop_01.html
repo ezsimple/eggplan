@@ -1,0 +1,70 @@
+<? include $_SERVER['DOCUMENT_ROOT']."/design/components/header/doc.html"; ?>
+
+<!-- popup header -->
+<header class="popup-headtop">
+    <div class="popup-navbar">
+        <div class="btnmenu"><a href="#"><i class="mdi mdi-chevron-left"></i></a></div>
+        <h1>냉방기 설정</h1>
+    </div>
+</header>
+
+<div class="pig-container">
+
+    <div class="pig-search">
+        <label for="">기준일</label>
+        <input type="text" name="" id="datepicker1" class="input-date" />
+        <label for="">장소</label>
+        <select id="" name="" title="" class="sel-type1">
+            <option value="">비육1방</option>
+            <option value="">-</option>
+            <option value="">-</option>
+        </select>
+        <button class="btn-type1 mT10">조회</button>
+    </div>
+
+    <div class="board-box mT20">
+        <div class="board-list2">
+            <table>
+                <colgroup>
+                    <col style="width: 60%" />
+                    <col />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>설정온도</th>
+                        <td>℃</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mT20 mB20"><button class="btn-type1">설정</button></div>
+
+    <div class="board-list-s mT20">
+        <table>
+            <colgroup>
+                <col style="width: 30%" />
+                <col style="width: 30%" />
+                <col />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>설정온도</th>
+                    <th>현재온도</th>
+                    <th>℃</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</div>
+
+<? include $_SERVER['DOCUMENT_ROOT']."/design/components/footer/index.html"; ?>

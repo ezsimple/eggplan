@@ -1,0 +1,134 @@
+/*--------------------
+폼 style
+----------------------*/
+
+
+/* 인풋타입 */
+input[type=text], input[type=password] {
+    box-sizing: border-box; 
+    -webkit-appearance:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px; 
+    background-color:#fff; 
+    vertical-align: middle;
+    font-family: 'Noto Sans KR', Helvetica, sans-serif;
+}
+
+
+input:focus { outline: none;}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0 1000px white inset;}
+label {font-weight: 400!important;}
+.labelzero {font-size:0;margin:0; padding:0}
+
+/* placeholder */
+input::placeholder{color: #bbb}
+input::-webkit-input-placeholder {color:#bbb; }
+input::-moz-placeholder          {color:#bbb;}
+input:-moz-placeholder           {color:#bbb;}
+input:-ms-input-placeholder      {color:#bbb;}
+textarea::-webkit-input-placeholder {color:#bbb;}
+textarea::-moz-placeholder          {color:#bbb;}
+textarea:-moz-placeholder           {color:#bbb;}
+textarea:-ms-input-placeholder      {color:#bbb;}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {color:transparent; } 
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { color:transparent; } 
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {color:transparent; } 
+input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder { color:transparent; }
+
+
+/* 검색용 */
+.pig-search label {width: 60px; background-color: #cad5e8; height: 50px; vertical-align: top; color:#222; line-height: 50px; text-align: center; border-radius: 3px;border-top-right-radius: 0px!important; border-bottom-right-radius: 0px!important; float:left}
+
+.input-date {border:1px solid #ccd6e7; height:50px;font-size:15px; padding-left:20px;  width:calc(100% - 60px); border-top-left-radius: 0px!important; border-bottom-left-radius: 0px!important; 
+           background: url("/design/images/icon_date1.png") no-repeat right 10px center; background-size:25px; margin-bottom: 10px}
+.input-date:focus {border:1px solid #b3bdcf;} 
+.input-date-s {border:1px solid #ccd6e7; height:50px;font-size:15px; padding-left:7px;  width:calc(50% - 39px); border-top-left-radius: 0px!important; border-bottom-left-radius: 0px!important; 
+           background: url("/design/images/icon_date1.png") no-repeat right 10px center; background-size:25px; margin-bottom: 10px}
+
+
+.input-type1 {border:1px solid #ccd6e7; height:45px;font-size:15px; padding-left:20px;  margin-bottom:3px; padding:0 15px;}
+
+
+
+
+
+/* 셀렉트 */
+select::-ms-expand{display:none;}
+select {
+-webkit-appearance: none;-moz-appearance: none;appearance: none; 
+vertical-align: middle;
+-webkit-box-shadow:none;
+box-shadow:none;
+box-sizing:border-box;
+border-radius: 3px;
+background:#fff url(/design/images/icon_sel.png) no-repeat;
+font-size:15px;
+-webkit-background-size: 10px auto;
+background-size: 15px auto;
+background-position:right 10px center;
+color:#555;
+font-family: 'Noto Sans KR', Helvetica,  sans-serif;
+}
+
+/* 상단검색용 */
+.sel-type1  {border:1px solid #ccd6e7; color:#555;padding:0 10px; height:50px;  width:calc(100% - 60px);margin:0;border-top-left-radius: 0px!important; border-bottom-left-radius: 0px!important; margin-bottom: 10px} 
+
+
+/* 체크박스 */
+input[type=checkbox] {display:none;}
+input[type=checkbox] + label:before {content:"";display:inline-block;width:20px;height:20px;background: url("/design/images/icon_check.png") no-repeat 0 0;vertical-align:middle; background-size: 20px; margin-right:10px }
+input[type=checkbox]:checked + label:before {content:"";background: url("/design/images/icon_checked.png") no-repeat 0 0; background-size: 20px}
+
+/* 라디오박스 */   
+input[type=radio] {display:none;}
+input[type=radio] + label:before {content:"";display:inline-block;width:20px;height:20px;background: url("/design/images/icon_radio.png") no-repeat 0 0;vertical-align:middle; background-size: 20px; margin-right:10px; margin-bottom:2px}
+input[type=radio]:checked + label:before {content:"";background: url("/design/images/icon_radio_on.png") no-repeat 0 0; background-size: 20px; }
+
+
+
+
+
+/* 버튼 */
+button {
+border:0;
+-webkit-transition-duration: 0.4s; transition-duration: 0.4s;
+-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+cursor: pointer;
+display: inline-block;
+vertical-align:middle; 
+text-align: center;
+box-sizing: border-box;      
+}
+button:focus { outline: none;}
+
+
+
+/* 엑셀버튼 버튼 */
+.btn-excel { display: inline-block; background-color: #2570c4; color:#fff; line-height: 50px;  width:100%; height:50px;  margin:3px 0;  }
+.btn-excel:hover  {background-color: #184f8c; }
+.btn-excel:before {content: "";background-image: url("/design/images/icon_excel.png"); background-size:20px; background-repeat: no-repeat; background-position: left top 3px;
+                    width:30px; height: 30px; display: inline-block;background-size:22px; vertical-align: middle; } 
+
+
+/* 기기제어 버튼 */
+.btn-equi { display: inline-block; background-color: #2570c4; color:#fff; line-height: 50px;  width:100%; height:50px;  margin:3px 0;  }
+.btn-equi:hover  {background-color: #184f8c; }
+.btn-equi:before {content: "";background-image: url("/design/images/icon_equi.png"); background-size:20px; background-repeat: no-repeat; background-position: left top 3px;
+                    width:30px; height: 30px; display: inline-block;background-size:22px; vertical-align: middle; } 
+
+/* gray 버튼 */
+.btn-type1 {background-color: #7a879d; color:#fff; line-height: 50px; width:100%;  height:50px;  font-size:17px; margin-bottom:3px;   }
+.btn-type1:hover  {background-color: #3f4b60; }
+
+.btn-type2  {background-color: #fff; color:#333;border:1px solid #ccc;  line-height: 35px; padding:0 15px; height:35px;  font-size:14px; margin-bottom:3px;   }
+.btn-type2:hover  {background-color: #f1f1f1; }
+
+
+/* 파일찾기  */
+.file-input label {position:relative; cursor:pointer;display:inline-block;overflow:hidden;width:100px;height:35px;background:#7f8592;color:#fff;text-align:center;line-height:35px;vertical-align:middle; border-radius: 3px}
+.file-input label input {position:absolute;width:0;height:0;overflow:hidden;}
+.file-input input[type=text] {border:1px solid #ddd; height:35px;font-size:14px; padding-left:20px;margin:3px 1px; color:#555;vertical-align:middle;display:inline-block;width:500px;}
+.file-input button {height:35px; font-size:18px; width: 30px;}
+
+

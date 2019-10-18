@@ -1,0 +1,126 @@
+<? include $_SERVER['DOCUMENT_ROOT']."/design/components/header/doc.html"; ?>
+
+<!-- popup header -->
+<header class="popup-headtop">
+    <div class="popup-navbar">
+        <div class="btnmenu"><a href="#"><i class="mdi mdi-chevron-left"></i></a></div>
+        <h1>군사급이기 설정</h1>
+    </div>
+</header>
+
+<div class="pig-container">
+
+    <div class="pig-search">
+        <label for="">기준일</label>
+        <input type="text" name="" id="datepicker1" class="input-date" />
+        <label for="">장소</label>
+        <select id="" name="" title="" class="sel-type1">
+            <option value="">전체</option>
+            <option value="">-</option>
+            <option value="">-</option>
+        </select>
+        <button class="btn-type1 mT10">조회</button>
+    </div>
+
+    <div class="board-box mT20">
+        <div class="board-list2">
+            <table>
+                <colgroup>
+                    <col style="width: 60%" />
+                    <col />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>급이설정량</th>
+                        <td>kg</td>
+                    </tr>
+                    <tr>
+                        <th>모돈번호</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>급이비율</th>
+                        <td>%</td>
+                    </tr>
+                    <tr>
+                        <th>교배일</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>급이전략</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>전자이표번호</th>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mT20 mB20"><button class="btn-type1">설정</button></div>
+
+    <div class="board-list mT20">
+        <table>
+            <colgroup>
+                <col style="width: 10%" />
+                <col style="width: 15%" />
+                <col style="width: 15%" />
+                <col style="width: 15%" />
+                <col style="width: 15%" />
+                <col style="width: 15%" />
+                <col style="width: 10%" />
+                <col />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>순번</th>
+                    <th>모돈번호</th>
+                    <th>산차</th>
+                    <th>교배일</th>
+                    <th>경과일</th>
+                    <th>목표</th>
+                    <th>실량</th>
+                    <th>체크</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>70-130</td>
+                    <td>6-0</td>
+                    <td>이유돈</td>
+                    <td>-350</td>
+                    <td>1.6</td>
+                    <td>1.0</td>
+                    <td><i class="mdi mdi-check"></i></td>
+                </tr>
+               <tr>
+                    <td>2</td>
+                    <td>70-130</td>
+                    <td>6-0</td>
+                    <td>이유돈</td>
+                    <td>-350</td>
+                    <td>1.6</td>
+                    <td>1.0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>70-130</td>
+                    <td>6-0</td>
+                    <td>이유돈</td>
+                    <td>-350</td>
+                    <td>1.6</td>
+                    <td>1.0</td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+</div>
+
+<? include $_SERVER['DOCUMENT_ROOT']."/design/components/footer/index.html"; ?>

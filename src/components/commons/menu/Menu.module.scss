@@ -1,0 +1,130 @@
+.menuarea {
+  position: relative;
+}
+.tab {
+  margin-top: 40px;
+  font-size: 0;
+  overflow: hidden;
+}
+.tab li {
+  display: inline-block;
+  width: calc(25% - 6px);
+  color: #fff;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 0 3px;
+  text-align: center;
+  background-size: 50px;
+  background-position: top 15px center;
+  background-repeat: no-repeat;
+}
+.tab li a {
+  color: #000;
+  font-size: 15px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  width: 100%;
+  display: block;
+  padding: 70px 0 15px 0;
+  background-size: 50px;
+  background-position: top 15px center;
+  background-repeat: no-repeat;
+}
+.tabcontent {
+  display: none;
+}
+.tab li.current {
+  border-radius: 16px;
+  box-shadow: 0 0px 10px rgba(37, 112, 196, 0.2),
+    0px 5px 5px rgba(215, 221, 228, 0.1);
+  background-image: url('../../../images/m1_on.png');
+}
+.tabcontent.current {
+  display: block;
+}
+
+.tab li.m1 {
+  background-image: url('../../../images/m1.png');
+}
+.tab li.m2 {
+  background-image: url('../../../images/m2.png');
+}
+.tab li.m3 {
+  background-image: url('../../../images/m3.png');
+}
+.tab li.m4 {
+  background-image: url('../../../images/m4.png');
+}
+.tab li.m1.current {
+  background-image: url('../../../images/m1_on.png');
+}
+.tab li.m2.current {
+  background-image: url('../../../images/m2_on.png');
+}
+.tab li.m3.current {
+  background-image: url('../../../images/m3_on.png');
+}
+.tab li.m4.current {
+  background-image: url('../../../images/m4_on.png');
+}
+.nav_h_type {
+  margin: 5px 0 0 0;
+  position: relative;
+  overflow: hidden;
+  widows: 100%;
+}
+.nav_h_type ul {
+  float: left;
+  display: block;
+  font-size: 0;
+  white-space: nowrap;
+  position: relative;
+}
+.nav_h_type li {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 12px;
+}
+.nav_h_type li a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  display: block;
+}
+.nav_h_type li.on {
+  position: relative;
+}
+.nav_h_type li.on:after {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #2570c4;
+  height: 5px;
+  border-radius: 3px;
+  width: 100%;
+  content: '';
+}
+/*
+.nav_h_type li.off {
+  position: relative;
+}
+.nav_h_type li.off:after {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 5px;
+  border-radius: 3px;
+  width: 100%;
+  content: '';
+}
+*/
+.nav_h_type li.large {
+  width: 140px !important;
+}
+.nav_h_type li.last {
+  width: 50px;
+}
