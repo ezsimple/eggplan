@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/eggplan/static/css/main.2aa78be8.chunk.css",
+    "main.js": "/eggplan/static/js/main.b3c77cdf.chunk.js",
+    "main.js.map": "/eggplan/static/js/main.b3c77cdf.chunk.js.map",
+    "runtime~main.js": "/eggplan/static/js/runtime~main.8780ef0a.js",
+    "runtime~main.js.map": "/eggplan/static/js/runtime~main.8780ef0a.js.map",
+    "static/css/2.63c5f56c.chunk.css": "/eggplan/static/css/2.63c5f56c.chunk.css",
+    "static/js/2.d843bdb5.chunk.js": "/eggplan/static/js/2.d843bdb5.chunk.js",
+    "static/js/2.d843bdb5.chunk.js.map": "/eggplan/static/js/2.d843bdb5.chunk.js.map",
+    "index.html": "/eggplan/index.html",
+    "precache-manifest.55199da63dd98fdfd6d730eb43a48616.js": "/eggplan/precache-manifest.55199da63dd98fdfd6d730eb43a48616.js",
+    "service-worker.js": "/eggplan/service-worker.js",
+    "static/css/2.63c5f56c.chunk.css.map": "/eggplan/static/css/2.63c5f56c.chunk.css.map",
+    "static/css/main.2aa78be8.chunk.css.map": "/eggplan/static/css/main.2aa78be8.chunk.css.map",
+    "static/media/App.css": "/eggplan/static/media/materialdesignicons-webfont.cc3cf0bd.woff2",
+    "static/media/PAGE37.PNG": "/eggplan/static/media/PAGE37.c437b581.PNG",
+    "static/media/PAGE38.PNG": "/eggplan/static/media/PAGE38.41dc654c.PNG",
+    "static/media/PAGE39.PNG": "/eggplan/static/media/PAGE39.284b04d1.PNG",
+    "static/media/sample_chart.png": "/eggplan/static/media/sample_chart.fcb45f8e.png"
+  }
+}
