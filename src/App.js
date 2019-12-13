@@ -10,7 +10,7 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import PigRoute2 from './route/Route';
+import EggRoute from './route/Route';
 import './App.css';
 
 const App = props => {
@@ -23,10 +23,9 @@ const App = props => {
   useEffect(
     language => {
       const lang = localStorage.getItem('lang') || 'ko';
-      console.log('lang:', lang);
       if (!language) {
         setLanguage(lang);
-        if (lang === 'en' || lang === 'vn') {
+        if (lang === 'en' || lang === 'vi') {
           i18n.changeLanguage(lang);
         }
       }
@@ -34,7 +33,7 @@ const App = props => {
     [i18n, language]
   );
 
-  return <PigRoute2 {...props}></PigRoute2>;
+  return <EggRoute {...props}></EggRoute>;
 };
 
 export default App;

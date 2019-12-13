@@ -1,3 +1,8 @@
+// 서버에서 메모리 부족으로 실행이 안되는 현상 발생합니다
+// import 'react-app-polyfill/ie9'; // For IE9 - IE11 Support
+// import 'react-app-polyfill/ie11'; // For IE11 Support
+// import 'react-app-polyfill/stable';
+
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'mobx-react';

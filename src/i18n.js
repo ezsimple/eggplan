@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 
 import koMessages from './translations/ko.json';
 import enMessages from './translations/en.json';
-import vnMessages from './translations/vn.json';
+import viMessages from './translations/vi.json';
 
 const resources = {
   ko: {
@@ -12,8 +12,8 @@ const resources = {
   en: {
     translation: enMessages
   },
-  vn: {
-    translation: vnMessages
+  vi: {
+    translation: viMessages
   }
 };
 

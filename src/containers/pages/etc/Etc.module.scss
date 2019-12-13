@@ -1,0 +1,27 @@
+.hamlogout {text-align: right; margin: 30px 0 10px}
+.hamlogout button {background: none; color: #555}
+.hamlogout button i {padding-right: 5px; font-size:20px;  vertical-align: text-bottom; line-height: 20px}
+
+.menu_list2 {background: #fff; border-radius: 5px; margin-bottom: 20px;}
+.menu_list2 li {display:block; text-align: left; border-bottom: 1px solid #f2f5f9; padding:15px; line-height: 25px; }
+
+.alarmbox {background: #fff; border-radius: 5px;  padding:10px 20px; line-height: 40px}
+.newinput {background: #dce3ec;  padding: 10px; margin-top: 30px;  text-align: center;  font-size:16px}
+
+.btn_mate {text-align: center; margin:10px 0}
+.btn_mate button {width:49%;margin:0.5%}
+
+.card_list {background: #fff; border: 1px solid #eee}
+.card_list li {display: block; width: 100%; border-bottom:1px solid #eee; padding:10px 20px; color:#555}
+.card_list li:last-child {border-bottom:0}
+.card_list li span {width:50%; display: inline-block; color:#156a74}
+
+
+
+@media (min-width:600px) {
+.card_list li {display:inline-block; width: 25%;  padding:0; text-align: center; padding-bottom: 10px; line-height: 40px; }
+.card_list li span {width:100%; display:block;  padding:5px 30px}
+.card_list li:last-child {border-bottom:1px solid #eee; }
+ 
+}
+  

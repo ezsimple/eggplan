@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect,
+  Redirect
 } from 'react-router-dom';
 
 import {
@@ -38,10 +38,10 @@ import {
   WholeSalePrice,
   WorkNote,
   YoungPigFeed,
-  PageMapping,
+  PageMapping
 } from '../containers/pages';
 
-import { PigError } from '../containers/commons/errors/PigError';
+import { PigError } from '../containers/commons/errors/EggError';
 
 class PigRoute extends Component {
   constructor(props) {

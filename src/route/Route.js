@@ -4,18 +4,16 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import PageRoute from './PageRoute';
 import PopupRoute from './PopupRoute';
 import Login from 'containers/pages/login/Login';
-import PigError from 'containers/commons/errors/PigError';
 import Navs from 'components/commons/navs/Navs';
 
-class PigRoute2 extends Component {
-  constructor(props) {
-    super(props);
-    console.log('PigRoute2:props', props);
-  }
+class EggRoute extends Component {
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     const props = this.props;
-    console.log('PigRoute2:render', props);
+    console.log('EggRoute:render()', props);
     return (
       <BrowserRouter>
         <Switch>
@@ -54,4 +52,4 @@ class PigRoute2 extends Component {
   }
 }
 
-export default PigRoute2;
+export default EggRoute;
