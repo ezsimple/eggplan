@@ -2,10 +2,10 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import { HatcheryRouteList } from './HatcheryRouteTable';
-import { Login } from 'containers/pages';
+import { Login } from 'containers/pages/common';
 import EggLayout from 'layout/Layout';
 
-export const HatcheryRoute = props => {
+const HatcheryRoute = props => {
   const getRouteInfo = (cate, id) => {
     return HatcheryRouteList.find(
       item => item.type === 'hatchery' && item.cate === cate && item.id === id
@@ -22,3 +22,5 @@ export const HatcheryRoute = props => {
     </EggLayout>
   );
 };
+
+export default HatcheryRoute;

@@ -2,10 +2,10 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import { CommonRouteList } from './CommonRouteTable';
-import { Login } from 'containers/pages';
+import { Login } from 'containers/pages/common';
 import EggLayout from 'layout/Layout';
 
-export const CommonRoute = props => {
+const CommonRoute = props => {
   const getRouteInfo = (cate, id) => {
     return CommonRouteList.find(
       item => item.type === 'common' && item.cate === cate && item.id === id
@@ -22,3 +22,5 @@ export const CommonRoute = props => {
     </EggLayout>
   );
 };
+
+export default CommonRoute;

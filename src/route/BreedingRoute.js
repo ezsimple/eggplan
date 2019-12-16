@@ -2,10 +2,10 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import { BreedingRouteList } from './BreedingRouteTable';
-import { Login } from 'containers/pages';
+import { Login } from 'containers/pages/common';
 import EggLayout from 'layout/Layout';
 
-export const BreedingRoute = props => {
+const BreedingRoute = props => {
   const getRouteInfo = (cate, id) => {
     return BreedingRouteList.find(
       item => item.type === 'breeding' && item.cate === cate && item.id === id
@@ -22,3 +22,5 @@ export const BreedingRoute = props => {
     </EggLayout>
   );
 };
+
+export default BreedingRoute;

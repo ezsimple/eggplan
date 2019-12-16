@@ -10,7 +10,7 @@ import i18n from 'i18next';
  ** 2. <label for="">...</label>는 <label htmlFor="">...</label>으로 표현 부탁 드립니다.
  ** 3. 다국어 표현은 <Trans>글자</Trans>으로 부탁 드립니다.
  */
-export class Empty extends React.Component {
+export default class Empty extends React.Component {
   render() {
     return (
       <Fragment>

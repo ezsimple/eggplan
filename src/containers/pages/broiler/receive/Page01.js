@@ -5,7 +5,7 @@ import { Trans } from 'react-i18next';
 
 import moment from 'moment';
 import 'moment/locale/ko.js';
-import 'moment/locale/en.js';
+
 import 'moment/locale/vi.js';
 
 import i18n from 'i18next';

@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-import PageRoute from './PageRoute';
-import PopupRoute from './PopupRoute';
-import Login from 'containers/pages/login/Login';
-import Navs from 'components/commons/navs/Navs';
+// import PageRoute from './PageRoute';
+// import PopupRoute from './PopupRoute';
+
+import BreedingRoute from './BreedingRoute';
+import BroilerRoute from './BroilerRoute';
+import HatcheryRoute from './HatcheryRoute';
+import CommonRoute from './CommonRoute';
+
+import { Login } from 'containers/pages/common/login';
+// import Navs from 'components/commons/navs/Navs';
 
 class EggRoute extends Component {
   // constructor(props) {
@@ -17,35 +23,32 @@ class EggRoute extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          {/* Header, Footer 를 가지는 페이지 라우팅 : id => pageId */}
+          {/* 공통정보 관리 */}
           <Route
-            path={'/page/:cate/:id'}
-            render={props => <PageRoute {...props} />}
+            path={'/common/:cate/:id'}
+            render={props => <CommonRoute {...props} />}
           />
 
-          {/* 팝업 페이지 라우팅 : id => pageId */}
+          {/* 종계관련 라우팅 */}
           <Route
-            path={'/popup/:cate/:id'}
-            render={props => <PopupRoute {...props} />}
+            path={'/breeding/:cate/:id'}
+            render={props => <BreedingRoute {...props} />}
           />
 
-          {/* mid, sid가 없는 경우는 로그인 페이지로 */}
-          <Route exact path={'/page'} render={props => <Login {...props} />} />
+          {/* 부화장 */}
           <Route
-            exact
-            path={'/page/:cate'}
-            render={props => <Login {...props} />}
+            path={'/hatchery/:cate/:id'}
+            render={props => <HatcheryRoute {...props} />}
           />
 
-          <Route exact path={'/popup'} render={props => <Login {...props} />} />
+          {/* 육계 */}
           <Route
-            exact
-            path={'/popup/:cate'}
-            render={props => <Login {...props} />}
+            path={'/broiler/:cate/:id'}
+            render={props => <BroilerRoute {...props} />}
           />
 
           {/* 부적절한 접근을 한 경우 */}
-          <Route render={props => <Navs {...props} />} />
+          <Route render={props => <Login {...props} />} />
         </Switch>
       </BrowserRouter>
     );

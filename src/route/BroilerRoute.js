@@ -2,10 +2,10 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import { BroilerRouteList } from './BroilerRouteTable';
-import { Login } from 'containers/pages';
+import { Login } from 'containers/pages/common';
 import EggLayout from 'layout/Layout';
 
-export const BroilerRoute = props => {
+const BroilerRoute = props => {
   const getRouteInfo = (cate, id) => {
     return BroilerRouteList.find(
       item => item.type === 'broiler' && item.cate === cate && item.id === id
@@ -22,3 +22,5 @@ export const BroilerRoute = props => {
     </EggLayout>
   );
 };
+
+export default BroilerRoute;
