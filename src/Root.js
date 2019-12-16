@@ -11,7 +11,7 @@ import SessionUtil from 'utils/SessionUtil';
 
 // Antd Locale 설정
 import { ConfigProvider } from 'antd';
-import ko_KR from 'antd/es/locale-provider/fr_FR';
+import ko_KR from 'antd/es/locale-provider/ko_KR';
 import en_US from 'antd/es/locale-provider/en_US';
 import vi_VN from 'antd/es/locale-provider/vi_VN';
 
