@@ -8,10 +8,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '00',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#00'),
     is_full: false
   },
   {
@@ -20,10 +20,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '01',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -32,10 +32,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '02',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -44,10 +44,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '03',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -56,10 +56,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '04',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -68,10 +68,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '05',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -80,10 +80,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '06',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -92,10 +92,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '07',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -104,10 +104,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '08',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -116,10 +116,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '09',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -128,10 +128,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '10',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -140,10 +140,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '11',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -152,10 +152,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '12',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#12'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#12'),
     is_full: false
   },
   {
@@ -164,10 +164,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '13',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#13'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#13'),
     is_full: false
   },
   {
@@ -176,10 +176,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '14',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#14'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#14'),
     is_full: false
   },
   {
@@ -188,10 +188,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '15',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#15'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#15'),
     is_full: false
   },
   {
@@ -200,10 +200,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '16',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#16'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#16'),
     is_full: false
   },
   {
@@ -212,10 +212,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '17',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#17'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#17'),
     is_full: false
   },
   {
@@ -224,10 +224,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '18',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#18'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#18'),
     is_full: false
   },
   {
@@ -236,10 +236,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '19',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#19'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#19'),
     is_full: false
   },
   {
@@ -248,10 +248,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '20',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#20'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#20'),
     is_full: false
   },
   {
@@ -260,10 +260,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '21',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#21'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#21'),
     is_full: false
   },
   {
@@ -272,10 +272,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '22',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#22'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#22'),
     is_full: false
   },
   {
@@ -284,10 +284,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '23',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#23'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#23'),
     is_full: false
   },
   {
@@ -296,10 +296,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '24',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#24'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#24'),
     is_full: false
   },
   {
@@ -308,10 +308,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '25',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#25'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#25'),
     is_full: false
   },
   {
@@ -320,10 +320,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '26',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#26'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#26'),
     is_full: false
   },
   {
@@ -332,10 +332,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '27',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#27'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#27'),
     is_full: false
   },
   {
@@ -344,10 +344,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '28',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#28'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#28'),
     is_full: false
   },
   {
@@ -356,10 +356,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '29',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#29'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#29'),
     is_full: false
   },
   {
@@ -368,10 +368,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'receive',
     id: '30',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('입고관리'),
-    cate_desc: i18n('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n('페이지#30'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('입고관리'),
+    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
+    page_nm: i18n.t('페이지#30'),
     is_full: false
   },
 
@@ -381,10 +381,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '00',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#00'),
     is_full: false
   },
   {
@@ -393,10 +393,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '01',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -405,10 +405,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '02',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -417,10 +417,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '03',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -429,10 +429,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '04',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -441,10 +441,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '05',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -453,10 +453,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '06',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -465,10 +465,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '07',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -477,10 +477,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '08',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -489,10 +489,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '09',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -501,10 +501,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '10',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -513,10 +513,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '11',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -525,10 +525,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '00',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#00'),
     is_full: false
   },
   {
@@ -537,10 +537,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '01',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -549,10 +549,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '02',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -561,10 +561,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '03',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -573,10 +573,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '04',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -585,10 +585,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '05',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -597,10 +597,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '06',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -609,10 +609,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '07',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -621,10 +621,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '08',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -633,10 +633,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '09',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -645,10 +645,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '10',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -657,10 +657,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '11',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -669,10 +669,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '12',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#12'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#12'),
     is_full: false
   },
   {
@@ -681,10 +681,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '13',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#13'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#13'),
     is_full: false
   },
   {
@@ -693,10 +693,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '14',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#14'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#14'),
     is_full: false
   },
   {
@@ -705,10 +705,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '15',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#15'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#15'),
     is_full: false
   },
   {
@@ -717,10 +717,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '16',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#16'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#16'),
     is_full: false
   },
   {
@@ -729,10 +729,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '17',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#17'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#17'),
     is_full: false
   },
   {
@@ -741,10 +741,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '18',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#18'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#18'),
     is_full: false
   },
   {
@@ -753,10 +753,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '19',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#19'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#19'),
     is_full: false
   },
   {
@@ -765,10 +765,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '20',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#20'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#20'),
     is_full: false
   },
   {
@@ -777,10 +777,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '21',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#21'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#21'),
     is_full: false
   },
   {
@@ -789,10 +789,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '22',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#22'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#22'),
     is_full: false
   },
   {
@@ -801,10 +801,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '23',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#23'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#23'),
     is_full: false
   },
   {
@@ -813,10 +813,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '24',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#24'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#24'),
     is_full: false
   },
   {
@@ -825,10 +825,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '25',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#25'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#25'),
     is_full: false
   },
   {
@@ -837,10 +837,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '26',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#26'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#26'),
     is_full: false
   },
   {
@@ -849,10 +849,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '27',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#27'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#27'),
     is_full: false
   },
   {
@@ -861,10 +861,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '28',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#28'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#28'),
     is_full: false
   },
   {
@@ -873,10 +873,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '29',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#29'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#29'),
     is_full: false
   },
   {
@@ -885,10 +885,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'candling',
     id: '30',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('캔들링'),
-    cate_desc: i18n('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n('페이지#30'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('캔들링'),
+    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
+    page_nm: i18n.t('페이지#30'),
     is_full: false
   },
 
@@ -898,10 +898,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '00',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#00'),
     is_full: false
   },
   {
@@ -910,10 +910,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '01',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -922,10 +922,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '02',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -934,10 +934,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '03',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -946,10 +946,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '04',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -958,10 +958,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '05',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -970,10 +970,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '06',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -982,10 +982,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '07',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -994,10 +994,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '08',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -1006,10 +1006,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '09',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -1018,10 +1018,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '10',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -1030,10 +1030,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '11',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -1042,10 +1042,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '12',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#12'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#12'),
     is_full: false
   },
   {
@@ -1054,10 +1054,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '13',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#13'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#13'),
     is_full: false
   },
   {
@@ -1066,10 +1066,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '14',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#14'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#14'),
     is_full: false
   },
   {
@@ -1078,10 +1078,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '15',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#15'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#15'),
     is_full: false
   },
   {
@@ -1090,10 +1090,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '16',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#16'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#16'),
     is_full: false
   },
   {
@@ -1102,10 +1102,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '17',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#17'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#17'),
     is_full: false
   },
   {
@@ -1114,10 +1114,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '18',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#18'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#18'),
     is_full: false
   },
   {
@@ -1126,10 +1126,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '19',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#19'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#19'),
     is_full: false
   },
   {
@@ -1138,10 +1138,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '20',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#20'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#20'),
     is_full: false
   },
   {
@@ -1150,10 +1150,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '21',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#21'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#21'),
     is_full: false
   },
   {
@@ -1162,10 +1162,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '22',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#22'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#22'),
     is_full: false
   },
   {
@@ -1174,10 +1174,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '23',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#23'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#23'),
     is_full: false
   },
   {
@@ -1186,10 +1186,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '24',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#24'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#24'),
     is_full: false
   },
   {
@@ -1198,10 +1198,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '25',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#25'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#25'),
     is_full: false
   },
   {
@@ -1210,10 +1210,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '26',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#26'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#26'),
     is_full: false
   },
   {
@@ -1222,10 +1222,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '27',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#27'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#27'),
     is_full: false
   },
   {
@@ -1234,10 +1234,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '28',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#28'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#28'),
     is_full: false
   },
   {
@@ -1246,10 +1246,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '29',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#29'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#29'),
     is_full: false
   },
   {
@@ -1258,10 +1258,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'hatcher',
     id: '30',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('해쳐'),
-    cate_desc: i18n('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('해쳐'),
+    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
+    page_nm: i18n.t('페이지#00'),
     is_full: false
   },
 
@@ -1271,10 +1271,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '00',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#00'),
     is_full: false
   },
   {
@@ -1283,10 +1283,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '01',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -1295,10 +1295,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '02',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -1307,10 +1307,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '03',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -1319,10 +1319,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '04',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -1331,10 +1331,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '05',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -1343,10 +1343,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '06',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -1355,10 +1355,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '07',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -1367,10 +1367,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '08',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -1379,10 +1379,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '09',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -1391,10 +1391,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '10',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -1403,10 +1403,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '11',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -1415,10 +1415,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '12',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#12'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#12'),
     is_full: false
   },
   {
@@ -1427,10 +1427,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '13',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#13'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#13'),
     is_full: false
   },
   {
@@ -1439,10 +1439,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '14',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#14'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#14'),
     is_full: false
   },
   {
@@ -1451,10 +1451,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '15',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#15'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#15'),
     is_full: false
   },
   {
@@ -1463,10 +1463,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '16',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#16'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#16'),
     is_full: false
   },
   {
@@ -1475,10 +1475,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '17',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#17'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#17'),
     is_full: false
   },
   {
@@ -1487,10 +1487,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '18',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#18'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#18'),
     is_full: false
   },
   {
@@ -1499,10 +1499,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '19',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#19'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#19'),
     is_full: false
   },
   {
@@ -1511,10 +1511,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '20',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#20'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#20'),
     is_full: false
   },
   {
@@ -1523,10 +1523,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '21',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#21'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#21'),
     is_full: false
   },
   {
@@ -1535,10 +1535,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '22',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#22'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#22'),
     is_full: false
   },
   {
@@ -1547,10 +1547,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '23',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#23'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#23'),
     is_full: false
   },
   {
@@ -1559,10 +1559,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '24',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#24'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#24'),
     is_full: false
   },
   {
@@ -1571,10 +1571,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '25',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#25'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#25'),
     is_full: false
   },
   {
@@ -1583,10 +1583,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '26',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#26'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#26'),
     is_full: false
   },
   {
@@ -1595,10 +1595,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '27',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#27'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#27'),
     is_full: false
   },
   {
@@ -1607,10 +1607,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '28',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#28'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#28'),
     is_full: false
   },
   {
@@ -1619,10 +1619,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '29',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#29'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#29'),
     is_full: false
   },
   {
@@ -1631,10 +1631,10 @@ export const HatcheryRouteList = [
     type: 'hatchery',
     cate: 'cutting',
     id: '30',
-    type_nm: i18n('부화장'),
-    cate_nm: i18n('커팅'),
-    cate_desc: i18n('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n('페이지#30'),
+    type_nm: i18n.t('부화장'),
+    cate_nm: i18n.t('커팅'),
+    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
+    page_nm: i18n.t('페이지#30'),
     is_full: false
   }
 ];

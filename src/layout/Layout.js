@@ -1,14 +1,18 @@
-import React, { Component, Fragment } from 'react';
-import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+import React from 'react';
+import { Layout, Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.gif';
+import { Trans } from 'react-i18next';
+
+import { BreedingMenu, BroilerMenu, HatcheryMenu } from 'layout';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
 class EggLayout extends React.Component {
   state = {
-    collapsed: false
+    collapsed: false,
+    category: 'breeding' // broiler(육계), hatchery(부화)
   };
 
   onCollapse = collapsed => {
@@ -30,124 +34,99 @@ class EggLayout extends React.Component {
           </div>
           <Menu theme="dark" defaultSelectedKeys={['0']} mode="inline">
             <SubMenu
-              key="sub0"
+              key="user00"
               title={
                 <span>
                   <Icon type="team" />
-                  <span>사용자 정보</span>
+                  <span>
+                    <Trans>MEMBER</Trans>
+                  </span>
                 </span>
               }
             >
-              <Menu.Item key="0">
-                <Link to="/page/daily/0">사용자</Link>
+              <Menu.Item key="user01">
+                <Link to="/common/member/00">
+                  <Trans>ID</Trans>
+                </Link>
               </Menu.Item>
-              <Menu.Item key="1">
-                <Link to="/page/daily/1">사용자 그룹</Link>
+              <Menu.Item key="user02">
+                <Link to="/common/group/00">
+                  <Trans>GROUP</Trans>
+                </Link>
               </Menu.Item>
-            </SubMenu>
-            <SubMenu
-              key="sub1"
-              title={
-                <span>
-                  <Icon type="table" />
-                  <span>기준 정보</span>
-                </span>
-              }
-            >
-              <Menu.Item key="2">
-                <Link to="/page/daily/2">농장</Link>
-              </Menu.Item>
-              <Menu.Item key="3">
-                <Link to="/page/daily/3">부화장</Link>
-              </Menu.Item>
-              <Menu.Item key="4">
-                <Link to="/page/daily/4">PLAZMA</Link>
-              </Menu.Item>
-              <Menu.Item key="5">
-                <Link to="/page/iot/0">PROJECT</Link>
-              </Menu.Item>
-              <Menu.Item key="6">
-                <Link to="/page/iot/1">계사</Link>
-              </Menu.Item>
-              <Menu.Item key="7">
-                <Link to="/page/iot/2">거래처</Link>
-              </Menu.Item>
-              <Menu.Item key="8">
-                <Link to="/page/iot/3">자재</Link>
-              </Menu.Item>
-              <Menu.Item key="9">
-                <Link to="/page/iot/4">표준성적</Link>
-              </Menu.Item>
-              <Menu.Item key="10">
-                <Link to="/page/iot/5">작업</Link>
+              <Menu.Item key="user03">
+                <Link to="/common/roll/00">
+                  <Trans>ROLL</Trans>
+                </Link>
               </Menu.Item>
             </SubMenu>
-            <SubMenu
-              key="sub2"
-              title={
-                <span>
-                  <Icon type="share-alt" />
-                  <span>생산 정보</span>
-                </span>
-              }
-            >
-              <Menu.Item key="11">
-                <Link to="/page/iot/6">계군</Link>
-              </Menu.Item>
-              <Menu.Item key="12">
-                <Link to="/page/iot/7">계사 입식</Link>
-              </Menu.Item>
-              <Menu.Item key="13">
-                <Link to="/page/iot/8">이동</Link>
-              </Menu.Item>
-              <Menu.Item key="14">
-                <Link to="/popup/iot/0">육성</Link>
-              </Menu.Item>
-              <Menu.Item key="15">
-                <Link to="/popup/iot/1">산란</Link>
-              </Menu.Item>
-              <Menu.Item key="16">
-                <Link to="/popup/iot/2">입란</Link>
-              </Menu.Item>
-              <Menu.Item key="17">
-                <Link to="/popup/iot/3">캔들링</Link>
-              </Menu.Item>
-              <Menu.Item key="18">
-                <Link to="/popup/iot/4">부화</Link>
-              </Menu.Item>
-              <Menu.Item key="19">
-                <Link to="/popup/iot/5">육성</Link>
-              </Menu.Item>
-            </SubMenu>
-            <SubMenu
-              key="sub3"
-              title={
-                <span>
-                  <Icon type="number" />
-                  <span>입/출고 정보</span>
-                </span>
-              }
-            >
-              <Menu.Item key="20">
-                <Link to="/popup/common/1">입고</Link>
-              </Menu.Item>
-              <Menu.Item key="21">
-                <Link to="/popup/common/2">출고</Link>
-              </Menu.Item>
-              <Menu.Item key="22">
-                <Link to="/popup/common/3">판매/폐기</Link>
-              </Menu.Item>
-              <Menu.Item key="23">
-                <Link to="/popup/common/4">계란 판매/폐기</Link>
-              </Menu.Item>
-              <Menu.Item key="24">
-                <Link to="/page/pig/0">DOC 판매</Link>
-              </Menu.Item>
-            </SubMenu>
+
+            <Menu.Item key="std00">
+              <Icon type="pie-chart" />
+              <span>
+                <Link to="/breeding/standard/00">
+                  <Trans>STANDARD</Trans>
+                </Link>
+              </span>
+            </Menu.Item>
+
+            <Menu.Item key="work00">
+              <Icon type="pie-chart" />
+              <span>
+                <Link to="/breeding/work/00">
+                  <Trans>WORK SCHEDULE</Trans>
+                </Link>
+              </span>
+            </Menu.Item>
+
+            <Menu.Item key="mat00">
+              <Icon type="pie-chart" />
+              <span>
+                <Link to="/breeding/matrials/00">
+                  <Trans>MATRIALS</Trans>
+                </Link>
+              </span>
+            </Menu.Item>
+
+            <Menu.Item key="rcv00">
+              <Icon type="pie-chart" />
+              <span>
+                <Link to="/breeding/receive/00">
+                  <Trans>RECEIVE</Trans>
+                </Link>
+              </span>
+            </Menu.Item>
+
+            <Menu.Item key="grow00">
+              <Icon type="pie-chart" />
+              <span>
+                <Link to="/breeding/growing/00">
+                  <Trans>GROWING LOG</Trans>
+                </Link>
+              </span>
+            </Menu.Item>
+
+            <Menu.Item key="egg00">
+              <Icon type="pie-chart" />
+              <span>
+                <Link to="/breeding/egg/00">
+                  <Trans>EGG PRODUCTION LOG</Trans>
+                </Link>
+              </span>
+            </Menu.Item>
+
+            <Menu.Item key="rel00">
+              <Icon type="pie-chart" />
+              <span>
+                <Link to="/breeding/release/00">
+                  <Trans>RELEASE</Trans>
+                </Link>
+              </span>
+            </Menu.Item>
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}>대가리</Header>
+          <Header style={{ background: '#fff', padding: 0 }}>헤더</Header>
           <Content style={{ margin: '16px 16px' }}>
             {/*
             <Breadcrumb style={{ margin: '16px 0' }}>

@@ -8,10 +8,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '00',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#00'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#00'),
     is_full: false
   },
   {
@@ -20,10 +20,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '01',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#01'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#01'),
     is_full: false
   },
   {
@@ -32,10 +32,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '02',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#02'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#02'),
     is_full: false
   },
   {
@@ -44,10 +44,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '03',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#03'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#03'),
     is_full: false
   },
   {
@@ -56,10 +56,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '04',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#04'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#04'),
     is_full: false
   },
   {
@@ -68,10 +68,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '05',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#05'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#05'),
     is_full: false
   },
   {
@@ -80,10 +80,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '06',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#06'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#06'),
     is_full: false
   },
   {
@@ -92,10 +92,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '07',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#07'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#07'),
     is_full: false
   },
   {
@@ -104,10 +104,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '08',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#08'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#08'),
     is_full: false
   },
   {
@@ -116,10 +116,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '09',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#09'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#09'),
     is_full: false
   },
   {
@@ -128,10 +128,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '10',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#10'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#10'),
     is_full: false
   },
   {
@@ -140,10 +140,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '11',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#11'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#11'),
     is_full: false
   },
   {
@@ -152,10 +152,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '12',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#12'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#12'),
     is_full: false
   },
   {
@@ -164,10 +164,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '13',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#13'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#13'),
     is_full: false
   },
   {
@@ -176,10 +176,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '14',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#14'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#14'),
     is_full: false
   },
   {
@@ -188,10 +188,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '15',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#15'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#15'),
     is_full: false
   },
   {
@@ -200,10 +200,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '16',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#16'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#16'),
     is_full: false
   },
   {
@@ -212,10 +212,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '17',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#17'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#17'),
     is_full: false
   },
   {
@@ -224,10 +224,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '18',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#18'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#18'),
     is_full: false
   },
   {
@@ -236,10 +236,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '19',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#19'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#19'),
     is_full: false
   },
   {
@@ -248,10 +248,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '20',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#20'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#20'),
     is_full: false
   },
   {
@@ -260,10 +260,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '21',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#21'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#21'),
     is_full: false
   },
   {
@@ -272,10 +272,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '22',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#22'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#22'),
     is_full: false
   },
   {
@@ -284,10 +284,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '23',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#23'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#23'),
     is_full: false
   },
   {
@@ -296,10 +296,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '24',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#24'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#24'),
     is_full: false
   },
   {
@@ -308,10 +308,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '25',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#25'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#25'),
     is_full: false
   },
   {
@@ -320,10 +320,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '26',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#26'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#26'),
     is_full: false
   },
   {
@@ -332,10 +332,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '27',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#27'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#27'),
     is_full: false
   },
   {
@@ -344,10 +344,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '28',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#28'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#28'),
     is_full: false
   },
   {
@@ -356,10 +356,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '29',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#29'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#29'),
     is_full: false
   },
   {
@@ -368,10 +368,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'standard',
     id: '30',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('표준성적'),
-    cate_desc: i18n('표준성적을 등록 수정 합니다'),
-    page_nm: i18n('표준성적관리#30'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('표준성적'),
+    cate_desc: i18n.t('표준성적을 등록 수정 합니다'),
+    page_nm: i18n.t('표준성적관리#30'),
     is_full: false
   },
 
@@ -381,10 +381,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '00',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#00'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#00'),
     is_full: false
   },
   {
@@ -393,10 +393,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '01',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#01'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#01'),
     is_full: false
   },
   {
@@ -405,10 +405,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '02',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#02'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#02'),
     is_full: false
   },
   {
@@ -417,10 +417,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '03',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#03'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#03'),
     is_full: false
   },
   {
@@ -429,10 +429,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '04',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#04'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#04'),
     is_full: false
   },
   {
@@ -441,10 +441,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '05',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#05'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#05'),
     is_full: false
   },
   {
@@ -453,10 +453,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '06',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#06'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#06'),
     is_full: false
   },
   {
@@ -465,10 +465,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '07',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#07'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#07'),
     is_full: false
   },
   {
@@ -477,10 +477,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '08',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#08'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#08'),
     is_full: false
   },
   {
@@ -489,10 +489,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '09',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#09'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#09'),
     is_full: false
   },
   {
@@ -501,10 +501,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '10',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#10'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#10'),
     is_full: false
   },
   {
@@ -513,10 +513,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '11',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#11'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#11'),
     is_full: false
   },
   {
@@ -525,10 +525,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '12',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#12'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#12'),
     is_full: false
   },
   {
@@ -537,10 +537,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '13',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#13'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#13'),
     is_full: false
   },
   {
@@ -549,10 +549,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '14',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#14'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#14'),
     is_full: false
   },
   {
@@ -561,10 +561,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '15',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#15'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#15'),
     is_full: false
   },
   {
@@ -573,10 +573,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '16',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#16'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#16'),
     is_full: false
   },
   {
@@ -585,10 +585,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '17',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#17'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#17'),
     is_full: false
   },
   {
@@ -597,10 +597,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '18',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#18'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#18'),
     is_full: false
   },
   {
@@ -609,10 +609,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '19',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#19'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#19'),
     is_full: false
   },
   {
@@ -621,10 +621,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '20',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#20'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#20'),
     is_full: false
   },
   {
@@ -633,10 +633,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '21',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#21'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#21'),
     is_full: false
   },
   {
@@ -645,10 +645,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '22',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#22'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#22'),
     is_full: false
   },
   {
@@ -657,10 +657,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '23',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#23'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#23'),
     is_full: false
   },
   {
@@ -669,10 +669,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '24',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#24'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#24'),
     is_full: false
   },
   {
@@ -681,10 +681,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '25',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#25'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#25'),
     is_full: false
   },
   {
@@ -693,10 +693,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '26',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#26'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#26'),
     is_full: false
   },
   {
@@ -705,10 +705,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '27',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#27'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#27'),
     is_full: false
   },
   {
@@ -717,10 +717,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '28',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#28'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#28'),
     is_full: false
   },
   {
@@ -729,10 +729,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '29',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#29'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#29'),
     is_full: false
   },
   {
@@ -741,10 +741,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'work',
     id: '30',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('작업지시'),
-    cate_desc: i18n('작업지시 내용을 등록 수정 합니다'),
-    page_nm: i18n('작업지시관리#30'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('작업지시'),
+    cate_desc: i18n.t('작업지시 내용을 등록 수정 합니다'),
+    page_nm: i18n.t('작업지시관리#30'),
     is_full: false
   },
 
@@ -752,372 +752,372 @@ export const BreedingRouteList = [
     uri: '/breeding/matrials/00',
     page: Breeding.Matirials.Page00,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '00',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#0'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#0'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/01',
     page: Breeding.Matirials.Page01,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '01',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#01'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#01'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/02',
     page: Breeding.Matirials.Page02,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '02',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#02'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#02'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/03',
     page: Breeding.Matirials.Page03,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '03',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#03'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#03'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/04',
     page: Breeding.Matirials.Page04,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '04',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#04'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#04'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/05',
     page: Breeding.Matirials.Page05,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '05',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#05'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#05'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/06',
     page: Breeding.Matirials.Page06,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '06',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#06'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#06'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/07',
     page: Breeding.Matirials.Page07,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '07',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#07'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#07'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/08',
     page: Breeding.Matirials.Page08,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '08',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#08'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#08'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/09',
     page: Breeding.Matirials.Page09,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '09',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#09'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#09'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/10',
     page: Breeding.Matirials.Page10,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '10',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#10'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#10'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/11',
     page: Breeding.Matirials.Page11,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '11',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#11'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#11'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/12',
     page: Breeding.Matirials.Page12,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '12',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#12'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#12'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/13',
     page: Breeding.Matirials.Page13,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '13',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#13'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#13'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/14',
     page: Breeding.Matirials.Page14,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '14',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#14'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#14'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/15',
     page: Breeding.Matirials.Page15,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '15',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#15'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#15'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/16',
     page: Breeding.Matirials.Page16,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '16',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#16'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#16'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/17',
     page: Breeding.Matirials.Page17,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '17',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#17'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#17'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/18',
     page: Breeding.Matirials.Page18,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '18',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#18'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#18'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/19',
     page: Breeding.Matirials.Page19,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '19',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#19'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#19'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/20',
     page: Breeding.Matirials.Page20,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '20',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#20'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#20'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/21',
     page: Breeding.Matirials.Page21,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '21',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#21'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#21'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/22',
     page: Breeding.Matirials.Page22,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '22',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#22'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#22'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/23',
     page: Breeding.Matirials.Page23,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '23',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#23'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#23'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/24',
     page: Breeding.Matirials.Page24,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '24',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#24'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#24'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/25',
     page: Breeding.Matirials.Page25,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '25',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#25'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#25'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/26',
     page: Breeding.Matirials.Page26,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '26',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#26'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#26'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/27',
     page: Breeding.Matirials.Page27,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '27',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#27'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#27'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/28',
     page: Breeding.Matirials.Page28,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '28',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#28'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#28'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/29',
     page: Breeding.Matirials.Page29,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '29',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#29'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#29'),
     is_full: false
   },
   {
     uri: '/breeding/matrials/30',
     page: Breeding.Matirials.Page30,
     type: 'breeding',
-    cate: 'materials',
+    cate: 'matrials',
     id: '30',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('자재입출내역'),
-    cate_desc: i18n('자재 입출 내역을 등록하고 수정할 수 있습니다'),
-    page_nm: i18n('자재입출내역#30'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('자재입출내역'),
+    cate_desc: i18n.t('자재 입출 내역을 등록하고 수정할 수 있습니다'),
+    page_nm: i18n.t('자재입출내역#30'),
     is_full: false
   },
 
@@ -1127,10 +1127,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '00',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#00'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#00'),
     is_full: false
   },
   {
@@ -1139,10 +1139,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '01',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#01'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#01'),
     is_full: false
   },
   {
@@ -1151,10 +1151,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '02',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#02'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#02'),
     is_full: false
   },
   {
@@ -1163,10 +1163,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '03',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#03'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#03'),
     is_full: false
   },
   {
@@ -1175,10 +1175,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '04',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#04'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#04'),
     is_full: false
   },
   {
@@ -1187,10 +1187,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '05',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#05'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#05'),
     is_full: false
   },
   {
@@ -1199,10 +1199,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '06',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#06'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#06'),
     is_full: false
   },
   {
@@ -1211,10 +1211,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '07',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#07'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#07'),
     is_full: false
   },
   {
@@ -1223,10 +1223,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '08',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#08'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#08'),
     is_full: false
   },
   {
@@ -1235,10 +1235,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '09',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#09'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#09'),
     is_full: false
   },
   {
@@ -1247,10 +1247,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '20',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#20'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#20'),
     is_full: false
   },
   {
@@ -1259,10 +1259,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '21',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#21'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#21'),
     is_full: false
   },
   {
@@ -1271,10 +1271,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '22',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#22'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#22'),
     is_full: false
   },
   {
@@ -1283,10 +1283,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '23',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#23'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#23'),
     is_full: false
   },
   {
@@ -1295,10 +1295,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '24',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#24'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#24'),
     is_full: false
   },
   {
@@ -1307,10 +1307,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '25',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#25'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#25'),
     is_full: false
   },
   {
@@ -1319,10 +1319,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '26',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#26'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#26'),
     is_full: false
   },
   {
@@ -1331,10 +1331,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '27',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#27'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#27'),
     is_full: false
   },
   {
@@ -1343,10 +1343,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '28',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#28'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#28'),
     is_full: false
   },
   {
@@ -1355,10 +1355,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '29',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#29'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#29'),
     is_full: false
   },
   {
@@ -1367,10 +1367,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'receive',
     id: '30',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('입고'),
-    cate_desc: i18n('입고를 등록하고 수정합니다'),
-    page_nm: i18n('입고#30'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('입고'),
+    cate_desc: i18n.t('입고를 등록하고 수정합니다'),
+    page_nm: i18n.t('입고#30'),
     is_full: false
   },
 
@@ -1380,10 +1380,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '00',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#00'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#00'),
     is_full: false
   },
   {
@@ -1392,10 +1392,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '01',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#01'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#01'),
     is_full: false
   },
   {
@@ -1404,10 +1404,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '02',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#02'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#02'),
     is_full: false
   },
   {
@@ -1416,10 +1416,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '03',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#03'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#03'),
     is_full: false
   },
   {
@@ -1428,10 +1428,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '04',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#04'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#04'),
     is_full: false
   },
   {
@@ -1440,10 +1440,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '05',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#05'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#05'),
     is_full: false
   },
   {
@@ -1452,10 +1452,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '06',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#06'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#06'),
     is_full: false
   },
   {
@@ -1464,10 +1464,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '07',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#07'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#07'),
     is_full: false
   },
   {
@@ -1476,10 +1476,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '08',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#08'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#08'),
     is_full: false
   },
   {
@@ -1488,10 +1488,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '09',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#09'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#09'),
     is_full: false
   },
   {
@@ -1500,10 +1500,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '10',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#10'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#10'),
     is_full: false
   },
   {
@@ -1512,10 +1512,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '11',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#11'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#11'),
     is_full: false
   },
   {
@@ -1524,10 +1524,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '12',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#12'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#12'),
     is_full: false
   },
   {
@@ -1536,10 +1536,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '13',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#13'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#13'),
     is_full: false
   },
   {
@@ -1548,10 +1548,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '14',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#14'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#14'),
     is_full: false
   },
   {
@@ -1560,10 +1560,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '15',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#15'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#15'),
     is_full: false
   },
   {
@@ -1572,10 +1572,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '16',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#16'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#16'),
     is_full: false
   },
   {
@@ -1584,10 +1584,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '17',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#17'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#17'),
     is_full: false
   },
   {
@@ -1596,10 +1596,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '18',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#18'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#18'),
     is_full: false
   },
   {
@@ -1608,10 +1608,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '19',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#19'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#19'),
     is_full: false
   },
   {
@@ -1620,10 +1620,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '20',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#20'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#20'),
     is_full: false
   },
   {
@@ -1632,10 +1632,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '21',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#21'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#21'),
     is_full: false
   },
   {
@@ -1644,10 +1644,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '22',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#22'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#22'),
     is_full: false
   },
   {
@@ -1656,10 +1656,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '23',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#23'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#23'),
     is_full: false
   },
   {
@@ -1668,10 +1668,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '24',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#24'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#24'),
     is_full: false
   },
   {
@@ -1680,10 +1680,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '25',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#25'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#25'),
     is_full: false
   },
   {
@@ -1692,10 +1692,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '26',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#26'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#26'),
     is_full: false
   },
   {
@@ -1704,10 +1704,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '27',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#27'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#27'),
     is_full: false
   },
   {
@@ -1716,10 +1716,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '28',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#28'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#28'),
     is_full: false
   },
   {
@@ -1728,10 +1728,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '29',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#29'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#29'),
     is_full: false
   },
   {
@@ -1740,10 +1740,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'growing',
     id: '30',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('성장관리'),
-    cate_desc: i18n('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
-    page_nm: i18n('성장관리#30'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('성장관리'),
+    cate_desc: i18n.t('사료,백신,성장정도를 일자별로 등록하고 수정 합니다'),
+    page_nm: i18n.t('성장관리#30'),
     is_full: false
   },
 
@@ -1753,12 +1753,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '00',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#00'),
+    page_nm: i18n.t('계란관리#00'),
     is_full: false
   },
   {
@@ -1767,12 +1767,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '01',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#01'),
+    page_nm: i18n.t('계란관리#01'),
     is_full: false
   },
   {
@@ -1781,12 +1781,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '02',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#02'),
+    page_nm: i18n.t('계란관리#02'),
     is_full: false
   },
   {
@@ -1795,12 +1795,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '03',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#03'),
+    page_nm: i18n.t('계란관리#03'),
     is_full: false
   },
   {
@@ -1809,12 +1809,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '04',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#04'),
+    page_nm: i18n.t('계란관리#04'),
     is_full: false
   },
   {
@@ -1823,12 +1823,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '05',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#05'),
+    page_nm: i18n.t('계란관리#05'),
     is_full: false
   },
   {
@@ -1837,12 +1837,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '06',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#06'),
+    page_nm: i18n.t('계란관리#06'),
     is_full: false
   },
   {
@@ -1851,12 +1851,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '07',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#07'),
+    page_nm: i18n.t('계란관리#07'),
     is_full: false
   },
   {
@@ -1865,12 +1865,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '08',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#08'),
+    page_nm: i18n.t('계란관리#08'),
     is_full: false
   },
   {
@@ -1879,12 +1879,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '09',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#09'),
+    page_nm: i18n.t('계란관리#09'),
     is_full: false
   },
   {
@@ -1893,12 +1893,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '10',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#10'),
+    page_nm: i18n.t('계란관리#10'),
     is_full: false
   },
   {
@@ -1907,12 +1907,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '11',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#11'),
+    page_nm: i18n.t('계란관리#11'),
     is_full: false
   },
   {
@@ -1921,12 +1921,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '12',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#12'),
+    page_nm: i18n.t('계란관리#12'),
     is_full: false
   },
   {
@@ -1935,12 +1935,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '13',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#13'),
+    page_nm: i18n.t('계란관리#13'),
     is_full: false
   },
   {
@@ -1949,12 +1949,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '14',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#14'),
+    page_nm: i18n.t('계란관리#14'),
     is_full: false
   },
   {
@@ -1963,12 +1963,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '15',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#15'),
+    page_nm: i18n.t('계란관리#15'),
     is_full: false
   },
   {
@@ -1977,12 +1977,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '16',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#16'),
+    page_nm: i18n.t('계란관리#16'),
     is_full: false
   },
   {
@@ -1991,12 +1991,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '17',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#17'),
+    page_nm: i18n.t('계란관리#17'),
     is_full: false
   },
   {
@@ -2005,12 +2005,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '18',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#18'),
+    page_nm: i18n.t('계란관리#18'),
     is_full: false
   },
   {
@@ -2019,12 +2019,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '19',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#19'),
+    page_nm: i18n.t('계란관리#19'),
     is_full: false
   },
   {
@@ -2033,12 +2033,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '20',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#20'),
+    page_nm: i18n.t('계란관리#20'),
     is_full: false
   },
   {
@@ -2047,12 +2047,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '21',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#21'),
+    page_nm: i18n.t('계란관리#21'),
     is_full: false
   },
   {
@@ -2061,12 +2061,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '22',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#22'),
+    page_nm: i18n.t('계란관리#22'),
     is_full: false
   },
   {
@@ -2075,12 +2075,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '23',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#23'),
+    page_nm: i18n.t('계란관리#23'),
     is_full: false
   },
   {
@@ -2089,12 +2089,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '24',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#24'),
+    page_nm: i18n.t('계란관리#24'),
     is_full: false
   },
   {
@@ -2103,12 +2103,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '25',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#25'),
+    page_nm: i18n.t('계란관리#25'),
     is_full: false
   },
   {
@@ -2117,12 +2117,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '26',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#26'),
+    page_nm: i18n.t('계란관리#26'),
     is_full: false
   },
   {
@@ -2131,12 +2131,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '27',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#27'),
+    page_nm: i18n.t('계란관리#27'),
     is_full: false
   },
   {
@@ -2145,12 +2145,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '28',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#28'),
+    page_nm: i18n.t('계란관리#28'),
     is_full: false
   },
   {
@@ -2159,12 +2159,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '29',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#29'),
+    page_nm: i18n.t('계란관리#29'),
     is_full: false
   },
   {
@@ -2173,12 +2173,12 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'egg',
     id: '30',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('계사관리'),
-    cate_desc: i18n(
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('계사관리'),
+    cate_desc: i18n.t(
       '계사별,일자별 생산된 계란의 수량과 상태 등록 및 수정 합니다'
     ),
-    page_nm: i18n('계란관리#30'),
+    page_nm: i18n.t('계란관리#30'),
     is_full: false
   },
 
@@ -2188,10 +2188,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '00',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#00'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#00'),
     is_full: false
   },
   {
@@ -2200,10 +2200,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '01',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#01'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#01'),
     is_full: false
   },
   {
@@ -2212,10 +2212,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '02',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#02'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#02'),
     is_full: false
   },
   {
@@ -2224,10 +2224,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '03',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#03'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#03'),
     is_full: false
   },
   {
@@ -2236,10 +2236,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '04',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#04'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#04'),
     is_full: false
   },
   {
@@ -2248,10 +2248,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '05',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#05'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#05'),
     is_full: false
   },
   {
@@ -2260,10 +2260,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '06',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#06'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#06'),
     is_full: false
   },
   {
@@ -2272,10 +2272,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '07',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#07'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#07'),
     is_full: false
   },
   {
@@ -2284,10 +2284,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '08',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#08'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#08'),
     is_full: false
   },
   {
@@ -2296,10 +2296,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '09',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#09'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#09'),
     is_full: false
   },
   {
@@ -2308,10 +2308,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '10',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#10'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#10'),
     is_full: false
   },
   {
@@ -2320,10 +2320,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '11',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#11'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#11'),
     is_full: false
   },
   {
@@ -2332,10 +2332,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '12',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#12'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#12'),
     is_full: false
   },
   {
@@ -2344,10 +2344,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '13',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#13'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#13'),
     is_full: false
   },
   {
@@ -2356,10 +2356,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '14',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#14'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#14'),
     is_full: false
   },
   {
@@ -2368,10 +2368,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '15',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#15'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#15'),
     is_full: false
   },
   {
@@ -2380,10 +2380,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '16',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#16'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#16'),
     is_full: false
   },
   {
@@ -2392,10 +2392,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '17',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#17'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#17'),
     is_full: false
   },
   {
@@ -2404,10 +2404,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '18',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#18'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#18'),
     is_full: false
   },
   {
@@ -2416,10 +2416,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '19',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#19'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#19'),
     is_full: false
   },
   {
@@ -2428,10 +2428,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '20',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#20'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#20'),
     is_full: false
   },
   {
@@ -2440,10 +2440,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '21',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#21'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#21'),
     is_full: false
   },
   {
@@ -2452,10 +2452,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '22',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#22'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#22'),
     is_full: false
   },
   {
@@ -2464,10 +2464,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '23',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#23'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#23'),
     is_full: false
   },
   {
@@ -2476,10 +2476,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '24',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#24'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#24'),
     is_full: false
   },
   {
@@ -2488,10 +2488,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '25',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#25'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#25'),
     is_full: false
   },
   {
@@ -2500,10 +2500,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '26',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#26'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#26'),
     is_full: false
   },
   {
@@ -2512,10 +2512,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '27',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#27'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#27'),
     is_full: false
   },
   {
@@ -2524,10 +2524,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '28',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#28'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#28'),
     is_full: false
   },
   {
@@ -2536,10 +2536,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '29',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#29'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#29'),
     is_full: false
   },
   {
@@ -2548,10 +2548,10 @@ export const BreedingRouteList = [
     type: 'breeding',
     cate: 'release',
     id: '30',
-    type_nm: i18n('종계'),
-    cate_nm: i18n('출고관리'),
-    cate_desc: i18n('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
-    page_nm: i18n('출고#30'),
+    type_nm: i18n.t('종계'),
+    cate_nm: i18n.t('출고관리'),
+    cate_desc: i18n.t('생산된 계란을 부화장으로 또는 판매, 폐기, 기부 합니다'),
+    page_nm: i18n.t('출고#30'),
     is_full: false
   }
 ];

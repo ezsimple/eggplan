@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 // import PageRoute from './PageRoute';
 // import PopupRoute from './PopupRoute';
 
+import EggLayout from 'layout/Layout';
+
 import BreedingRoute from './BreedingRoute';
 import BroilerRoute from './BroilerRoute';
 import HatcheryRoute from './HatcheryRoute';
@@ -23,29 +25,31 @@ class EggRoute extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          {/* 공통정보 관리 */}
-          <Route
-            path={'/common/:cate/:id'}
-            render={props => <CommonRoute {...props} />}
-          />
+          <EggLayout>
+            {/* 공통정보 관리 */}
+            <Route
+              path={'/common/:cate/:id'}
+              render={props => <CommonRoute {...props} />}
+            />
 
-          {/* 종계관련 라우팅 */}
-          <Route
-            path={'/breeding/:cate/:id'}
-            render={props => <BreedingRoute {...props} />}
-          />
+            {/* 종계관련 라우팅 */}
+            <Route
+              path={'/breeding/:cate/:id'}
+              render={props => <BreedingRoute {...props} />}
+            />
 
-          {/* 부화장 */}
-          <Route
-            path={'/hatchery/:cate/:id'}
-            render={props => <HatcheryRoute {...props} />}
-          />
+            {/* 부화장 */}
+            <Route
+              path={'/hatchery/:cate/:id'}
+              render={props => <HatcheryRoute {...props} />}
+            />
 
-          {/* 육계 */}
-          <Route
-            path={'/broiler/:cate/:id'}
-            render={props => <BroilerRoute {...props} />}
-          />
+            {/* 육계 */}
+            <Route
+              path={'/broiler/:cate/:id'}
+              render={props => <BroilerRoute {...props} />}
+            />
+          </EggLayout>
 
           {/* 부적절한 접근을 한 경우 */}
           <Route render={props => <Login {...props} />} />

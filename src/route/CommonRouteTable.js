@@ -8,9 +8,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '00',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#00'),
     is_full: false
   },
   {
@@ -19,9 +19,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '01',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -30,9 +30,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '02',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -41,9 +41,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '03',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -52,9 +52,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '04',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -63,9 +63,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '05',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -74,9 +74,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '06',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -85,9 +85,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '07',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -96,9 +96,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '08',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -107,9 +107,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '09',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -118,9 +118,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '10',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -129,9 +129,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '11',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -140,9 +140,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '12',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#12'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#12'),
     is_full: false
   },
   {
@@ -151,9 +151,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '13',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#13'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#13'),
     is_full: false
   },
   {
@@ -162,9 +162,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '14',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#14'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#14'),
     is_full: false
   },
   {
@@ -173,9 +173,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '15',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#15'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#15'),
     is_full: false
   },
   {
@@ -184,9 +184,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '16',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#16'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#16'),
     is_full: false
   },
   {
@@ -195,9 +195,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '17',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#17'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#17'),
     is_full: false
   },
   {
@@ -206,9 +206,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '18',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#18'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#18'),
     is_full: false
   },
   {
@@ -217,9 +217,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '19',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#19'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#19'),
     is_full: false
   },
   {
@@ -228,9 +228,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '20',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#20'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#20'),
     is_full: false
   },
   {
@@ -239,9 +239,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '21',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#21'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#21'),
     is_full: false
   },
   {
@@ -250,9 +250,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '22',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#22'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#22'),
     is_full: false
   },
   {
@@ -261,9 +261,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '23',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#23'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#23'),
     is_full: false
   },
   {
@@ -272,9 +272,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '24',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#24'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#24'),
     is_full: false
   },
   {
@@ -283,9 +283,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '25',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#25'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#25'),
     is_full: false
   },
   {
@@ -294,9 +294,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '26',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#26'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#26'),
     is_full: false
   },
   {
@@ -305,9 +305,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '27',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#27'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#27'),
     is_full: false
   },
   {
@@ -316,9 +316,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '28',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#28'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#28'),
     is_full: false
   },
   {
@@ -327,9 +327,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '29',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#29'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#29'),
     is_full: false
   },
   {
@@ -338,9 +338,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'member',
     id: '30',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('회원관리'),
-    page_nm: i18n('페이지#30'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('회원관리'),
+    page_nm: i18n.t('페이지#30'),
     is_full: false
   },
   {
@@ -348,9 +348,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '00',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#00'),
     page: Common.Group.Page00,
     is_full: false
   },
@@ -360,9 +360,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '01',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -371,9 +371,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '02',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -382,9 +382,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '03',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -393,9 +393,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '04',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -404,9 +404,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '05',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -415,9 +415,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '06',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -426,9 +426,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '07',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -437,9 +437,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '08',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -448,9 +448,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '09',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -459,9 +459,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '10',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -470,9 +470,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '11',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -481,9 +481,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '12',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#12'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#12'),
     is_full: false
   },
   {
@@ -492,9 +492,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '13',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#13'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#13'),
     is_full: false
   },
   {
@@ -503,9 +503,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '14',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#14'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#14'),
     is_full: false
   },
   {
@@ -514,9 +514,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '15',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#15'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#15'),
     is_full: false
   },
   {
@@ -525,9 +525,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '16',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#16'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#16'),
     is_full: false
   },
   {
@@ -536,9 +536,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '17',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#17'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#17'),
     is_full: false
   },
   {
@@ -547,9 +547,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '18',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#18'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#18'),
     is_full: false
   },
   {
@@ -558,9 +558,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '19',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#19'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#19'),
     is_full: false
   },
   {
@@ -569,9 +569,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '20',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#20'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#20'),
     is_full: false
   },
   {
@@ -580,9 +580,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '21',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#21'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#21'),
     is_full: false
   },
   {
@@ -591,9 +591,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '22',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#22'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#22'),
     is_full: false
   },
   {
@@ -602,9 +602,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '23',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#23'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#23'),
     is_full: false
   },
   {
@@ -613,9 +613,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '24',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#24'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#24'),
     is_full: false
   },
   {
@@ -624,9 +624,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '25',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#25'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#25'),
     is_full: false
   },
   {
@@ -635,9 +635,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '26',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#26'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#26'),
     is_full: false
   },
   {
@@ -646,9 +646,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '27',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#27'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#27'),
     is_full: false
   },
   {
@@ -657,9 +657,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '28',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#28'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#28'),
     is_full: false
   },
   {
@@ -668,9 +668,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '29',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#29'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#29'),
     is_full: false
   },
   {
@@ -679,9 +679,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'group',
     id: '30',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('그룹관리'),
-    page_nm: i18n('페이지#30'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('그룹관리'),
+    page_nm: i18n.t('페이지#30'),
     is_full: false
   },
   {
@@ -689,9 +689,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '00',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#00'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#00'),
     page: Common.Roll.Page00,
     is_full: false
   },
@@ -701,9 +701,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '01',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#01'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#01'),
     is_full: false
   },
   {
@@ -712,9 +712,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '02',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#02'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#02'),
     is_full: false
   },
   {
@@ -723,9 +723,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '03',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#03'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#03'),
     is_full: false
   },
   {
@@ -734,9 +734,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '04',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#04'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#04'),
     is_full: false
   },
   {
@@ -745,9 +745,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '05',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#05'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#05'),
     is_full: false
   },
   {
@@ -756,9 +756,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '06',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#06'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#06'),
     is_full: false
   },
   {
@@ -767,9 +767,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '07',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#07'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#07'),
     is_full: false
   },
   {
@@ -778,9 +778,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '08',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#08'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#08'),
     is_full: false
   },
   {
@@ -789,9 +789,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '09',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#09'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#09'),
     is_full: false
   },
   {
@@ -800,9 +800,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '10',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#10'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#10'),
     is_full: false
   },
   {
@@ -811,9 +811,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '11',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#11'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#11'),
     is_full: false
   },
   {
@@ -822,9 +822,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '12',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#12'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#12'),
     is_full: false
   },
   {
@@ -833,9 +833,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '13',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#13'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#13'),
     is_full: false
   },
   {
@@ -844,9 +844,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '14',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#14'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#14'),
     is_full: false
   },
   {
@@ -855,9 +855,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '15',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#15'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#15'),
     is_full: false
   },
   {
@@ -866,9 +866,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '16',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#16'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#16'),
     is_full: false
   },
   {
@@ -877,9 +877,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '17',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#17'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#17'),
     is_full: false
   },
   {
@@ -888,9 +888,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '18',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#18'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#18'),
     is_full: false
   },
   {
@@ -899,9 +899,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '19',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#19'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#19'),
     is_full: false
   },
   {
@@ -910,9 +910,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '20',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#20'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#20'),
     is_full: false
   },
   {
@@ -921,9 +921,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '21',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#21'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#21'),
     is_full: false
   },
   {
@@ -932,9 +932,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '22',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#22'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#22'),
     is_full: false
   },
   {
@@ -943,9 +943,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '23',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#23'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#23'),
     is_full: false
   },
   {
@@ -954,9 +954,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '24',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#24'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#24'),
     is_full: false
   },
   {
@@ -965,9 +965,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '25',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#25'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#25'),
     is_full: false
   },
   {
@@ -976,9 +976,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '26',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#26'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#26'),
     is_full: false
   },
   {
@@ -987,9 +987,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '27',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#27'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#27'),
     is_full: false
   },
   {
@@ -998,9 +998,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '28',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#28'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#28'),
     is_full: false
   },
   {
@@ -1009,9 +1009,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '29',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#29'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#29'),
     is_full: false
   },
   {
@@ -1020,9 +1020,9 @@ export const CommonRouteList = [
     type: 'common',
     cate: 'roll',
     id: '30',
-    type_nm: i18n('공통'),
-    cate_nm: i18n('권한관리'),
-    page_nm: i18n('페이지#30'),
+    type_nm: i18n.t('공통'),
+    cate_nm: i18n.t('권한관리'),
+    page_nm: i18n.t('페이지#30'),
     is_full: false
   }
 ];

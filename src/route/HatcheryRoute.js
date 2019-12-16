@@ -2,8 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import { HatcheryRouteList } from './HatcheryRouteTable';
-import { Login } from 'containers/pages/common';
-import EggLayout from 'layout/Layout';
+import { EggError } from 'containers/pages/common';
 
 const HatcheryRoute = props => {
   const getRouteInfo = (cate, id) => {
@@ -16,11 +15,7 @@ const HatcheryRoute = props => {
   const cate = props.match.params.cate;
   const id = props.match.params.id;
   const { page } = getRouteInfo(cate, id);
-  return (
-    <EggLayout>
-      <Route path={url} component={page ? page : Login} />
-    </EggLayout>
-  );
+  return <Route path={url} component={page ? page : EggError} />;
 };
 
 export default HatcheryRoute;
