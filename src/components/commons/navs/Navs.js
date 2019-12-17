@@ -20,6 +20,7 @@ class Navs extends Component {
   }
   render() {
     console.log('Navs : ', this.props);
+    const width = '300px';
     return (
       <Fragment>
         <div>
@@ -29,7 +30,7 @@ class Navs extends Component {
         </div>
         <table style={{ width: '100%' }}>
           <colgroup>
-            <col style={{ width: '20px' }}></col>
+            <col style={{ width: width }}></col>
             <col></col>
           </colgroup>
           <tbody>
@@ -40,17 +41,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/common/member/00">00,</Link>
-                <Link to="/common/member/01">01,</Link>
-                <Link to="/common/member/02">02,</Link>
-                <Link to="/common/member/03">03,</Link>
-                <Link to="/common/member/04">04,</Link>
-                <Link to="/common/member/05">05,</Link>
-                <Link to="/common/member/06">06,</Link>
-                <Link to="/common/member/07">07,</Link>
-                <Link to="/common/member/08">08,</Link>
-                <Link to="/common/member/09">09,</Link>
+                <Link to="/common/member/0">0,</Link>
+                <Link to="/common/member/1">1,</Link>
+                <Link to="/common/member/2">2,</Link>
+                <Link to="/common/member/3">3,</Link>
+                <Link to="/common/member/4">4,</Link>
+                <Link to="/common/member/5">5,</Link>
+                <Link to="/common/member/6">6,</Link>
+                <Link to="/common/member/7">7,</Link>
+                <Link to="/common/member/8">8,</Link>
+                <Link to="/common/member/9">9,</Link>
                 <Link to="/common/member/10">10,</Link>
+                <Link to="/common/member/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -60,17 +62,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/common/group/00">00,</Link>
-                <Link to="/common/group/01">01,</Link>
-                <Link to="/common/group/02">02,</Link>
-                <Link to="/common/group/03">03,</Link>
-                <Link to="/common/group/04">04,</Link>
-                <Link to="/common/group/05">05,</Link>
-                <Link to="/common/group/06">06,</Link>
-                <Link to="/common/group/07">07,</Link>
-                <Link to="/common/group/08">08,</Link>
-                <Link to="/common/group/09">09,</Link>
+                <Link to="/common/group/0">0,</Link>
+                <Link to="/common/group/1">1,</Link>
+                <Link to="/common/group/2">2,</Link>
+                <Link to="/common/group/3">3,</Link>
+                <Link to="/common/group/4">4,</Link>
+                <Link to="/common/group/5">5,</Link>
+                <Link to="/common/group/6">6,</Link>
+                <Link to="/common/group/7">7,</Link>
+                <Link to="/common/group/8">8,</Link>
+                <Link to="/common/group/9">9,</Link>
                 <Link to="/common/group/10">10,</Link>
+                <Link to="/common/group/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -80,17 +83,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/common/roll/00">00,</Link>
-                <Link to="/common/roll/01">01,</Link>
-                <Link to="/common/roll/02">02,</Link>
-                <Link to="/common/roll/03">03,</Link>
-                <Link to="/common/roll/04">04,</Link>
-                <Link to="/common/roll/05">05,</Link>
-                <Link to="/common/roll/06">06,</Link>
-                <Link to="/common/roll/07">07,</Link>
-                <Link to="/common/roll/08">08,</Link>
-                <Link to="/common/roll/09">09,</Link>
+                <Link to="/common/roll/0">0,</Link>
+                <Link to="/common/roll/1">1,</Link>
+                <Link to="/common/roll/2">2,</Link>
+                <Link to="/common/roll/3">3,</Link>
+                <Link to="/common/roll/4">4,</Link>
+                <Link to="/common/roll/5">5,</Link>
+                <Link to="/common/roll/6">6,</Link>
+                <Link to="/common/roll/7">7,</Link>
+                <Link to="/common/roll/8">8,</Link>
+                <Link to="/common/roll/9">9,</Link>
                 <Link to="/common/roll/10">10,</Link>
+                <Link to="/common/roll/30">...30</Link>
               </td>
             </tr>
           </tbody>
@@ -104,7 +108,7 @@ class Navs extends Component {
         </div>
         <table style={{ width: '100%' }}>
           <colgroup>
-            <col style={{ width: '20px' }}></col>
+            <col style={{ width: width }}></col>
             <col></col>
           </colgroup>
           <tbody>
@@ -115,17 +119,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/breeding/standard/00">00,</Link>
-                <Link to="/breeding/standard/01">01,</Link>
-                <Link to="/breeding/standard/02">02,</Link>
-                <Link to="/breeding/standard/03">03,</Link>
-                <Link to="/breeding/standard/04">04,</Link>
-                <Link to="/breeding/standard/05">05,</Link>
-                <Link to="/breeding/standard/06">06,</Link>
-                <Link to="/breeding/standard/07">07,</Link>
-                <Link to="/breeding/standard/08">08,</Link>
-                <Link to="/breeding/standard/09">09,</Link>
+                <Link to="/breeding/standard/0">0,</Link>
+                <Link to="/breeding/standard/1">1,</Link>
+                <Link to="/breeding/standard/2">2,</Link>
+                <Link to="/breeding/standard/3">3,</Link>
+                <Link to="/breeding/standard/4">4,</Link>
+                <Link to="/breeding/standard/5">5,</Link>
+                <Link to="/breeding/standard/6">6,</Link>
+                <Link to="/breeding/standard/7">7,</Link>
+                <Link to="/breeding/standard/8">8,</Link>
+                <Link to="/breeding/standard/9">9,</Link>
                 <Link to="/breeding/standard/10">10,</Link>
+                <Link to="/breeding/standard/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -135,37 +140,39 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/breeding/work/00">00,</Link>
-                <Link to="/breeding/work/01">01,</Link>
-                <Link to="/breeding/work/02">02,</Link>
-                <Link to="/breeding/work/03">03,</Link>
-                <Link to="/breeding/work/04">04,</Link>
-                <Link to="/breeding/work/05">05,</Link>
-                <Link to="/breeding/work/06">06,</Link>
-                <Link to="/breeding/work/07">07,</Link>
-                <Link to="/breeding/work/08">08,</Link>
-                <Link to="/breeding/work/09">09,</Link>
+                <Link to="/breeding/work/0">0,</Link>
+                <Link to="/breeding/work/1">1,</Link>
+                <Link to="/breeding/work/2">2,</Link>
+                <Link to="/breeding/work/3">3,</Link>
+                <Link to="/breeding/work/4">4,</Link>
+                <Link to="/breeding/work/5">5,</Link>
+                <Link to="/breeding/work/6">6,</Link>
+                <Link to="/breeding/work/7">7,</Link>
+                <Link to="/breeding/work/8">8,</Link>
+                <Link to="/breeding/work/9">9,</Link>
                 <Link to="/breeding/work/10">10,</Link>
+                <Link to="/breeding/work/30">...30</Link>
               </td>
             </tr>
             <tr>
               <td>
                 <Button outline color="primary" className="ml2 fl">
-                  MATRIALS
+                  MATERIALS
                 </Button>
               </td>
               <td>
-                <Link to="/breeding/matrials/00">00,</Link>
-                <Link to="/breeding/matrials/01">01,</Link>
-                <Link to="/breeding/matrials/02">02,</Link>
-                <Link to="/breeding/matrials/03">03,</Link>
-                <Link to="/breeding/matrials/04">04,</Link>
-                <Link to="/breeding/matrials/05">05,</Link>
-                <Link to="/breeding/matrials/06">06,</Link>
-                <Link to="/breeding/matrials/07">07,</Link>
-                <Link to="/breeding/matrials/08">08,</Link>
-                <Link to="/breeding/matrials/09">09,</Link>
-                <Link to="/breeding/matrials/10">10,</Link>
+                <Link to="/breeding/materials/0">0,</Link>
+                <Link to="/breeding/materials/1">1,</Link>
+                <Link to="/breeding/materials/2">2,</Link>
+                <Link to="/breeding/materials/3">3,</Link>
+                <Link to="/breeding/materials/4">4,</Link>
+                <Link to="/breeding/materials/5">5,</Link>
+                <Link to="/breeding/materials/6">6,</Link>
+                <Link to="/breeding/materials/7">7,</Link>
+                <Link to="/breeding/materials/8">8,</Link>
+                <Link to="/breeding/materials/9">9,</Link>
+                <Link to="/breeding/materials/10">10,</Link>
+                <Link to="/breeding/materials/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -175,17 +182,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/breeding/receive/00">00,</Link>
-                <Link to="/breeding/receive/01">01,</Link>
-                <Link to="/breeding/receive/02">02,</Link>
-                <Link to="/breeding/receive/03">03,</Link>
-                <Link to="/breeding/receive/04">04,</Link>
-                <Link to="/breeding/receive/05">05,</Link>
-                <Link to="/breeding/receive/06">06,</Link>
-                <Link to="/breeding/receive/07">07,</Link>
-                <Link to="/breeding/receive/08">08,</Link>
-                <Link to="/breeding/receive/09">09,</Link>
+                <Link to="/breeding/receive/0">0,</Link>
+                <Link to="/breeding/receive/1">1,</Link>
+                <Link to="/breeding/receive/2">2,</Link>
+                <Link to="/breeding/receive/3">3,</Link>
+                <Link to="/breeding/receive/4">4,</Link>
+                <Link to="/breeding/receive/5">5,</Link>
+                <Link to="/breeding/receive/6">6,</Link>
+                <Link to="/breeding/receive/7">7,</Link>
+                <Link to="/breeding/receive/8">8,</Link>
+                <Link to="/breeding/receive/9">9,</Link>
                 <Link to="/breeding/receive/10">10,</Link>
+                <Link to="/breeding/receive/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -195,17 +203,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/breeding/growing/00">00,</Link>
-                <Link to="/breeding/growing/01">01,</Link>
-                <Link to="/breeding/growing/02">02,</Link>
-                <Link to="/breeding/growing/03">03,</Link>
-                <Link to="/breeding/growing/04">04,</Link>
-                <Link to="/breeding/growing/05">05,</Link>
-                <Link to="/breeding/growing/06">06,</Link>
-                <Link to="/breeding/growing/07">07,</Link>
-                <Link to="/breeding/growing/08">08,</Link>
-                <Link to="/breeding/growing/09">09,</Link>
+                <Link to="/breeding/growing/0">0,</Link>
+                <Link to="/breeding/growing/1">1,</Link>
+                <Link to="/breeding/growing/2">2,</Link>
+                <Link to="/breeding/growing/3">3,</Link>
+                <Link to="/breeding/growing/4">4,</Link>
+                <Link to="/breeding/growing/5">5,</Link>
+                <Link to="/breeding/growing/6">6,</Link>
+                <Link to="/breeding/growing/7">7,</Link>
+                <Link to="/breeding/growing/8">8,</Link>
+                <Link to="/breeding/growing/9">9,</Link>
                 <Link to="/breeding/growing/10">10,</Link>
+                <Link to="/breeding/growing/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -215,17 +224,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/breeding/egg/00">00,</Link>
-                <Link to="/breeding/egg/01">01,</Link>
-                <Link to="/breeding/egg/02">02,</Link>
-                <Link to="/breeding/egg/03">03,</Link>
-                <Link to="/breeding/egg/04">04,</Link>
-                <Link to="/breeding/egg/05">05,</Link>
-                <Link to="/breeding/egg/06">06,</Link>
-                <Link to="/breeding/egg/07">07,</Link>
-                <Link to="/breeding/egg/08">08,</Link>
-                <Link to="/breeding/egg/09">09,</Link>
+                <Link to="/breeding/egg/0">0,</Link>
+                <Link to="/breeding/egg/1">1,</Link>
+                <Link to="/breeding/egg/2">2,</Link>
+                <Link to="/breeding/egg/3">3,</Link>
+                <Link to="/breeding/egg/4">4,</Link>
+                <Link to="/breeding/egg/5">5,</Link>
+                <Link to="/breeding/egg/6">6,</Link>
+                <Link to="/breeding/egg/7">7,</Link>
+                <Link to="/breeding/egg/8">8,</Link>
+                <Link to="/breeding/egg/9">9,</Link>
                 <Link to="/breeding/egg/10">10,</Link>
+                <Link to="/breeding/egg/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -235,17 +245,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/breeding/release/00">00,</Link>
-                <Link to="/breeding/release/01">01,</Link>
-                <Link to="/breeding/release/02">02,</Link>
-                <Link to="/breeding/release/03">03,</Link>
-                <Link to="/breeding/release/04">04,</Link>
-                <Link to="/breeding/release/05">05,</Link>
-                <Link to="/breeding/release/06">06,</Link>
-                <Link to="/breeding/release/07">07,</Link>
-                <Link to="/breeding/release/08">08,</Link>
-                <Link to="/breeding/release/09">09,</Link>
+                <Link to="/breeding/release/0">0,</Link>
+                <Link to="/breeding/release/1">1,</Link>
+                <Link to="/breeding/release/2">2,</Link>
+                <Link to="/breeding/release/3">3,</Link>
+                <Link to="/breeding/release/4">4,</Link>
+                <Link to="/breeding/release/5">5,</Link>
+                <Link to="/breeding/release/6">6,</Link>
+                <Link to="/breeding/release/7">7,</Link>
+                <Link to="/breeding/release/8">8,</Link>
+                <Link to="/breeding/release/9">9,</Link>
                 <Link to="/breeding/release/10">10,</Link>
+                <Link to="/breeding/release/30">...30</Link>
               </td>
             </tr>
           </tbody>
@@ -259,7 +270,7 @@ class Navs extends Component {
         </div>
         <table style={{ width: '100%' }}>
           <colgroup>
-            <col style={{ width: '20px' }}></col>
+            <col style={{ width: width }}></col>
             <col></col>
           </colgroup>
           <tbody>
@@ -270,17 +281,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/hatchery/rcvmng/00">00,</Link>
-                <Link to="/hatchery/rcvmng/01">01,</Link>
-                <Link to="/hatchery/rcvmng/02">02,</Link>
-                <Link to="/hatchery/rcvmng/03">03,</Link>
-                <Link to="/hatchery/rcvmng/04">04,</Link>
-                <Link to="/hatchery/rcvmng/05">05,</Link>
-                <Link to="/hatchery/rcvmng/06">06,</Link>
-                <Link to="/hatchery/rcvmng/07">07,</Link>
-                <Link to="/hatchery/rcvmng/08">08,</Link>
-                <Link to="/hatchery/rcvmng/09">09,</Link>
+                <Link to="/hatchery/rcvmng/0">0,</Link>
+                <Link to="/hatchery/rcvmng/1">1,</Link>
+                <Link to="/hatchery/rcvmng/2">2,</Link>
+                <Link to="/hatchery/rcvmng/3">3,</Link>
+                <Link to="/hatchery/rcvmng/4">4,</Link>
+                <Link to="/hatchery/rcvmng/5">5,</Link>
+                <Link to="/hatchery/rcvmng/6">6,</Link>
+                <Link to="/hatchery/rcvmng/7">7,</Link>
+                <Link to="/hatchery/rcvmng/8">8,</Link>
+                <Link to="/hatchery/rcvmng/9">9,</Link>
                 <Link to="/hatchery/rcvmng/10">10,</Link>
+                <Link to="/hatchery/rcvmng/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -290,17 +302,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/hatchery/rcvlist/00">00,</Link>
-                <Link to="/hatchery/rcvlist/01">01,</Link>
-                <Link to="/hatchery/rcvlist/02">02,</Link>
-                <Link to="/hatchery/rcvlist/03">03,</Link>
-                <Link to="/hatchery/rcvlist/04">04,</Link>
-                <Link to="/hatchery/rcvlist/05">05,</Link>
-                <Link to="/hatchery/rcvlist/06">06,</Link>
-                <Link to="/hatchery/rcvlist/07">07,</Link>
-                <Link to="/hatchery/rcvlist/08">08,</Link>
-                <Link to="/hatchery/rcvlist/09">09,</Link>
+                <Link to="/hatchery/rcvlist/0">0,</Link>
+                <Link to="/hatchery/rcvlist/1">1,</Link>
+                <Link to="/hatchery/rcvlist/2">2,</Link>
+                <Link to="/hatchery/rcvlist/3">3,</Link>
+                <Link to="/hatchery/rcvlist/4">4,</Link>
+                <Link to="/hatchery/rcvlist/5">5,</Link>
+                <Link to="/hatchery/rcvlist/6">6,</Link>
+                <Link to="/hatchery/rcvlist/7">7,</Link>
+                <Link to="/hatchery/rcvlist/8">8,</Link>
+                <Link to="/hatchery/rcvlist/9">9,</Link>
                 <Link to="/hatchery/rcvlist/10">10,</Link>
+                <Link to="/hatchery/rcvlist/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -310,17 +323,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/hatchery/candling/00">00,</Link>
-                <Link to="/hatchery/candling/01">01,</Link>
-                <Link to="/hatchery/candling/02">02,</Link>
-                <Link to="/hatchery/candling/03">03,</Link>
-                <Link to="/hatchery/candling/04">04,</Link>
-                <Link to="/hatchery/candling/05">05,</Link>
-                <Link to="/hatchery/candling/06">06,</Link>
-                <Link to="/hatchery/candling/07">07,</Link>
-                <Link to="/hatchery/candling/08">08,</Link>
-                <Link to="/hatchery/candling/09">09,</Link>
+                <Link to="/hatchery/candling/0">0,</Link>
+                <Link to="/hatchery/candling/1">1,</Link>
+                <Link to="/hatchery/candling/2">2,</Link>
+                <Link to="/hatchery/candling/3">3,</Link>
+                <Link to="/hatchery/candling/4">4,</Link>
+                <Link to="/hatchery/candling/5">5,</Link>
+                <Link to="/hatchery/candling/6">6,</Link>
+                <Link to="/hatchery/candling/7">7,</Link>
+                <Link to="/hatchery/candling/8">8,</Link>
+                <Link to="/hatchery/candling/9">9,</Link>
                 <Link to="/hatchery/candling/10">10,</Link>
+                <Link to="/hatchery/candling/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -330,17 +344,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/hatchery/hatcher/00">00,</Link>
-                <Link to="/hatchery/hatcher/01">01,</Link>
-                <Link to="/hatchery/hatcher/02">02,</Link>
-                <Link to="/hatchery/hatcher/03">03,</Link>
-                <Link to="/hatchery/hatcher/04">04,</Link>
-                <Link to="/hatchery/hatcher/05">05,</Link>
-                <Link to="/hatchery/hatcher/06">06,</Link>
-                <Link to="/hatchery/hatcher/07">07,</Link>
-                <Link to="/hatchery/hatcher/08">08,</Link>
-                <Link to="/hatchery/hatcher/09">09,</Link>
+                <Link to="/hatchery/hatcher/0">0,</Link>
+                <Link to="/hatchery/hatcher/1">1,</Link>
+                <Link to="/hatchery/hatcher/2">2,</Link>
+                <Link to="/hatchery/hatcher/3">3,</Link>
+                <Link to="/hatchery/hatcher/4">4,</Link>
+                <Link to="/hatchery/hatcher/5">5,</Link>
+                <Link to="/hatchery/hatcher/6">6,</Link>
+                <Link to="/hatchery/hatcher/7">7,</Link>
+                <Link to="/hatchery/hatcher/8">8,</Link>
+                <Link to="/hatchery/hatcher/9">9,</Link>
                 <Link to="/hatchery/hatcher/10">10,</Link>
+                <Link to="/hatchery/hatcher/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -350,17 +365,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/hatchery/transegg/00">00,</Link>
-                <Link to="/hatchery/transegg/01">01,</Link>
-                <Link to="/hatchery/transegg/02">02,</Link>
-                <Link to="/hatchery/transegg/03">03,</Link>
-                <Link to="/hatchery/transegg/04">04,</Link>
-                <Link to="/hatchery/transegg/05">05,</Link>
-                <Link to="/hatchery/transegg/06">06,</Link>
-                <Link to="/hatchery/transegg/07">07,</Link>
-                <Link to="/hatchery/transegg/08">08,</Link>
-                <Link to="/hatchery/transegg/09">09,</Link>
+                <Link to="/hatchery/transegg/0">0,</Link>
+                <Link to="/hatchery/transegg/1">1,</Link>
+                <Link to="/hatchery/transegg/2">2,</Link>
+                <Link to="/hatchery/transegg/3">3,</Link>
+                <Link to="/hatchery/transegg/4">4,</Link>
+                <Link to="/hatchery/transegg/5">5,</Link>
+                <Link to="/hatchery/transegg/6">6,</Link>
+                <Link to="/hatchery/transegg/7">7,</Link>
+                <Link to="/hatchery/transegg/8">8,</Link>
+                <Link to="/hatchery/transegg/9">9,</Link>
                 <Link to="/hatchery/transegg/10">10,</Link>
+                <Link to="/hatchery/transegg/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -370,17 +386,17 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                병아리
-                <Link to="/hatchery/transchick/01">01,</Link>
-                <Link to="/hatchery/transchick/02">02,</Link>
-                <Link to="/hatchery/transchick/03">03,</Link>
-                <Link to="/hatchery/transchick/04">04,</Link>
-                <Link to="/hatchery/transchick/05">05,</Link>
-                <Link to="/hatchery/transchick/06">06,</Link>
-                <Link to="/hatchery/transchick/07">07,</Link>
-                <Link to="/hatchery/transchick/08">08,</Link>
-                <Link to="/hatchery/transchick/09">09,</Link>
+                <Link to="/hatchery/transchick/1">1,</Link>
+                <Link to="/hatchery/transchick/2">2,</Link>
+                <Link to="/hatchery/transchick/3">3,</Link>
+                <Link to="/hatchery/transchick/4">4,</Link>
+                <Link to="/hatchery/transchick/5">5,</Link>
+                <Link to="/hatchery/transchick/6">6,</Link>
+                <Link to="/hatchery/transchick/7">7,</Link>
+                <Link to="/hatchery/transchick/8">8,</Link>
+                <Link to="/hatchery/transchick/9">9,</Link>
                 <Link to="/hatchery/transchick/10">10,</Link>
+                <Link to="/hatchery/transchick/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -390,16 +406,17 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/hatchery/cutting/01">01,</Link>
-                <Link to="/hatchery/cutting/02">02,</Link>
-                <Link to="/hatchery/cutting/03">03,</Link>
-                <Link to="/hatchery/cutting/04">04,</Link>
-                <Link to="/hatchery/cutting/05">05,</Link>
-                <Link to="/hatchery/cutting/06">06,</Link>
-                <Link to="/hatchery/cutting/07">07,</Link>
-                <Link to="/hatchery/cutting/08">08,</Link>
-                <Link to="/hatchery/cutting/09">09,</Link>
+                <Link to="/hatchery/cutting/1">1,</Link>
+                <Link to="/hatchery/cutting/2">2,</Link>
+                <Link to="/hatchery/cutting/3">3,</Link>
+                <Link to="/hatchery/cutting/4">4,</Link>
+                <Link to="/hatchery/cutting/5">5,</Link>
+                <Link to="/hatchery/cutting/6">6,</Link>
+                <Link to="/hatchery/cutting/7">7,</Link>
+                <Link to="/hatchery/cutting/8">8,</Link>
+                <Link to="/hatchery/cutting/9">9,</Link>
                 <Link to="/hatchery/cutting/10">10,</Link>
+                <Link to="/hatchery/cutting/30">...30</Link>
               </td>
             </tr>
           </tbody>
@@ -413,7 +430,7 @@ class Navs extends Component {
         </div>
         <table style={{ width: '100%' }}>
           <colgroup>
-            <col style={{ width: '20px' }}></col>
+            <col style={{ width: width }}></col>
             <col></col>
           </colgroup>
           <tbody>
@@ -424,16 +441,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/broiler/receive/01">01,</Link>
-                <Link to="/broiler/receive/02">02,</Link>
-                <Link to="/broiler/receive/03">03,</Link>
-                <Link to="/broiler/receive/04">04,</Link>
-                <Link to="/broiler/receive/05">05,</Link>
-                <Link to="/broiler/receive/06">06,</Link>
-                <Link to="/broiler/receive/07">07,</Link>
-                <Link to="/broiler/receive/08">08,</Link>
-                <Link to="/broiler/receive/09">09,</Link>
+                <Link to="/broiler/receive/0">0,</Link>
+                <Link to="/broiler/receive/1">1,</Link>
+                <Link to="/broiler/receive/2">2,</Link>
+                <Link to="/broiler/receive/3">3,</Link>
+                <Link to="/broiler/receive/4">4,</Link>
+                <Link to="/broiler/receive/5">5,</Link>
+                <Link to="/broiler/receive/6">6,</Link>
+                <Link to="/broiler/receive/7">7,</Link>
+                <Link to="/broiler/receive/8">8,</Link>
+                <Link to="/broiler/receive/9">9,</Link>
                 <Link to="/broiler/receive/10">10,</Link>
+                <Link to="/broiler/receive/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -443,16 +462,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/broiler/growing/01">01,</Link>
-                <Link to="/broiler/growing/02">02,</Link>
-                <Link to="/broiler/growing/03">03,</Link>
-                <Link to="/broiler/growing/04">04,</Link>
-                <Link to="/broiler/growing/05">05,</Link>
-                <Link to="/broiler/growing/06">06,</Link>
-                <Link to="/broiler/growing/07">07,</Link>
-                <Link to="/broiler/growing/08">08,</Link>
-                <Link to="/broiler/growing/09">09,</Link>
+                <Link to="/broiler/growing/0">0,</Link>
+                <Link to="/broiler/growing/1">1,</Link>
+                <Link to="/broiler/growing/2">2,</Link>
+                <Link to="/broiler/growing/3">3,</Link>
+                <Link to="/broiler/growing/4">4,</Link>
+                <Link to="/broiler/growing/5">5,</Link>
+                <Link to="/broiler/growing/6">6,</Link>
+                <Link to="/broiler/growing/7">7,</Link>
+                <Link to="/broiler/growing/8">8,</Link>
+                <Link to="/broiler/growing/9">9,</Link>
                 <Link to="/broiler/growing/10">10,</Link>
+                <Link to="/broiler/growing/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -462,16 +483,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/broiler/transfer/01">01,</Link>
-                <Link to="/broiler/transfer/02">02,</Link>
-                <Link to="/broiler/transfer/03">03,</Link>
-                <Link to="/broiler/transfer/04">04,</Link>
-                <Link to="/broiler/transfer/05">05,</Link>
-                <Link to="/broiler/transfer/06">06,</Link>
-                <Link to="/broiler/transfer/07">07,</Link>
-                <Link to="/broiler/transfer/08">08,</Link>
-                <Link to="/broiler/transfer/09">09,</Link>
+                <Link to="/broiler/transfer/0">0,</Link>
+                <Link to="/broiler/transfer/1">1,</Link>
+                <Link to="/broiler/transfer/2">2,</Link>
+                <Link to="/broiler/transfer/3">3,</Link>
+                <Link to="/broiler/transfer/4">4,</Link>
+                <Link to="/broiler/transfer/5">5,</Link>
+                <Link to="/broiler/transfer/6">6,</Link>
+                <Link to="/broiler/transfer/7">7,</Link>
+                <Link to="/broiler/transfer/8">8,</Link>
+                <Link to="/broiler/transfer/9">9,</Link>
                 <Link to="/broiler/transfer/10">10,</Link>
+                <Link to="/broiler/transfer/30">...30</Link>
               </td>
             </tr>
           </tbody>

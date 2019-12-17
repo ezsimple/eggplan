@@ -15,28 +15,28 @@ export default class BroilerMenu extends React.Component {
   render() {
     return (
       <Menu theme="dark" defaultSelectedKeys={['0']} mode="inline">
-        <Menu.Item key="rcv00">
+        <Menu.Item key="rcv0">
           <Icon type="pie-chart" />
           <span>
-            <Link to="/broiler/receive/00">
+            <Link to="/broiler/receive/0">
               <Trans>RECEIVE</Trans>
             </Link>
           </span>
         </Menu.Item>
 
-        <Menu.Item key="grow00">
+        <Menu.Item key="grow0">
           <Icon type="pie-chart" />
           <span>
-            <Link to="/broiler/growing/00">
+            <Link to="/broiler/growing/0">
               <Trans>GROWING</Trans>
             </Link>
           </span>
         </Menu.Item>
 
-        <Menu.Item key="rel00">
+        <Menu.Item key="rel0">
           <Icon type="pie-chart" />
           <span>
-            <Link to="/broiler/transfer/00">
+            <Link to="/broiler/transfer/0">
               <Trans>TRANSFER</Trans>
             </Link>
           </span>

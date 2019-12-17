@@ -17,7 +17,7 @@ export default class HatcheryMenu extends React.Component {
     return (
       <Menu theme="dark" defaultSelectedKeys={['0']} mode="inline">
         <SubMenu
-          key="user00"
+          key="user0"
           title={
             <span>
               <Icon type="team" />
@@ -28,23 +28,23 @@ export default class HatcheryMenu extends React.Component {
           }
         >
           <Menu.Item key="user01">
-            <Link to="/common/member/00">
+            <Link to="/common/member/0">
               <Trans>ID</Trans>
             </Link>
           </Menu.Item>
           <Menu.Item key="user02">
-            <Link to="/common/group/00">
+            <Link to="/common/group/0">
               <Trans>GROUP</Trans>
             </Link>
           </Menu.Item>
           <Menu.Item key="user03">
-            <Link to="/common/roll/00">
+            <Link to="/common/roll/0">
               <Trans>ROLL</Trans>
             </Link>
           </Menu.Item>
         </SubMenu>
         <SubMenu
-          key="rcv00"
+          key="rcv0"
           title={
             <span>
               <Icon type="team" />
@@ -54,13 +54,13 @@ export default class HatcheryMenu extends React.Component {
             </span>
           }
         >
-          <Menu.Item key="rcv01">
-            <Link to="/hatchery/receive/00">
+          <Menu.Item key="rcv1">
+            <Link to="/hatchery/rcvmng/0">
               <Trans>입고관리</Trans>
             </Link>
           </Menu.Item>
-          <Menu.Item key="rcv02">
-            <Link to="/hatchery/receive/10">
+          <Menu.Item key="rcv2">
+            <Link to="/hatchery/rcvlist/0">
               <Trans>입고목록/입란</Trans>
             </Link>
           </Menu.Item>
@@ -69,7 +69,7 @@ export default class HatcheryMenu extends React.Component {
         <Menu.Item key="candle00">
           <Icon type="pie-chart" />
           <span>
-            <Link to="/hatchery/candling/00">
+            <Link to="/hatchery/candling/0">
               <Trans>CANDLING</Trans>
             </Link>
           </span>
@@ -78,14 +78,14 @@ export default class HatcheryMenu extends React.Component {
         <Menu.Item key="hat00">
           <Icon type="pie-chart" />
           <span>
-            <Link to="/hatchery/hatcher/00">
+            <Link to="/hatchery/hatcher/0">
               <Trans>HATCHER</Trans>
             </Link>
           </span>
         </Menu.Item>
 
         <SubMenu
-          key="trans00"
+          key="trans0"
           title={
             <span>
               <Icon type="team" />
@@ -95,22 +95,22 @@ export default class HatcheryMenu extends React.Component {
             </span>
           }
         >
-          <Menu.Item key="trans01">
-            <Link to="/hatchery/transfer/00">
+          <Menu.Item key="trans1">
+            <Link to="/hatchery/transegg/0">
               <Trans>계란</Trans>
             </Link>
           </Menu.Item>
-          <Menu.Item key="trans02">
-            <Link to="/hatchery/transfer/10">
+          <Menu.Item key="trans2">
+            <Link to="/hatchery/transchick/0">
               <Trans>병아리</Trans>
             </Link>
           </Menu.Item>
         </SubMenu>
 
-        <Menu.Item key="cut00">
+        <Menu.Item key="cut0">
           <Icon type="pie-chart" />
           <span>
-            <Link to="/hatchery/cutting/00">
+            <Link to="/hatchery/cutting/0">
               <Trans>CUTTING</Trans>
             </Link>
           </span>

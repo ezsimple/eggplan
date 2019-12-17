@@ -36,7 +36,7 @@ console.log('onClickMainTab2');
     this.storeData = [
 			  {
 				"구분": "전일",
-				"모돈계": 100,
+				"모돈계": 10,
 				"후보S": 80,
 				"종모돈": 80,
 				"후보U": 80,
@@ -93,7 +93,7 @@ console.log('onClickMainTab2');
 
 		let param = {
 			strDate: date,
-			endDate: '2019-10-14',
+			endDate: '219-10-14',
 		}
 
 		const url = Server.getRestAPI();

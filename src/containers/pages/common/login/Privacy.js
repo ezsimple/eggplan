@@ -104,7 +104,7 @@ const Privacy = () => {
 
       이름 : 김형훈
 
-      전화 : 031-421-3414
+      전화 : 31-421-3414
 
     ​​
 
@@ -118,10 +118,10 @@ const Privacy = () => {
 
     ​
 
-    본 개인정취급방침은부터 2018년 7월 11일부터 시행됩니다.
+    본 개인정취급방침은부터 218년 7월 11일부터 시행됩니다.
 
     이 어플리케이션은 피그플랜 사용 농가용입니다.
-    사용관련 문의 전화 : (031) 421-3418 ezfarm PIGPLAN MOBILE. ALL RIGHTS RESERVED.
+    사용관련 문의 전화 : (31) 421-3418 ezfarm PIGPLAN MOBILE. ALL RIGHTS RESERVED.
     `}
       </pre>
     </React.Fragment>

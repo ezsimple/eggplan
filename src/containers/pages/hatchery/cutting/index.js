@@ -1,13 +1,13 @@
-import Page00 from './Page00';
-import Page01 from './Page01';
-import Page02 from './Page02';
-import Page03 from './Page03';
-import Page04 from './Page04';
-import Page05 from './Page05';
-import Page06 from './Page06';
-import Page07 from './Page07';
-import Page08 from './Page08';
-import Page09 from './Page09';
+import Page0 from './Page0';
+import Page1 from './Page1';
+import Page2 from './Page2';
+import Page3 from './Page3';
+import Page4 from './Page4';
+import Page5 from './Page5';
+import Page6 from './Page6';
+import Page7 from './Page7';
+import Page8 from './Page8';
+import Page9 from './Page9';
 import Page10 from './Page10';
 import Page11 from './Page11';
 import Page12 from './Page12';
@@ -31,16 +31,16 @@ import Page29 from './Page29';
 import Page30 from './Page30';
 
 export {
-  Page00,
-  Page01,
-  Page02,
-  Page03,
-  Page04,
-  Page05,
-  Page06,
-  Page07,
-  Page08,
-  Page09,
+  Page0,
+  Page1,
+  Page2,
+  Page3,
+  Page4,
+  Page5,
+  Page6,
+  Page7,
+  Page8,
+  Page9,
   Page10,
   Page11,
   Page12,

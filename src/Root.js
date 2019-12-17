@@ -22,7 +22,7 @@ import i18n from 'i18next';
 
 const Root = () => {
   message.config({
-    top: 100,
+    top: 10,
     duration: 2,
     maxCount: 3
   });
@@ -36,13 +36,13 @@ const Root = () => {
   };
 
   // ----------------------------------------------
-  // 500/404/502 오류는 개발시 발생하는 오류입니다.
+  // 50/44/52 오류는 개발시 발생하는 오류입니다.
   // ----------------------------------------------
   const fnDevError = error => {
     return (
-      error.indexOf('500') > -1 ||
-      error.indexOf('404') > -1 ||
-      error.indexOf('502') > -1
+      error.indexOf('50') > -1 ||
+      error.indexOf('44') > -1 ||
+      error.indexOf('52') > -1
     );
   };
 

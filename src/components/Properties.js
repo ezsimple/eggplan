@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 export const Const = {
   CONTEXT_PATH: '/mobile',
 
-  LOCAL_HTTP_PORT: '8080',
+  LOCAL_HTTP_PORT: '880',
   LOCAL_HTTPS_PORT: '8443',
 
   REMOTE_ADDR: 'm.pigplan.io',
-  REMOTE_HTTP_PORT: '8080',
+  REMOTE_HTTP_PORT: '880',
   REMOTE_HTTPS_PORT: '8443'
 };
 

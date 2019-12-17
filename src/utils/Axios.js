@@ -79,7 +79,7 @@ function Axios(options) {
         statusCode = response.status;
         msg = data.message || statusText;
       } else {
-        statusCode = 600;
+        statusCode = 60;
         msg = error.message || 'Network Error';
       }
 
