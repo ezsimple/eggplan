@@ -22,12 +22,16 @@ class Navs extends Component {
     console.log('Navs : ', this.props);
     return (
       <Fragment>
-        <div>MEMBER(사용자)</div>
+        <div>
+          <Button outline color="warning">
+            MEMBER(사용자)
+          </Button>
+        </div>
         <table style={{ width: '100%' }}>
-          <thead>
+          <colgroup>
             <col style={{ width: '20px' }}></col>
             <col></col>
-          </thead>
+          </colgroup>
           <tbody>
             <tr>
               <td>
@@ -93,12 +97,16 @@ class Navs extends Component {
         </table>
 
         <br></br>
-        <div>BREEDING(종계)</div>
+        <div>
+          <Button outline color="warning">
+            BREEDING(종계)
+          </Button>
+        </div>
         <table style={{ width: '100%' }}>
-          <thead>
+          <colgroup>
             <col style={{ width: '20px' }}></col>
             <col></col>
-          </thead>
+          </colgroup>
           <tbody>
             <tr>
               <td>
@@ -244,12 +252,16 @@ class Navs extends Component {
         </table>
 
         <br></br>
-        <div>HATCHERY(부화장)</div>
+        <div>
+          <Button outline color="warning">
+            HATCHERY(부화장)
+          </Button>
+        </div>
         <table style={{ width: '100%' }}>
-          <thead>
+          <colgroup>
             <col style={{ width: '20px' }}></col>
             <col></col>
-          </thead>
+          </colgroup>
           <tbody>
             <tr>
               <td>
@@ -257,7 +269,19 @@ class Navs extends Component {
                   RECEIVE(입고관리)
                 </Button>
               </td>
-              <td>입고관리</td>
+              <td>
+                <Link to="/hatchery/rcvmng/00">00,</Link>
+                <Link to="/hatchery/rcvmng/01">01,</Link>
+                <Link to="/hatchery/rcvmng/02">02,</Link>
+                <Link to="/hatchery/rcvmng/03">03,</Link>
+                <Link to="/hatchery/rcvmng/04">04,</Link>
+                <Link to="/hatchery/rcvmng/05">05,</Link>
+                <Link to="/hatchery/rcvmng/06">06,</Link>
+                <Link to="/hatchery/rcvmng/07">07,</Link>
+                <Link to="/hatchery/rcvmng/08">08,</Link>
+                <Link to="/hatchery/rcvmng/09">09,</Link>
+                <Link to="/hatchery/rcvmng/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -265,7 +289,19 @@ class Navs extends Component {
                   RECEIVE(입고목록/입란)
                 </Button>
               </td>
-              <td>입고목록/입란</td>
+              <td>
+                <Link to="/hatchery/rcvlist/00">00,</Link>
+                <Link to="/hatchery/rcvlist/01">01,</Link>
+                <Link to="/hatchery/rcvlist/02">02,</Link>
+                <Link to="/hatchery/rcvlist/03">03,</Link>
+                <Link to="/hatchery/rcvlist/04">04,</Link>
+                <Link to="/hatchery/rcvlist/05">05,</Link>
+                <Link to="/hatchery/rcvlist/06">06,</Link>
+                <Link to="/hatchery/rcvlist/07">07,</Link>
+                <Link to="/hatchery/rcvlist/08">08,</Link>
+                <Link to="/hatchery/rcvlist/09">09,</Link>
+                <Link to="/hatchery/rcvlist/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -273,7 +309,19 @@ class Navs extends Component {
                   CANDLING
                 </Button>
               </td>
-              <td>캔들링</td>
+              <td>
+                <Link to="/hatchery/candling/00">00,</Link>
+                <Link to="/hatchery/candling/01">01,</Link>
+                <Link to="/hatchery/candling/02">02,</Link>
+                <Link to="/hatchery/candling/03">03,</Link>
+                <Link to="/hatchery/candling/04">04,</Link>
+                <Link to="/hatchery/candling/05">05,</Link>
+                <Link to="/hatchery/candling/06">06,</Link>
+                <Link to="/hatchery/candling/07">07,</Link>
+                <Link to="/hatchery/candling/08">08,</Link>
+                <Link to="/hatchery/candling/09">09,</Link>
+                <Link to="/hatchery/candling/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -281,7 +329,19 @@ class Navs extends Component {
                   HATCHER
                 </Button>
               </td>
-              <td>해쳐</td>
+              <td>
+                <Link to="/hatchery/hatcher/00">00,</Link>
+                <Link to="/hatchery/hatcher/01">01,</Link>
+                <Link to="/hatchery/hatcher/02">02,</Link>
+                <Link to="/hatchery/hatcher/03">03,</Link>
+                <Link to="/hatchery/hatcher/04">04,</Link>
+                <Link to="/hatchery/hatcher/05">05,</Link>
+                <Link to="/hatchery/hatcher/06">06,</Link>
+                <Link to="/hatchery/hatcher/07">07,</Link>
+                <Link to="/hatchery/hatcher/08">08,</Link>
+                <Link to="/hatchery/hatcher/09">09,</Link>
+                <Link to="/hatchery/hatcher/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -289,7 +349,19 @@ class Navs extends Component {
                   TRANSFER(계란)
                 </Button>
               </td>
-              <td></td>
+              <td>
+                <Link to="/hatchery/transegg/00">00,</Link>
+                <Link to="/hatchery/transegg/01">01,</Link>
+                <Link to="/hatchery/transegg/02">02,</Link>
+                <Link to="/hatchery/transegg/03">03,</Link>
+                <Link to="/hatchery/transegg/04">04,</Link>
+                <Link to="/hatchery/transegg/05">05,</Link>
+                <Link to="/hatchery/transegg/06">06,</Link>
+                <Link to="/hatchery/transegg/07">07,</Link>
+                <Link to="/hatchery/transegg/08">08,</Link>
+                <Link to="/hatchery/transegg/09">09,</Link>
+                <Link to="/hatchery/transegg/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -297,7 +369,19 @@ class Navs extends Component {
                   TRANFER(병아리)
                 </Button>
               </td>
-              <td>병아리</td>
+              <td>
+                병아리
+                <Link to="/hatchery/transchick/01">01,</Link>
+                <Link to="/hatchery/transchick/02">02,</Link>
+                <Link to="/hatchery/transchick/03">03,</Link>
+                <Link to="/hatchery/transchick/04">04,</Link>
+                <Link to="/hatchery/transchick/05">05,</Link>
+                <Link to="/hatchery/transchick/06">06,</Link>
+                <Link to="/hatchery/transchick/07">07,</Link>
+                <Link to="/hatchery/transchick/08">08,</Link>
+                <Link to="/hatchery/transchick/09">09,</Link>
+                <Link to="/hatchery/transchick/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -305,18 +389,33 @@ class Navs extends Component {
                   CUTTING
                 </Button>
               </td>
-              <td>커팅</td>
+              <td>
+                <Link to="/hatchery/cutting/01">01,</Link>
+                <Link to="/hatchery/cutting/02">02,</Link>
+                <Link to="/hatchery/cutting/03">03,</Link>
+                <Link to="/hatchery/cutting/04">04,</Link>
+                <Link to="/hatchery/cutting/05">05,</Link>
+                <Link to="/hatchery/cutting/06">06,</Link>
+                <Link to="/hatchery/cutting/07">07,</Link>
+                <Link to="/hatchery/cutting/08">08,</Link>
+                <Link to="/hatchery/cutting/09">09,</Link>
+                <Link to="/hatchery/cutting/10">10,</Link>
+              </td>
             </tr>
           </tbody>
         </table>
 
         <br></br>
-        <div>육계</div>
+        <div>
+          <Button outline color="warning">
+            BROILER(육계)
+          </Button>
+        </div>
         <table style={{ width: '100%' }}>
-          <thead>
+          <colgroup>
             <col style={{ width: '20px' }}></col>
             <col></col>
-          </thead>
+          </colgroup>
           <tbody>
             <tr>
               <td>
@@ -324,7 +423,18 @@ class Navs extends Component {
                   RECEIVE
                 </Button>
               </td>
-              <td>입고</td>
+              <td>
+                <Link to="/broiler/receive/01">01,</Link>
+                <Link to="/broiler/receive/02">02,</Link>
+                <Link to="/broiler/receive/03">03,</Link>
+                <Link to="/broiler/receive/04">04,</Link>
+                <Link to="/broiler/receive/05">05,</Link>
+                <Link to="/broiler/receive/06">06,</Link>
+                <Link to="/broiler/receive/07">07,</Link>
+                <Link to="/broiler/receive/08">08,</Link>
+                <Link to="/broiler/receive/09">09,</Link>
+                <Link to="/broiler/receive/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -332,7 +442,18 @@ class Navs extends Component {
                   GROWING
                 </Button>
               </td>
-              <td>성장일지</td>
+              <td>
+                <Link to="/broiler/growing/01">01,</Link>
+                <Link to="/broiler/growing/02">02,</Link>
+                <Link to="/broiler/growing/03">03,</Link>
+                <Link to="/broiler/growing/04">04,</Link>
+                <Link to="/broiler/growing/05">05,</Link>
+                <Link to="/broiler/growing/06">06,</Link>
+                <Link to="/broiler/growing/07">07,</Link>
+                <Link to="/broiler/growing/08">08,</Link>
+                <Link to="/broiler/growing/09">09,</Link>
+                <Link to="/broiler/growing/10">10,</Link>
+              </td>
             </tr>
             <tr>
               <td>
@@ -340,7 +461,18 @@ class Navs extends Component {
                   TRANSFER
                 </Button>
               </td>
-              <td>출고</td>
+              <td>
+                <Link to="/broiler/transfer/01">01,</Link>
+                <Link to="/broiler/transfer/02">02,</Link>
+                <Link to="/broiler/transfer/03">03,</Link>
+                <Link to="/broiler/transfer/04">04,</Link>
+                <Link to="/broiler/transfer/05">05,</Link>
+                <Link to="/broiler/transfer/06">06,</Link>
+                <Link to="/broiler/transfer/07">07,</Link>
+                <Link to="/broiler/transfer/08">08,</Link>
+                <Link to="/broiler/transfer/09">09,</Link>
+                <Link to="/broiler/transfer/10">10,</Link>
+              </td>
             </tr>
           </tbody>
         </table>
