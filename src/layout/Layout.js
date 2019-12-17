@@ -2,9 +2,10 @@ import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.gif';
-import { Trans } from 'react-i18next';
+import { i18n, Trans } from 'react-i18next';
 
 import { BreedingMenu, BroilerMenu, HatcheryMenu } from 'layout';
+import './Layout.module.css';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -12,12 +13,19 @@ const { SubMenu } = Menu;
 class EggLayout extends React.Component {
   state = {
     collapsed: false,
-    category: 'breeding' // broiler(육계), hatchery(부화)
+    menu: 'breeding' // broiler(육계), hatchery(부화)
   };
 
   onCollapse = collapsed => {
     console.log(collapsed);
     this.setState({ collapsed });
+  };
+
+  onMenuChange = e => {
+    const menu = e.target.value || 'breeding';
+    this.setState({ menu: menu }, function() {
+      sessionStorage.setItem('menu', menu);
+    });
   };
 
   render() {
@@ -29,101 +37,23 @@ class EggLayout extends React.Component {
           collapsed={this.state.collapsed}
           onCollapse={this.onCollapse}
         >
-          <div className="logo">
-            <img src={logo} />
-          </div>
-          <Menu theme="dark" defaultSelectedKeys={['0']} mode="inline">
-            <SubMenu
-              key="user00"
-              title={
-                <span>
-                  <Icon type="team" />
-                  <span>
-                    <Trans>MEMBER</Trans>
-                  </span>
-                </span>
-              }
+          <div>
+            <select
+              id=""
+              name=""
+              title=""
+              className=""
+              onChange={e => this.onMenuChange(e)}
+              value={this.state.menu}
             >
-              <Menu.Item key="user01">
-                <Link to="/common/member/00">
-                  <Trans>ID</Trans>
-                </Link>
-              </Menu.Item>
-              <Menu.Item key="user02">
-                <Link to="/common/group/00">
-                  <Trans>GROUP</Trans>
-                </Link>
-              </Menu.Item>
-              <Menu.Item key="user03">
-                <Link to="/common/roll/00">
-                  <Trans>ROLL</Trans>
-                </Link>
-              </Menu.Item>
-            </SubMenu>
-
-            <Menu.Item key="std00">
-              <Icon type="pie-chart" />
-              <span>
-                <Link to="/breeding/standard/00">
-                  <Trans>STANDARD</Trans>
-                </Link>
-              </span>
-            </Menu.Item>
-
-            <Menu.Item key="work00">
-              <Icon type="pie-chart" />
-              <span>
-                <Link to="/breeding/work/00">
-                  <Trans>WORK SCHEDULE</Trans>
-                </Link>
-              </span>
-            </Menu.Item>
-
-            <Menu.Item key="mat00">
-              <Icon type="pie-chart" />
-              <span>
-                <Link to="/breeding/matrials/00">
-                  <Trans>MATRIALS</Trans>
-                </Link>
-              </span>
-            </Menu.Item>
-
-            <Menu.Item key="rcv00">
-              <Icon type="pie-chart" />
-              <span>
-                <Link to="/breeding/receive/00">
-                  <Trans>RECEIVE</Trans>
-                </Link>
-              </span>
-            </Menu.Item>
-
-            <Menu.Item key="grow00">
-              <Icon type="pie-chart" />
-              <span>
-                <Link to="/breeding/growing/00">
-                  <Trans>GROWING LOG</Trans>
-                </Link>
-              </span>
-            </Menu.Item>
-
-            <Menu.Item key="egg00">
-              <Icon type="pie-chart" />
-              <span>
-                <Link to="/breeding/egg/00">
-                  <Trans>EGG PRODUCTION LOG</Trans>
-                </Link>
-              </span>
-            </Menu.Item>
-
-            <Menu.Item key="rel00">
-              <Icon type="pie-chart" />
-              <span>
-                <Link to="/breeding/release/00">
-                  <Trans>RELEASE</Trans>
-                </Link>
-              </span>
-            </Menu.Item>
-          </Menu>
+              <option value="breeding">종계</option>
+              <option value="hatchery">부화</option>
+              <option value="broiler">육계</option>
+            </select>
+          </div>
+          {this.state.menu == 'breeding' && <BreedingMenu {...this.props} />}
+          {this.state.menu == 'hatchery' && <HatcheryMenu {...this.props} />};
+          {this.state.menu == 'broiler' && <BroilerMenu {...this.props} />}
         </Sider>
         <Layout>
           <Header style={{ background: '#fff', padding: 0 }}>헤더</Header>
@@ -139,7 +69,7 @@ class EggLayout extends React.Component {
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            Design ©2019 Created by Ezfarm
+            Designed as a React ©2019 Created by Ezfarm
           </Footer>
         </Layout>
       </Layout>

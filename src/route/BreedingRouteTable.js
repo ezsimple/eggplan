@@ -1,7 +1,7 @@
 import * as Breeding from 'containers/pages/breeding';
 import i18n from 'i18next';
 
-export const BreedingRouteList = [
+const BreedingRouteList = [
   {
     uri: '/breeding/standard/00',
     page: Breeding.Standard.Page00,
@@ -2555,3 +2555,5 @@ export const BreedingRouteList = [
     is_full: false
   }
 ];
+
+export default BreedingRouteList;

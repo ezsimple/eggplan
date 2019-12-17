@@ -5,7 +5,7 @@ import { Nav, NavItem, NavLink, Button } from 'reactstrap';
 
 import styles from './Header.module.scss';
 
-import { PigLogo } from 'components/commons/logo/Logo';
+import { EggLogo } from 'components/commons/logo/Logo';
 import { Menu, HistoryBack } from 'components';
 import { Trans } from 'react-i18next';
 
@@ -15,7 +15,7 @@ class Header extends Component {
     return (
       <Fragment>
         <header className="headtop">
-          <PigLogo />
+          <EggLogo />
           <Menu cate={cate} id={id} />
         </header>
       </Fragment>

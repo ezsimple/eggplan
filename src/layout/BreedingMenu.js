@@ -2,6 +2,7 @@ import React from 'react';
 import { Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import { Trans } from 'react-i18next';
+import './Layout.module.css';
 
 const { SubMenu } = Menu;
 
@@ -41,7 +42,6 @@ export default class BreedingMenu extends React.Component {
             </Link>
           </Menu.Item>
         </SubMenu>
-
         <Menu.Item key="std00">
           <Icon type="pie-chart" />
           <span>

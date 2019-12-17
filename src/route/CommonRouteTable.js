@@ -1,7 +1,7 @@
 import * as Common from 'containers/pages/common';
 import i18n from 'i18next';
 
-export const CommonRouteList = [
+const CommonRouteList = [
   {
     uri: '/common/member/00',
     page: Common.Member.Page00,
@@ -1026,3 +1026,5 @@ export const CommonRouteList = [
     is_full: false
   }
 ];
+
+export default CommonRouteList;

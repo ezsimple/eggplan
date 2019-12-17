@@ -1,7 +1,7 @@
 import * as Broiler from 'containers/pages/broiler';
 import i18n from 'i18next';
 
-export const BroilerRouteList = [
+const BroilerRouteList = [
   {
     uri: '/broiler/receive/00',
     page: Broiler.Receive.Page00,
@@ -1026,3 +1026,4 @@ export const BroilerRouteList = [
     is_full: false
   }
 ];
+export default BroilerRouteList;

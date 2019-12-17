@@ -12,6 +12,7 @@ import HatcheryRoute from './HatcheryRoute';
 import CommonRoute from './CommonRoute';
 
 import { Login } from 'containers/pages/common/login';
+import { Navs } from 'components/';
 // import Navs from 'components/commons/navs/Navs';
 
 class EggRoute extends Component {
@@ -25,34 +26,32 @@ class EggRoute extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <EggLayout>
-            {/* 공통정보 관리 */}
-            <Route
-              path={'/common/:cate/:id'}
-              render={props => <CommonRoute {...props} />}
-            />
+          {/* 공통정보 관리 */}
+          <Route
+            path={'/common/:cate/:id'}
+            render={props => <CommonRoute {...props} />}
+          />
 
-            {/* 종계관련 라우팅 */}
-            <Route
-              path={'/breeding/:cate/:id'}
-              render={props => <BreedingRoute {...props} />}
-            />
+          {/* 종계관련 라우팅 */}
+          <Route
+            path={'/breeding/:cate/:id'}
+            render={props => <BreedingRoute {...props} />}
+          />
 
-            {/* 부화장 */}
-            <Route
-              path={'/hatchery/:cate/:id'}
-              render={props => <HatcheryRoute {...props} />}
-            />
+          {/* 부화장 */}
+          <Route
+            path={'/hatchery/:cate/:id'}
+            render={props => <HatcheryRoute {...props} />}
+          />
 
-            {/* 육계 */}
-            <Route
-              path={'/broiler/:cate/:id'}
-              render={props => <BroilerRoute {...props} />}
-            />
-          </EggLayout>
+          {/* 육계 */}
+          <Route
+            path={'/broiler/:cate/:id'}
+            render={props => <BroilerRoute {...props} />}
+          />
 
           {/* 부적절한 접근을 한 경우 */}
-          <Route render={props => <Login {...props} />} />
+          <Route render={props => <Navs {...props} />} />
         </Switch>
       </BrowserRouter>
     );
