@@ -2,7 +2,8 @@ import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.gif';
-import { i18n, Trans } from 'react-i18next';
+import { Trans } from 'react-i18next';
+import i18n from 'i18next';
 
 import { BreedingMenu, BroilerMenu, HatcheryMenu } from 'layout';
 import './Layout.module.css';
@@ -13,19 +14,33 @@ const { SubMenu } = Menu;
 class EggLayout extends React.Component {
   state = {
     collapsed: false,
-    menu: 'breeding' // broiler(육계), hatchery(부화)
+    menu: '' // breeding(종계), broiler(육계), hatchery(부화)
   };
+
+  componentDidMount() {
+    const pathname = window.location.pathname;
+    const isBreeding = pathname.indexOf('/breeding/') > -1;
+    const isBroiler = pathname.indexOf('/broiler/') > -1;
+    const isHatchery = pathname.indexOf('/hatchery/') > -1;
+    if (isBreeding) {
+      this.setState({ menu: 'breeding' });
+    }
+    if (isBroiler) {
+      this.setState({ menu: 'broiler' });
+    }
+    if (isHatchery) {
+      this.setState({ menu: 'hatchery' });
+    }
+  }
 
   onCollapse = collapsed => {
     console.log(collapsed);
     this.setState({ collapsed });
   };
 
-  onMenuChange = e => {
+  onCateChange = e => {
     const menu = e.target.value || 'breeding';
-    this.setState({ menu: menu }, function() {
-      sessionStorage.setItem('menu', menu);
-    });
+    this.setState({ menu: menu });
   };
 
   render() {
@@ -39,16 +54,16 @@ class EggLayout extends React.Component {
         >
           <div>
             <select
-              id=""
-              name=""
+              id="mainCategory"
+              name="mainCategory"
               title=""
               className=""
-              onChange={e => this.onMenuChange(e)}
+              onChange={e => this.onCateChange(e)}
               value={this.state.menu}
             >
-              <option value="breeding">종계</option>
-              <option value="hatchery">부화</option>
-              <option value="broiler">육계</option>
+              <option value="breeding">{i18n.t('종계')}</option>
+              <option value="hatchery">{i18n.t('부화')}</option>
+              <option value="broiler">{i18n.t('육계')}</option>
             </select>
           </div>
           {this.state.menu == 'breeding' && <BreedingMenu {...this.props} />}

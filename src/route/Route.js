@@ -9,7 +9,6 @@ import EggLayout from 'layout/Layout';
 import BreedingRoute from './BreedingRoute';
 import BroilerRoute from './BroilerRoute';
 import HatcheryRoute from './HatcheryRoute';
-import CommonRoute from './CommonRoute';
 
 import { Login } from 'containers/pages/common/login';
 import { Navs } from 'components/';
@@ -26,11 +25,13 @@ class EggRoute extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          {/* 공통정보 관리 */}
-          <Route
-            path={'/common/:cate/:id'}
-            render={props => <CommonRoute {...props} />}
-          />
+          {/* 공통정보 관리
+          //  CommonRoute의 경우 종계/부화/육계를 식별할 수 없습니다.
+          // <Route
+          //  path={'/common/:cate/:id'}
+          //  render={props => <CommonRoute {...props} />}
+          // />
+          */}
 
           {/* 종계관련 라우팅 */}
           <Route

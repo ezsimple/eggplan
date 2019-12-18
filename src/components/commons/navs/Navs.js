@@ -6,12 +6,7 @@ import { observer, inject } from 'mobx-react';
 
 import './Navs.module.scss';
 
-import {
-  CommonRouteList,
-  BreedingRouteList,
-  BroilerRouteList,
-  HatcheryRouteList
-} from 'route/';
+import { BreedingRouteList, BroilerRouteList, HatcheryRouteList } from 'route/';
 
 class Navs extends Component {
   constructor(props) {
@@ -25,7 +20,7 @@ class Navs extends Component {
       <Fragment>
         <div>
           <Button outline color="warning">
-            MEMBER(사용자)
+            BREEDING(종계)
           </Button>
         </div>
         <table style={{ width: '100%' }}>
@@ -41,18 +36,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/common/member/0">0,</Link>
-                <Link to="/common/member/1">1,</Link>
-                <Link to="/common/member/2">2,</Link>
-                <Link to="/common/member/3">3,</Link>
-                <Link to="/common/member/4">4,</Link>
-                <Link to="/common/member/5">5,</Link>
-                <Link to="/common/member/6">6,</Link>
-                <Link to="/common/member/7">7,</Link>
-                <Link to="/common/member/8">8,</Link>
-                <Link to="/common/member/9">9,</Link>
-                <Link to="/common/member/10">10,</Link>
-                <Link to="/common/member/30">...30</Link>
+                <Link to="/breeding/member/0">0,</Link>
+                <Link to="/breeding/member/1">1,</Link>
+                <Link to="/breeding/member/2">2,</Link>
+                <Link to="/breeding/member/3">3,</Link>
+                <Link to="/breeding/member/4">4,</Link>
+                <Link to="/breeding/member/5">5,</Link>
+                <Link to="/breeding/member/6">6,</Link>
+                <Link to="/breeding/member/7">7,</Link>
+                <Link to="/breeding/member/8">8,</Link>
+                <Link to="/breeding/member/9">9,</Link>
+                <Link to="/breeding/member/10">10,</Link>
+                <Link to="/breeding/member/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -62,18 +57,18 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/common/group/0">0,</Link>
-                <Link to="/common/group/1">1,</Link>
-                <Link to="/common/group/2">2,</Link>
-                <Link to="/common/group/3">3,</Link>
-                <Link to="/common/group/4">4,</Link>
-                <Link to="/common/group/5">5,</Link>
-                <Link to="/common/group/6">6,</Link>
-                <Link to="/common/group/7">7,</Link>
-                <Link to="/common/group/8">8,</Link>
-                <Link to="/common/group/9">9,</Link>
-                <Link to="/common/group/10">10,</Link>
-                <Link to="/common/group/30">...30</Link>
+                <Link to="/breeding/group/0">0,</Link>
+                <Link to="/breeding/group/1">1,</Link>
+                <Link to="/breeding/group/2">2,</Link>
+                <Link to="/breeding/group/3">3,</Link>
+                <Link to="/breeding/group/4">4,</Link>
+                <Link to="/breeding/group/5">5,</Link>
+                <Link to="/breeding/group/6">6,</Link>
+                <Link to="/breeding/group/7">7,</Link>
+                <Link to="/breeding/group/8">8,</Link>
+                <Link to="/breeding/group/9">9,</Link>
+                <Link to="/breeding/group/10">10,</Link>
+                <Link to="/breeding/group/30">...30</Link>
               </td>
             </tr>
             <tr>
@@ -83,35 +78,20 @@ class Navs extends Component {
                 </Button>
               </td>
               <td>
-                <Link to="/common/roll/0">0,</Link>
-                <Link to="/common/roll/1">1,</Link>
-                <Link to="/common/roll/2">2,</Link>
-                <Link to="/common/roll/3">3,</Link>
-                <Link to="/common/roll/4">4,</Link>
-                <Link to="/common/roll/5">5,</Link>
-                <Link to="/common/roll/6">6,</Link>
-                <Link to="/common/roll/7">7,</Link>
-                <Link to="/common/roll/8">8,</Link>
-                <Link to="/common/roll/9">9,</Link>
-                <Link to="/common/roll/10">10,</Link>
-                <Link to="/common/roll/30">...30</Link>
+                <Link to="/breeding/roll/0">0,</Link>
+                <Link to="/breeding/roll/1">1,</Link>
+                <Link to="/breeding/roll/2">2,</Link>
+                <Link to="/breeding/roll/3">3,</Link>
+                <Link to="/breeding/roll/4">4,</Link>
+                <Link to="/breeding/roll/5">5,</Link>
+                <Link to="/breeding/roll/6">6,</Link>
+                <Link to="/breeding/roll/7">7,</Link>
+                <Link to="/breeding/roll/8">8,</Link>
+                <Link to="/breeding/roll/9">9,</Link>
+                <Link to="/breeding/roll/10">10,</Link>
+                <Link to="/breeding/roll/30">...30</Link>
               </td>
             </tr>
-          </tbody>
-        </table>
-
-        <br></br>
-        <div>
-          <Button outline color="warning">
-            BREEDING(종계)
-          </Button>
-        </div>
-        <table style={{ width: '100%' }}>
-          <colgroup>
-            <col style={{ width: width }}></col>
-            <col></col>
-          </colgroup>
-          <tbody>
             <tr>
               <td>
                 <Button outline color="primary" className="ml2 fl">

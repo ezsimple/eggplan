@@ -18,7 +18,7 @@ const HatcheryRoute = props => {
   const id = props.match.params.id;
   const { page } = getRouteInfo(cate, id);
   return (
-    <EggLayout>
+    <EggLayout {...props}>
       <Route path={url} component={page ? page : Navs} />
     </EggLayout>
   );
