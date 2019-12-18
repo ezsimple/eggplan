@@ -5,3996 +5,1369 @@ import i18n from 'i18next';
 const HatcheryRouteList = [
   {
     uri: '/hatchery/member/0',
-    page: Common.Member.Page0,
-    type: 'hatchery',
-    cate: 'member',
-    id: '0',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Common.Member.Page0
   },
   {
     uri: '/hatchery/member/1',
-    page: Common.Member.Page1,
-    type: 'hatchery',
-    cate: 'member',
-    id: '1',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Common.Member.Page1
   },
   {
     uri: '/hatchery/member/2',
-    page: Common.Member.Page2,
-    type: 'hatchery',
-    cate: 'member',
-    id: '2',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Common.Member.Page2
   },
   {
     uri: '/hatchery/member/3',
-    page: Common.Member.Page3,
-    type: 'hatchery',
-    cate: 'member',
-    id: '3',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Common.Member.Page3
   },
   {
     uri: '/hatchery/member/4',
-    page: Common.Member.Page4,
-    type: 'hatchery',
-    cate: 'member',
-    id: '4',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Common.Member.Page4
   },
   {
     uri: '/hatchery/member/5',
-    page: Common.Member.Page5,
-    type: 'hatchery',
-    cate: 'member',
-    id: '5',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Common.Member.Page5
   },
   {
     uri: '/hatchery/member/6',
-    page: Common.Member.Page6,
-    type: 'hatchery',
-    cate: 'member',
-    id: '6',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Common.Member.Page6
   },
   {
     uri: '/hatchery/member/7',
-    page: Common.Member.Page7,
-    type: 'hatchery',
-    cate: 'member',
-    id: '7',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Common.Member.Page7
   },
   {
     uri: '/hatchery/member/8',
-    page: Common.Member.Page8,
-    type: 'hatchery',
-    cate: 'member',
-    id: '8',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Common.Member.Page8
   },
   {
     uri: '/hatchery/member/9',
-    page: Common.Member.Page9,
-    type: 'hatchery',
-    cate: 'member',
-    id: '9',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Common.Member.Page9
   },
   {
     uri: '/hatchery/member/10',
-    page: Common.Member.Page10,
-    type: 'hatchery',
-    cate: 'member',
-    id: '10',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Common.Member.Page10
   },
   {
     uri: '/hatchery/member/11',
-    page: Common.Member.Page11,
-    type: 'hatchery',
-    cate: 'member',
-    id: '11',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Common.Member.Page11
   },
   {
     uri: '/hatchery/member/12',
-    page: Common.Member.Page12,
-    type: 'hatchery',
-    cate: 'member',
-    id: '12',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Common.Member.Page12
   },
   {
     uri: '/hatchery/member/13',
-    page: Common.Member.Page13,
-    type: 'hatchery',
-    cate: 'member',
-    id: '13',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Common.Member.Page13
   },
   {
     uri: '/hatchery/member/14',
-    page: Common.Member.Page14,
-    type: 'hatchery',
-    cate: 'member',
-    id: '14',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Common.Member.Page14
   },
   {
     uri: '/hatchery/member/15',
-    page: Common.Member.Page15,
-    type: 'hatchery',
-    cate: 'member',
-    id: '15',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Common.Member.Page15
   },
   {
     uri: '/hatchery/member/16',
-    page: Common.Member.Page16,
-    type: 'hatchery',
-    cate: 'member',
-    id: '16',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Common.Member.Page16
   },
   {
     uri: '/hatchery/member/17',
-    page: Common.Member.Page17,
-    type: 'hatchery',
-    cate: 'member',
-    id: '17',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Common.Member.Page17
   },
   {
     uri: '/hatchery/member/18',
-    page: Common.Member.Page18,
-    type: 'hatchery',
-    cate: 'member',
-    id: '18',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Common.Member.Page18
   },
   {
     uri: '/hatchery/member/19',
-    page: Common.Member.Page19,
-    type: 'hatchery',
-    cate: 'member',
-    id: '19',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Common.Member.Page19
   },
   {
     uri: '/hatchery/member/20',
-    page: Common.Member.Page20,
-    type: 'hatchery',
-    cate: 'member',
-    id: '20',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Common.Member.Page20
   },
   {
     uri: '/hatchery/member/21',
-    page: Common.Member.Page21,
-    type: 'hatchery',
-    cate: 'member',
-    id: '21',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Common.Member.Page21
   },
   {
     uri: '/hatchery/member/22',
-    page: Common.Member.Page22,
-    type: 'hatchery',
-    cate: 'member',
-    id: '22',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Common.Member.Page22
   },
   {
     uri: '/hatchery/member/23',
-    page: Common.Member.Page23,
-    type: 'hatchery',
-    cate: 'member',
-    id: '23',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Common.Member.Page23
   },
   {
     uri: '/hatchery/member/24',
-    page: Common.Member.Page24,
-    type: 'hatchery',
-    cate: 'member',
-    id: '24',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Common.Member.Page24
   },
   {
     uri: '/hatchery/member/25',
-    page: Common.Member.Page25,
-    type: 'hatchery',
-    cate: 'member',
-    id: '25',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Common.Member.Page25
   },
   {
     uri: '/hatchery/member/26',
-    page: Common.Member.Page26,
-    type: 'hatchery',
-    cate: 'member',
-    id: '26',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Common.Member.Page26
   },
   {
     uri: '/hatchery/member/27',
-    page: Common.Member.Page27,
-    type: 'hatchery',
-    cate: 'member',
-    id: '27',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Common.Member.Page27
   },
   {
     uri: '/hatchery/member/28',
-    page: Common.Member.Page28,
-    type: 'hatchery',
-    cate: 'member',
-    id: '28',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Common.Member.Page28
   },
   {
     uri: '/hatchery/member/29',
-    page: Common.Member.Page29,
-    type: 'hatchery',
-    cate: 'member',
-    id: '29',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Common.Member.Page29
   },
   {
     uri: '/hatchery/member/30',
-    page: Common.Member.Page30,
-    type: 'hatchery',
-    cate: 'member',
-    id: '30',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('회원관리'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Common.Member.Page30
   },
   {
     uri: '/hatchery/group/0',
-    type: 'hatchery',
-    cate: 'group',
-    id: '0',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#0'),
-    page: Common.Group.Page0,
-    is_full: false
+    page: Common.Group.Page0
   },
   {
     uri: '/hatchery/group/1',
-    page: Common.Group.Page1,
-    type: 'hatchery',
-    cate: 'group',
-    id: '1',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Common.Group.Page1
   },
   {
     uri: '/hatchery/group/2',
-    page: Common.Group.Page2,
-    type: 'hatchery',
-    cate: 'group',
-    id: '2',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Common.Group.Page2
   },
   {
     uri: '/hatchery/group/3',
-    page: Common.Group.Page3,
-    type: 'hatchery',
-    cate: 'group',
-    id: '3',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Common.Group.Page3
   },
   {
     uri: '/hatchery/group/4',
-    page: Common.Group.Page4,
-    type: 'hatchery',
-    cate: 'group',
-    id: '4',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Common.Group.Page4
   },
   {
     uri: '/hatchery/group/5',
-    page: Common.Group.Page5,
-    type: 'hatchery',
-    cate: 'group',
-    id: '5',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Common.Group.Page5
   },
   {
     uri: '/hatchery/group/6',
-    page: Common.Group.Page6,
-    type: 'hatchery',
-    cate: 'group',
-    id: '6',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Common.Group.Page6
   },
   {
     uri: '/hatchery/group/7',
-    page: Common.Group.Page7,
-    type: 'hatchery',
-    cate: 'group',
-    id: '7',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Common.Group.Page7
   },
   {
     uri: '/hatchery/group/8',
-    page: Common.Group.Page8,
-    type: 'hatchery',
-    cate: 'group',
-    id: '8',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Common.Group.Page8
   },
   {
     uri: '/hatchery/group/9',
-    page: Common.Group.Page9,
-    type: 'hatchery',
-    cate: 'group',
-    id: '9',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Common.Group.Page9
   },
   {
     uri: '/hatchery/group/10',
-    page: Common.Group.Page10,
-    type: 'hatchery',
-    cate: 'group',
-    id: '10',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Common.Group.Page10
   },
   {
     uri: '/hatchery/group/11',
-    page: Common.Group.Page11,
-    type: 'hatchery',
-    cate: 'group',
-    id: '11',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Common.Group.Page11
   },
   {
     uri: '/hatchery/group/12',
-    page: Common.Group.Page12,
-    type: 'hatchery',
-    cate: 'group',
-    id: '12',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Common.Group.Page12
   },
   {
     uri: '/hatchery/group/13',
-    page: Common.Group.Page13,
-    type: 'hatchery',
-    cate: 'group',
-    id: '13',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Common.Group.Page13
   },
   {
     uri: '/hatchery/group/14',
-    page: Common.Group.Page14,
-    type: 'hatchery',
-    cate: 'group',
-    id: '14',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Common.Group.Page14
   },
   {
     uri: '/hatchery/group/15',
-    page: Common.Group.Page15,
-    type: 'hatchery',
-    cate: 'group',
-    id: '15',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Common.Group.Page15
   },
   {
     uri: '/hatchery/group/16',
-    page: Common.Group.Page16,
-    type: 'hatchery',
-    cate: 'group',
-    id: '16',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Common.Group.Page16
   },
   {
     uri: '/hatchery/group/17',
-    page: Common.Group.Page17,
-    type: 'hatchery',
-    cate: 'group',
-    id: '17',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Common.Group.Page17
   },
   {
     uri: '/hatchery/group/18',
-    page: Common.Group.Page18,
-    type: 'hatchery',
-    cate: 'group',
-    id: '18',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Common.Group.Page18
   },
   {
     uri: '/hatchery/group/19',
-    page: Common.Group.Page19,
-    type: 'hatchery',
-    cate: 'group',
-    id: '19',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Common.Group.Page19
   },
   {
     uri: '/hatchery/group/20',
-    page: Common.Group.Page20,
-    type: 'hatchery',
-    cate: 'group',
-    id: '20',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Common.Group.Page20
   },
   {
     uri: '/hatchery/group/21',
-    page: Common.Group.Page21,
-    type: 'hatchery',
-    cate: 'group',
-    id: '21',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Common.Group.Page21
   },
   {
     uri: '/hatchery/group/22',
-    page: Common.Group.Page22,
-    type: 'hatchery',
-    cate: 'group',
-    id: '22',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Common.Group.Page22
   },
   {
     uri: '/hatchery/group/23',
-    page: Common.Group.Page23,
-    type: 'hatchery',
-    cate: 'group',
-    id: '23',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Common.Group.Page23
   },
   {
     uri: '/hatchery/group/24',
-    page: Common.Group.Page24,
-    type: 'hatchery',
-    cate: 'group',
-    id: '24',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Common.Group.Page24
   },
   {
     uri: '/hatchery/group/25',
-    page: Common.Group.Page25,
-    type: 'hatchery',
-    cate: 'group',
-    id: '25',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Common.Group.Page25
   },
   {
     uri: '/hatchery/group/26',
-    page: Common.Group.Page26,
-    type: 'hatchery',
-    cate: 'group',
-    id: '26',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Common.Group.Page26
   },
   {
     uri: '/hatchery/group/27',
-    page: Common.Group.Page27,
-    type: 'hatchery',
-    cate: 'group',
-    id: '27',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Common.Group.Page27
   },
   {
     uri: '/hatchery/group/28',
-    page: Common.Group.Page28,
-    type: 'hatchery',
-    cate: 'group',
-    id: '28',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Common.Group.Page28
   },
   {
     uri: '/hatchery/group/29',
-    page: Common.Group.Page29,
-    type: 'hatchery',
-    cate: 'group',
-    id: '29',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Common.Group.Page29
   },
   {
     uri: '/hatchery/group/30',
-    page: Common.Group.Page30,
-    type: 'hatchery',
-    cate: 'group',
-    id: '30',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('그룹관리'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Common.Group.Page30
   },
   {
     uri: '/hatchery/roll/0',
-    type: 'hatchery',
-    cate: 'roll',
-    id: '0',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#0'),
-    page: Common.Roll.Page0,
-    is_full: false
+    page: Common.Roll.Page0
   },
   {
     uri: '/hatchery/roll/1',
-    page: Common.Roll.Page1,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '1',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Common.Roll.Page1
   },
   {
     uri: '/hatchery/roll/2',
-    page: Common.Roll.Page2,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '2',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Common.Roll.Page2
   },
   {
     uri: '/hatchery/roll/3',
-    page: Common.Roll.Page3,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '3',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Common.Roll.Page3
   },
   {
     uri: '/hatchery/roll/4',
-    page: Common.Roll.Page4,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '4',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Common.Roll.Page4
   },
   {
     uri: '/hatchery/roll/5',
-    page: Common.Roll.Page5,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '5',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Common.Roll.Page5
   },
   {
     uri: '/hatchery/roll/6',
-    page: Common.Roll.Page6,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '6',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Common.Roll.Page6
   },
   {
     uri: '/hatchery/roll/7',
-    page: Common.Roll.Page7,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '7',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Common.Roll.Page7
   },
   {
     uri: '/hatchery/roll/8',
-    page: Common.Roll.Page8,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '8',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Common.Roll.Page8
   },
   {
     uri: '/hatchery/roll/9',
-    page: Common.Roll.Page9,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '9',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Common.Roll.Page9
   },
   {
     uri: '/hatchery/roll/10',
-    page: Common.Roll.Page10,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '10',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Common.Roll.Page10
   },
   {
     uri: '/hatchery/roll/11',
-    page: Common.Roll.Page11,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '11',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Common.Roll.Page11
   },
   {
     uri: '/hatchery/roll/12',
-    page: Common.Roll.Page12,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '12',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Common.Roll.Page12
   },
   {
     uri: '/hatchery/roll/13',
-    page: Common.Roll.Page13,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '13',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Common.Roll.Page13
   },
   {
     uri: '/hatchery/roll/14',
-    page: Common.Roll.Page14,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '14',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Common.Roll.Page14
   },
   {
     uri: '/hatchery/roll/15',
-    page: Common.Roll.Page15,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '15',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Common.Roll.Page15
   },
   {
     uri: '/hatchery/roll/16',
-    page: Common.Roll.Page16,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '16',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Common.Roll.Page16
   },
   {
     uri: '/hatchery/roll/17',
-    page: Common.Roll.Page17,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '17',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Common.Roll.Page17
   },
   {
     uri: '/hatchery/roll/18',
-    page: Common.Roll.Page18,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '18',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Common.Roll.Page18
   },
   {
     uri: '/hatchery/roll/19',
-    page: Common.Roll.Page19,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '19',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Common.Roll.Page19
   },
   {
     uri: '/hatchery/roll/20',
-    page: Common.Roll.Page20,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '20',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Common.Roll.Page20
   },
   {
     uri: '/hatchery/roll/21',
-    page: Common.Roll.Page21,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '21',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Common.Roll.Page21
   },
   {
     uri: '/hatchery/roll/22',
-    page: Common.Roll.Page22,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '22',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Common.Roll.Page22
   },
   {
     uri: '/hatchery/roll/23',
-    page: Common.Roll.Page23,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '23',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Common.Roll.Page23
   },
   {
     uri: '/hatchery/roll/24',
-    page: Common.Roll.Page24,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '24',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Common.Roll.Page24
   },
   {
     uri: '/hatchery/roll/25',
-    page: Common.Roll.Page25,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '25',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Common.Roll.Page25
   },
   {
     uri: '/hatchery/roll/26',
-    page: Common.Roll.Page26,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '26',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Common.Roll.Page26
   },
   {
     uri: '/hatchery/roll/27',
-    page: Common.Roll.Page27,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '27',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Common.Roll.Page27
   },
   {
     uri: '/hatchery/roll/28',
-    page: Common.Roll.Page28,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '28',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Common.Roll.Page28
   },
   {
     uri: '/hatchery/roll/29',
-    page: Common.Roll.Page29,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '29',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Common.Roll.Page29
   },
   {
     uri: '/hatchery/roll/30',
-    page: Common.Roll.Page30,
-    type: 'hatchery',
-    cate: 'roll',
-    id: '30',
-    type_nm: i18n.t('공통'),
-    cate_nm: i18n.t('권한관리'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Common.Roll.Page30
   },
   {
     uri: '/hatchery/rcvmng/0',
-    page: Hatchery.Rcvmng.Page0,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '0',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page0
   },
   {
     uri: '/hatchery/rcvmng/1',
-    page: Hatchery.Rcvmng.Page1,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page1
   },
   {
     uri: '/hatchery/rcvmng/2',
-    page: Hatchery.Rcvmng.Page2,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page2
   },
   {
     uri: '/hatchery/rcvmng/3',
-    page: Hatchery.Rcvmng.Page3,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page3
   },
   {
     uri: '/hatchery/rcvmng/4',
-    page: Hatchery.Rcvmng.Page4,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page4
   },
   {
     uri: '/hatchery/rcvmng/5',
-    page: Hatchery.Rcvmng.Page5,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page5
   },
   {
     uri: '/hatchery/rcvmng/6',
-    page: Hatchery.Rcvmng.Page6,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page6
   },
   {
     uri: '/hatchery/rcvmng/7',
-    page: Hatchery.Rcvmng.Page7,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page7
   },
   {
     uri: '/hatchery/rcvmng/8',
-    page: Hatchery.Rcvmng.Page8,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page8
   },
   {
     uri: '/hatchery/rcvmng/9',
-    page: Hatchery.Rcvmng.Page9,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page9
   },
   {
     uri: '/hatchery/rcvmng/10',
-    page: Hatchery.Rcvmng.Page10,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page10
   },
   {
     uri: '/hatchery/rcvmng/11',
-    page: Hatchery.Rcvmng.Page11,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page11
   },
   {
     uri: '/hatchery/rcvmng/12',
-    page: Hatchery.Rcvmng.Page12,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page12
   },
   {
     uri: '/hatchery/rcvmng/13',
-    page: Hatchery.Rcvmng.Page13,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page13
   },
   {
     uri: '/hatchery/rcvmng/14',
-    page: Hatchery.Rcvmng.Page14,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page14
   },
   {
     uri: '/hatchery/rcvmng/15',
-    page: Hatchery.Rcvmng.Page15,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page15
   },
   {
     uri: '/hatchery/rcvmng/16',
-    page: Hatchery.Rcvmng.Page16,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page16
   },
   {
     uri: '/hatchery/rcvmng/17',
-    page: Hatchery.Rcvmng.Page17,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page17
   },
   {
     uri: '/hatchery/rcvmng/18',
-    page: Hatchery.Rcvmng.Page18,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page18
   },
   {
     uri: '/hatchery/rcvmng/19',
-    page: Hatchery.Rcvmng.Page19,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page19
   },
   {
     uri: '/hatchery/rcvmng/20',
-    page: Hatchery.Rcvmng.Page20,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page20
   },
   {
     uri: '/hatchery/rcvmng/21',
-    page: Hatchery.Rcvmng.Page21,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page21
   },
   {
     uri: '/hatchery/rcvmng/22',
-    page: Hatchery.Rcvmng.Page22,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page22
   },
   {
     uri: '/hatchery/rcvmng/23',
-    page: Hatchery.Rcvmng.Page23,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page23
   },
   {
     uri: '/hatchery/rcvmng/24',
-    page: Hatchery.Rcvmng.Page24,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page24
   },
   {
     uri: '/hatchery/rcvmng/25',
-    page: Hatchery.Rcvmng.Page25,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page25
   },
   {
     uri: '/hatchery/rcvmng/26',
-    page: Hatchery.Rcvmng.Page26,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page26
   },
   {
     uri: '/hatchery/rcvmng/27',
-    page: Hatchery.Rcvmng.Page27,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page27
   },
   {
     uri: '/hatchery/rcvmng/28',
-    page: Hatchery.Rcvmng.Page28,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page28
   },
   {
     uri: '/hatchery/rcvmng/29',
-    page: Hatchery.Rcvmng.Page29,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page29
   },
   {
     uri: '/hatchery/rcvmng/30',
-    page: Hatchery.Rcvmng.Page30,
-    type: 'hatchery',
-    cate: 'rcvmng',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고관리'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Rcvmng.Page30
   },
 
   {
     uri: '/hatchery/rcvlist/0',
-    page: Hatchery.Rcvlist.Page0,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '0',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page0
   },
   {
     uri: '/hatchery/rcvlist/1',
-    page: Hatchery.Rcvlist.Page1,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page1
   },
   {
     uri: '/hatchery/rcvlist/2',
-    page: Hatchery.Rcvlist.Page2,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page2
   },
   {
     uri: '/hatchery/rcvlist/3',
-    page: Hatchery.Rcvlist.Page3,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page3
   },
   {
     uri: '/hatchery/rcvlist/4',
-    page: Hatchery.Rcvlist.Page4,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page4
   },
   {
     uri: '/hatchery/rcvlist/5',
-    page: Hatchery.Rcvlist.Page5,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page5
   },
   {
     uri: '/hatchery/rcvlist/6',
-    page: Hatchery.Rcvlist.Page6,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page6
   },
   {
     uri: '/hatchery/rcvlist/7',
-    page: Hatchery.Rcvlist.Page7,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page7
   },
   {
     uri: '/hatchery/rcvlist/8',
-    page: Hatchery.Rcvlist.Page8,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page8
   },
   {
     uri: '/hatchery/rcvlist/9',
-    page: Hatchery.Rcvlist.Page9,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page9
   },
   {
     uri: '/hatchery/rcvlist/10',
-    page: Hatchery.Rcvlist.Page10,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page10
   },
   {
     uri: '/hatchery/rcvlist/11',
-    page: Hatchery.Rcvlist.Page11,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page11
   },
   {
     uri: '/hatchery/rcvlist/12',
-    page: Hatchery.Rcvlist.Page12,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page12
   },
   {
     uri: '/hatchery/rcvlist/13',
-    page: Hatchery.Rcvlist.Page13,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page13
   },
   {
     uri: '/hatchery/rcvlist/14',
-    page: Hatchery.Rcvlist.Page14,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page14
   },
   {
     uri: '/hatchery/rcvlist/15',
-    page: Hatchery.Rcvlist.Page15,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page15
   },
   {
     uri: '/hatchery/rcvlist/16',
-    page: Hatchery.Rcvlist.Page16,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page16
   },
   {
     uri: '/hatchery/rcvlist/17',
-    page: Hatchery.Rcvlist.Page17,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page17
   },
   {
     uri: '/hatchery/rcvlist/18',
-    page: Hatchery.Rcvlist.Page18,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page18
   },
   {
     uri: '/hatchery/rcvlist/19',
-    page: Hatchery.Rcvlist.Page19,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page19
   },
   {
     uri: '/hatchery/rcvlist/20',
-    page: Hatchery.Rcvlist.Page20,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page20
   },
   {
     uri: '/hatchery/rcvlist/21',
-    page: Hatchery.Rcvlist.Page21,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page21
   },
   {
     uri: '/hatchery/rcvlist/22',
-    page: Hatchery.Rcvlist.Page22,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page22
   },
   {
     uri: '/hatchery/rcvlist/23',
-    page: Hatchery.Rcvlist.Page23,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page23
   },
   {
     uri: '/hatchery/rcvlist/24',
-    page: Hatchery.Rcvlist.Page24,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page24
   },
   {
     uri: '/hatchery/rcvlist/25',
-    page: Hatchery.Rcvlist.Page25,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page25
   },
   {
     uri: '/hatchery/rcvlist/26',
-    page: Hatchery.Rcvlist.Page26,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page26
   },
   {
     uri: '/hatchery/rcvlist/27',
-    page: Hatchery.Rcvlist.Page27,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page27
   },
   {
     uri: '/hatchery/rcvlist/28',
-    page: Hatchery.Rcvlist.Page28,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page28
   },
   {
     uri: '/hatchery/rcvlist/29',
-    page: Hatchery.Rcvlist.Page29,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page29
   },
   {
     uri: '/hatchery/rcvlist/30',
-    page: Hatchery.Rcvlist.Page30,
-    type: 'hatchery',
-    cate: 'rcvlist',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('입고목록/입란'),
-    cate_desc: i18n.t('입고된 계란을 등록 수정 검란을 합니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Rcvlist.Page30
   },
 
   {
     uri: '/hatchery/candling/0',
-    page: Hatchery.Candling.Page0,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '0',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Hatchery.Candling.Page0
   },
   {
     uri: '/hatchery/candling/1',
-    page: Hatchery.Candling.Page1,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Candling.Page1
   },
   {
     uri: '/hatchery/candling/2',
-    page: Hatchery.Candling.Page2,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Candling.Page2
   },
   {
     uri: '/hatchery/candling/3',
-    page: Hatchery.Candling.Page3,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Candling.Page3
   },
   {
     uri: '/hatchery/candling/4',
-    page: Hatchery.Candling.Page4,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Candling.Page4
   },
   {
     uri: '/hatchery/candling/5',
-    page: Hatchery.Candling.Page5,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Candling.Page5
   },
   {
     uri: '/hatchery/candling/6',
-    page: Hatchery.Candling.Page6,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Candling.Page6
   },
   {
     uri: '/hatchery/candling/7',
-    page: Hatchery.Candling.Page7,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Candling.Page7
   },
   {
     uri: '/hatchery/candling/8',
-    page: Hatchery.Candling.Page8,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Candling.Page8
   },
   {
     uri: '/hatchery/candling/9',
-    page: Hatchery.Candling.Page9,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Candling.Page9
   },
   {
     uri: '/hatchery/candling/10',
-    page: Hatchery.Candling.Page10,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Candling.Page10
   },
   {
     uri: '/hatchery/candling/11',
-    page: Hatchery.Candling.Page11,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Candling.Page11
   },
   {
     uri: '/hatchery/candling/12',
-    page: Hatchery.Candling.Page12,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Candling.Page12
   },
   {
     uri: '/hatchery/candling/13',
-    page: Hatchery.Candling.Page13,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Candling.Page13
   },
   {
     uri: '/hatchery/candling/14',
-    page: Hatchery.Candling.Page14,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Candling.Page14
   },
   {
     uri: '/hatchery/candling/15',
-    page: Hatchery.Candling.Page15,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Candling.Page15
   },
   {
     uri: '/hatchery/candling/16',
-    page: Hatchery.Candling.Page16,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Candling.Page16
   },
   {
     uri: '/hatchery/candling/17',
-    page: Hatchery.Candling.Page17,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Candling.Page17
   },
   {
     uri: '/hatchery/candling/18',
-    page: Hatchery.Candling.Page18,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Candling.Page18
   },
   {
     uri: '/hatchery/candling/19',
-    page: Hatchery.Candling.Page19,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Candling.Page19
   },
   {
     uri: '/hatchery/candling/20',
-    page: Hatchery.Candling.Page20,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Candling.Page20
   },
   {
     uri: '/hatchery/candling/21',
-    page: Hatchery.Candling.Page21,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Candling.Page21
   },
   {
     uri: '/hatchery/candling/22',
-    page: Hatchery.Candling.Page22,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Candling.Page22
   },
   {
     uri: '/hatchery/candling/23',
-    page: Hatchery.Candling.Page23,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Candling.Page23
   },
   {
     uri: '/hatchery/candling/24',
-    page: Hatchery.Candling.Page24,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Candling.Page24
   },
   {
     uri: '/hatchery/candling/25',
-    page: Hatchery.Candling.Page25,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Candling.Page25
   },
   {
     uri: '/hatchery/candling/26',
-    page: Hatchery.Candling.Page26,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Candling.Page26
   },
   {
     uri: '/hatchery/candling/27',
-    page: Hatchery.Candling.Page27,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Candling.Page27
   },
   {
     uri: '/hatchery/candling/28',
-    page: Hatchery.Candling.Page28,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Candling.Page28
   },
   {
     uri: '/hatchery/candling/29',
-    page: Hatchery.Candling.Page29,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Candling.Page29
   },
   {
     uri: '/hatchery/candling/30',
-    page: Hatchery.Candling.Page30,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Candling.Page30
   },
 
   {
     uri: '/hatchery/hatcher/0',
-    page: Hatchery.Hatcher.Page0,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '0',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('해쳐'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Hatchery.Hatcher.Page0
   },
   {
     uri: '/hatchery/candling/1',
-    page: Hatchery.Candling.Page1,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Candling.Page1
   },
   {
     uri: '/hatchery/candling/2',
-    page: Hatchery.Candling.Page2,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Candling.Page2
   },
   {
     uri: '/hatchery/candling/3',
-    page: Hatchery.Candling.Page3,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Candling.Page3
   },
   {
     uri: '/hatchery/candling/4',
-    page: Hatchery.Candling.Page4,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Candling.Page4
   },
   {
     uri: '/hatchery/candling/5',
-    page: Hatchery.Candling.Page5,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Candling.Page5
   },
   {
     uri: '/hatchery/candling/6',
-    page: Hatchery.Candling.Page6,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Candling.Page6
   },
   {
     uri: '/hatchery/candling/7',
-    page: Hatchery.Candling.Page7,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Candling.Page7
   },
   {
     uri: '/hatchery/candling/8',
-    page: Hatchery.Candling.Page8,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Candling.Page8
   },
   {
     uri: '/hatchery/candling/9',
-    page: Hatchery.Candling.Page9,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Candling.Page9
   },
   {
     uri: '/hatchery/candling/10',
-    page: Hatchery.Candling.Page10,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Candling.Page10
   },
   {
     uri: '/hatchery/candling/11',
-    page: Hatchery.Candling.Page11,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Candling.Page11
   },
   {
     uri: '/hatchery/candling/12',
-    page: Hatchery.Candling.Page12,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Candling.Page12
   },
   {
     uri: '/hatchery/candling/13',
-    page: Hatchery.Candling.Page13,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Candling.Page13
   },
   {
     uri: '/hatchery/candling/14',
-    page: Hatchery.Candling.Page14,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Candling.Page14
   },
   {
     uri: '/hatchery/candling/15',
-    page: Hatchery.Candling.Page15,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Candling.Page15
   },
   {
     uri: '/hatchery/candling/16',
-    page: Hatchery.Candling.Page16,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Candling.Page16
   },
   {
     uri: '/hatchery/candling/17',
-    page: Hatchery.Candling.Page17,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Candling.Page17
   },
   {
     uri: '/hatchery/candling/18',
-    page: Hatchery.Candling.Page18,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Candling.Page18
   },
   {
     uri: '/hatchery/candling/19',
-    page: Hatchery.Candling.Page19,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Candling.Page19
   },
   {
     uri: '/hatchery/candling/20',
-    page: Hatchery.Candling.Page20,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Candling.Page20
   },
   {
     uri: '/hatchery/candling/21',
-    page: Hatchery.Candling.Page21,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Candling.Page21
   },
   {
     uri: '/hatchery/candling/22',
-    page: Hatchery.Candling.Page22,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Candling.Page22
   },
   {
     uri: '/hatchery/candling/23',
-    page: Hatchery.Candling.Page23,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Candling.Page23
   },
   {
     uri: '/hatchery/candling/24',
-    page: Hatchery.Candling.Page24,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Candling.Page24
   },
   {
     uri: '/hatchery/candling/25',
-    page: Hatchery.Candling.Page25,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Candling.Page25
   },
   {
     uri: '/hatchery/candling/26',
-    page: Hatchery.Candling.Page26,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Candling.Page26
   },
   {
     uri: '/hatchery/candling/27',
-    page: Hatchery.Candling.Page27,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Candling.Page27
   },
   {
     uri: '/hatchery/candling/28',
-    page: Hatchery.Candling.Page28,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Candling.Page28
   },
   {
     uri: '/hatchery/candling/29',
-    page: Hatchery.Candling.Page29,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Candling.Page29
   },
   {
     uri: '/hatchery/candling/30',
-    page: Hatchery.Candling.Page30,
-    type: 'hatchery',
-    cate: 'candling',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('캔들링'),
-    cate_desc: i18n.t('입란한 계란을 검란해 해처리에 넣습니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Candling.Page30
   },
   {
     uri: '/hatchery/hatcher/1',
-    page: Hatchery.Hatcher.Page1,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Hatcher.Page1
   },
   {
     uri: '/hatchery/hatcher/2',
-    page: Hatchery.Hatcher.Page2,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Hatcher.Page2
   },
   {
     uri: '/hatchery/hatcher/3',
-    page: Hatchery.Hatcher.Page3,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Hatcher.Page3
   },
   {
     uri: '/hatchery/hatcher/4',
-    page: Hatchery.Hatcher.Page4,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Hatcher.Page4
   },
   {
     uri: '/hatchery/hatcher/5',
-    page: Hatchery.Hatcher.Page5,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Hatcher.Page5
   },
   {
     uri: '/hatchery/hatcher/6',
-    page: Hatchery.Hatcher.Page6,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Hatcher.Page6
   },
   {
     uri: '/hatchery/hatcher/7',
-    page: Hatchery.Hatcher.Page7,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Hatcher.Page7
   },
   {
     uri: '/hatchery/hatcher/8',
-    page: Hatchery.Hatcher.Page8,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Hatcher.Page8
   },
   {
     uri: '/hatchery/hatcher/9',
-    page: Hatchery.Hatcher.Page9,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Hatcher.Page9
   },
   {
     uri: '/hatchery/hatcher/10',
-    page: Hatchery.Hatcher.Page10,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Hatcher.Page10
   },
   {
     uri: '/hatchery/hatcher/11',
-    page: Hatchery.Hatcher.Page11,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Hatcher.Page11
   },
   {
     uri: '/hatchery/hatcher/12',
-    page: Hatchery.Hatcher.Page12,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Hatcher.Page12
   },
   {
     uri: '/hatchery/hatcher/13',
-    page: Hatchery.Hatcher.Page13,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Hatcher.Page13
   },
   {
     uri: '/hatchery/hatcher/14',
-    page: Hatchery.Hatcher.Page14,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Hatcher.Page14
   },
   {
     uri: '/hatchery/hatcher/15',
-    page: Hatchery.Hatcher.Page15,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Hatcher.Page15
   },
   {
     uri: '/hatchery/hatcher/16',
-    page: Hatchery.Hatcher.Page16,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Hatcher.Page16
   },
   {
     uri: '/hatchery/hatcher/17',
-    page: Hatchery.Hatcher.Page17,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Hatcher.Page17
   },
   {
     uri: '/hatchery/hatcher/18',
-    page: Hatchery.Hatcher.Page18,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Hatcher.Page18
   },
   {
     uri: '/hatchery/hatcher/19',
-    page: Hatchery.Hatcher.Page19,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Hatcher.Page19
   },
   {
     uri: '/hatchery/hatcher/20',
-    page: Hatchery.Hatcher.Page20,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Hatcher.Page20
   },
   {
     uri: '/hatchery/hatcher/21',
-    page: Hatchery.Hatcher.Page21,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Hatcher.Page21
   },
   {
     uri: '/hatchery/hatcher/22',
-    page: Hatchery.Hatcher.Page22,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Hatcher.Page22
   },
   {
     uri: '/hatchery/hatcher/23',
-    page: Hatchery.Hatcher.Page23,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Hatcher.Page23
   },
   {
     uri: '/hatchery/hatcher/24',
-    page: Hatchery.Hatcher.Page24,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Hatcher.Page24
   },
   {
     uri: '/hatchery/hatcher/25',
-    page: Hatchery.Hatcher.Page25,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Hatcher.Page25
   },
   {
     uri: '/hatchery/hatcher/26',
-    page: Hatchery.Hatcher.Page26,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Hatcher.Page26
   },
   {
     uri: '/hatchery/hatcher/27',
-    page: Hatchery.Hatcher.Page27,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Hatcher.Page27
   },
   {
     uri: '/hatchery/hatcher/28',
-    page: Hatchery.Hatcher.Page28,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Hatcher.Page28
   },
   {
     uri: '/hatchery/hatcher/29',
-    page: Hatchery.Hatcher.Page29,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Hatcher.Page29
   },
   {
     uri: '/hatchery/hatcher/30',
-    page: Hatchery.Hatcher.Page30,
-    type: 'hatchery',
-    cate: 'hatcher',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화기'),
-    cate_desc: i18n.t('해처리에서 태어난 병아리의 등급을 입력합니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Hatcher.Page30
   },
 
   {
     uri: '/hatchery/transegg/0',
-    page: Hatchery.Transegg.Page0,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '0',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('출고/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Hatchery.Transegg.Page0
   },
   {
     uri: '/hatchery/transegg/1',
-    page: Hatchery.Transegg.Page1,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Transegg.Page1
   },
   {
     uri: '/hatchery/transegg/2',
-    page: Hatchery.Transegg.Page2,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Transegg.Page2
   },
   {
     uri: '/hatchery/transegg/3',
-    page: Hatchery.Transegg.Page3,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Transegg.Page3
   },
   {
     uri: '/hatchery/transegg/4',
-    page: Hatchery.Transegg.Page4,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Transegg.Page4
   },
   {
     uri: '/hatchery/transegg/5',
-    page: Hatchery.Transegg.Page5,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Transegg.Page5
   },
   {
     uri: '/hatchery/transegg/6',
-    page: Hatchery.Transegg.Page6,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Transegg.Page6
   },
   {
     uri: '/hatchery/transegg/7',
-    page: Hatchery.Transegg.Page7,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Transegg.Page7
   },
   {
     uri: '/hatchery/transegg/8',
-    page: Hatchery.Transegg.Page8,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Transegg.Page8
   },
   {
     uri: '/hatchery/transegg/9',
-    page: Hatchery.Transegg.Page9,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Transegg.Page9
   },
   {
     uri: '/hatchery/transegg/10',
-    page: Hatchery.Transegg.Page10,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Transegg.Page10
   },
   {
     uri: '/hatchery/transegg/11',
-    page: Hatchery.Transegg.Page11,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Transegg.Page11
   },
   {
     uri: '/hatchery/transegg/12',
-    page: Hatchery.Transegg.Page12,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Transegg.Page12
   },
   {
     uri: '/hatchery/transegg/13',
-    page: Hatchery.Transegg.Page13,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Transegg.Page13
   },
   {
     uri: '/hatchery/transegg/14',
-    page: Hatchery.Transegg.Page14,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Transegg.Page14
   },
   {
     uri: '/hatchery/transegg/15',
-    page: Hatchery.Transegg.Page15,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Transegg.Page15
   },
   {
     uri: '/hatchery/transegg/16',
-    page: Hatchery.Transegg.Page16,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Transegg.Page16
   },
   {
     uri: '/hatchery/transegg/17',
-    page: Hatchery.Transegg.Page17,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Transegg.Page17
   },
   {
     uri: '/hatchery/transegg/18',
-    page: Hatchery.Transegg.Page18,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Transegg.Page18
   },
   {
     uri: '/hatchery/transegg/19',
-    page: Hatchery.Transegg.Page19,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Transegg.Page19
   },
   {
     uri: '/hatchery/transegg/20',
-    page: Hatchery.Transegg.Page20,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Transegg.Page20
   },
   {
     uri: '/hatchery/transegg/21',
-    page: Hatchery.Transegg.Page21,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Transegg.Page21
   },
   {
     uri: '/hatchery/transegg/22',
-    page: Hatchery.Transegg.Page22,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Transegg.Page22
   },
   {
     uri: '/hatchery/transegg/23',
-    page: Hatchery.Transegg.Page23,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Transegg.Page23
   },
   {
     uri: '/hatchery/transegg/24',
-    page: Hatchery.Transegg.Page24,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Transegg.Page24
   },
   {
     uri: '/hatchery/transegg/25',
-    page: Hatchery.Transegg.Page25,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Transegg.Page25
   },
   {
     uri: '/hatchery/transegg/26',
-    page: Hatchery.Transegg.Page26,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Transegg.Page26
   },
   {
     uri: '/hatchery/transegg/27',
-    page: Hatchery.Transegg.Page27,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Transegg.Page27
   },
   {
     uri: '/hatchery/transegg/28',
-    page: Hatchery.Transegg.Page28,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Transegg.Page28
   },
   {
     uri: '/hatchery/transegg/29',
-    page: Hatchery.Transegg.Page29,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Transegg.Page29
   },
   {
     uri: '/hatchery/transegg/30',
-    page: Hatchery.Transegg.Page30,
-    type: 'hatchery',
-    cate: 'transegg',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('달걀을 출고 합니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Transegg.Page30
   },
 
   {
     uri: '/hatchery/transchick/0',
-    page: Hatchery.Transchick.Page0,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '0',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('출고/병아리'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Hatchery.Transchick.Page0
   },
   {
     uri: '/hatchery/transchick/1',
-    page: Hatchery.Transchick.Page1,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Transchick.Page1
   },
   {
     uri: '/hatchery/transchick/2',
-    page: Hatchery.Transchick.Page2,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Transchick.Page2
   },
   {
     uri: '/hatchery/transchick/3',
-    page: Hatchery.Transchick.Page3,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Transchick.Page3
   },
   {
     uri: '/hatchery/transchick/4',
-    page: Hatchery.Transchick.Page4,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Transchick.Page4
   },
   {
     uri: '/hatchery/transchick/5',
-    page: Hatchery.Transchick.Page5,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Transchick.Page5
   },
   {
     uri: '/hatchery/transchick/6',
-    page: Hatchery.Transchick.Page6,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Transchick.Page6
   },
   {
     uri: '/hatchery/transchick/7',
-    page: Hatchery.Transchick.Page7,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Transchick.Page7
   },
   {
     uri: '/hatchery/transchick/8',
-    page: Hatchery.Transchick.Page8,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Transchick.Page8
   },
   {
     uri: '/hatchery/transchick/9',
-    page: Hatchery.Transchick.Page9,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Transchick.Page9
   },
   {
     uri: '/hatchery/transchick/10',
-    page: Hatchery.Transchick.Page10,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Transchick.Page10
   },
   {
     uri: '/hatchery/transchick/11',
-    page: Hatchery.Transchick.Page11,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Transchick.Page11
   },
   {
     uri: '/hatchery/transchick/12',
-    page: Hatchery.Transchick.Page12,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Transchick.Page12
   },
   {
     uri: '/hatchery/transchick/13',
-    page: Hatchery.Transchick.Page13,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Transchick.Page13
   },
   {
     uri: '/hatchery/transchick/14',
-    page: Hatchery.Transchick.Page14,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Transchick.Page14
   },
   {
     uri: '/hatchery/transchick/15',
-    page: Hatchery.Transchick.Page15,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Transchick.Page15
   },
   {
     uri: '/hatchery/transchick/16',
-    page: Hatchery.Transchick.Page16,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Transchick.Page16
   },
   {
     uri: '/hatchery/transchick/17',
-    page: Hatchery.Transchick.Page17,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Transchick.Page17
   },
   {
     uri: '/hatchery/transchick/18',
-    page: Hatchery.Transchick.Page18,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Transchick.Page18
   },
   {
     uri: '/hatchery/transchick/19',
-    page: Hatchery.Transchick.Page19,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Transchick.Page19
   },
   {
     uri: '/hatchery/transchick/20',
-    page: Hatchery.Transchick.Page20,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Transchick.Page20
   },
   {
     uri: '/hatchery/transchick/21',
-    page: Hatchery.Transchick.Page21,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Transchick.Page21
   },
   {
     uri: '/hatchery/transchick/22',
-    page: Hatchery.Transchick.Page22,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Transchick.Page22
   },
   {
     uri: '/hatchery/transchick/23',
-    page: Hatchery.Transchick.Page23,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Transchick.Page23
   },
   {
     uri: '/hatchery/transchick/24',
-    page: Hatchery.Transchick.Page24,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Transchick.Page24
   },
   {
     uri: '/hatchery/transchick/25',
-    page: Hatchery.Transchick.Page25,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Transchick.Page25
   },
   {
     uri: '/hatchery/transchick/26',
-    page: Hatchery.Transchick.Page26,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Transchick.Page26
   },
   {
     uri: '/hatchery/transchick/27',
-    page: Hatchery.Transchick.Page27,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Transchick.Page27
   },
   {
     uri: '/hatchery/transchick/28',
-    page: Hatchery.Transchick.Page28,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Transchick.Page28
   },
   {
     uri: '/hatchery/transchick/29',
-    page: Hatchery.Transchick.Page29,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Transchick.Page29
   },
   {
     uri: '/hatchery/transchick/30',
-    page: Hatchery.Transchick.Page30,
-    type: 'hatchery',
-    cate: 'transchick',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('부화장/달걀'),
-    cate_desc: i18n.t('병아리를 출고 합니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Transchick.Page30
   },
 
   {
     uri: '/hatchery/cutting/0',
-    page: Hatchery.Cutting.Page0,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '0',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('Discard와는 또다른 폐기처리 입니다'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Hatchery.Cutting.Page0
   },
   {
     uri: '/hatchery/cutting/1',
-    page: Hatchery.Cutting.Page1,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '1',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Hatchery.Cutting.Page1
   },
   {
     uri: '/hatchery/cutting/2',
-    page: Hatchery.Cutting.Page2,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '2',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Hatchery.Cutting.Page2
   },
   {
     uri: '/hatchery/cutting/3',
-    page: Hatchery.Cutting.Page3,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '3',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Hatchery.Cutting.Page3
   },
   {
     uri: '/hatchery/cutting/4',
-    page: Hatchery.Cutting.Page4,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '4',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Hatchery.Cutting.Page4
   },
   {
     uri: '/hatchery/cutting/5',
-    page: Hatchery.Cutting.Page5,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '5',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Hatchery.Cutting.Page5
   },
   {
     uri: '/hatchery/cutting/6',
-    page: Hatchery.Cutting.Page6,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '6',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Hatchery.Cutting.Page6
   },
   {
     uri: '/hatchery/cutting/7',
-    page: Hatchery.Cutting.Page7,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '7',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Hatchery.Cutting.Page7
   },
   {
     uri: '/hatchery/cutting/8',
-    page: Hatchery.Cutting.Page8,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '8',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Hatchery.Cutting.Page8
   },
   {
     uri: '/hatchery/cutting/9',
-    page: Hatchery.Cutting.Page9,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '9',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Hatchery.Cutting.Page9
   },
   {
     uri: '/hatchery/cutting/10',
-    page: Hatchery.Cutting.Page10,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '10',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Hatchery.Cutting.Page10
   },
   {
     uri: '/hatchery/cutting/11',
-    page: Hatchery.Cutting.Page11,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '11',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Hatchery.Cutting.Page11
   },
   {
     uri: '/hatchery/cutting/12',
-    page: Hatchery.Cutting.Page12,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '12',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Hatchery.Cutting.Page12
   },
   {
     uri: '/hatchery/cutting/13',
-    page: Hatchery.Cutting.Page13,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '13',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Hatchery.Cutting.Page13
   },
   {
     uri: '/hatchery/cutting/14',
-    page: Hatchery.Cutting.Page14,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '14',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Hatchery.Cutting.Page14
   },
   {
     uri: '/hatchery/cutting/15',
-    page: Hatchery.Cutting.Page15,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '15',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Hatchery.Cutting.Page15
   },
   {
     uri: '/hatchery/cutting/16',
-    page: Hatchery.Cutting.Page16,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '16',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Hatchery.Cutting.Page16
   },
   {
     uri: '/hatchery/cutting/17',
-    page: Hatchery.Cutting.Page17,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '17',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Hatchery.Cutting.Page17
   },
   {
     uri: '/hatchery/cutting/18',
-    page: Hatchery.Cutting.Page18,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '18',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Hatchery.Cutting.Page18
   },
   {
     uri: '/hatchery/cutting/19',
-    page: Hatchery.Cutting.Page19,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '19',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Hatchery.Cutting.Page19
   },
   {
     uri: '/hatchery/cutting/20',
-    page: Hatchery.Cutting.Page20,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '20',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Hatchery.Cutting.Page20
   },
   {
     uri: '/hatchery/cutting/21',
-    page: Hatchery.Cutting.Page21,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '21',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Hatchery.Cutting.Page21
   },
   {
     uri: '/hatchery/cutting/22',
-    page: Hatchery.Cutting.Page22,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '22',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Hatchery.Cutting.Page22
   },
   {
     uri: '/hatchery/cutting/23',
-    page: Hatchery.Cutting.Page23,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '23',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Hatchery.Cutting.Page23
   },
   {
     uri: '/hatchery/cutting/24',
-    page: Hatchery.Cutting.Page24,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '24',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Hatchery.Cutting.Page24
   },
   {
     uri: '/hatchery/cutting/25',
-    page: Hatchery.Cutting.Page25,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '25',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Hatchery.Cutting.Page25
   },
   {
     uri: '/hatchery/cutting/26',
-    page: Hatchery.Cutting.Page26,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '26',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Hatchery.Cutting.Page26
   },
   {
     uri: '/hatchery/cutting/27',
-    page: Hatchery.Cutting.Page27,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '27',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Hatchery.Cutting.Page27
   },
   {
     uri: '/hatchery/cutting/28',
-    page: Hatchery.Cutting.Page28,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '28',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Hatchery.Cutting.Page28
   },
   {
     uri: '/hatchery/cutting/29',
-    page: Hatchery.Cutting.Page29,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '29',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Hatchery.Cutting.Page29
   },
   {
     uri: '/hatchery/cutting/30',
-    page: Hatchery.Cutting.Page30,
-    type: 'hatchery',
-    cate: 'cutting',
-    id: '30',
-    type_nm: i18n.t('부화장'),
-    cate_nm: i18n.t('커팅'),
-    cate_desc: i18n.t('폐기합니다'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Hatchery.Cutting.Page30
   }
 ];
 

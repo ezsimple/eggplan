@@ -8,9 +8,8 @@ import { Navs } from 'components/';
 
 const BroilerRoute = props => {
   const getRouteInfo = (cate, id) => {
-    return BroilerRouteList.find(
-      item => item.type === 'broiler' && item.cate === cate && item.id === id
-    );
+    const pathname = window.location.pathname;
+    return BroilerRouteList.find(paget => paget.uri === pathname);
   };
 
   const url = props.match.url;

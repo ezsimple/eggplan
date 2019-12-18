@@ -4,1026 +4,375 @@ import i18n from 'i18next';
 const BroilerRouteList = [
   {
     uri: '/broiler/receive/0',
-    page: Broiler.Receive.Page0,
-    type: 'broiler',
-    cate: 'receive',
-    id: '0',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Broiler.Receive.Page0
   },
   {
     uri: '/broiler/receive/1',
-    page: Broiler.Receive.Page1,
-    type: 'broiler',
-    cate: 'receive',
-    id: '1',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Broiler.Receive.Page1
   },
   {
     uri: '/broiler/receive/2',
-    page: Broiler.Receive.Page2,
-    type: 'broiler',
-    cate: 'receive',
-    id: '2',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Broiler.Receive.Page2
   },
   {
     uri: '/broiler/receive/3',
-    page: Broiler.Receive.Page3,
-    type: 'broiler',
-    cate: 'receive',
-    id: '3',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Broiler.Receive.Page3
   },
   {
     uri: '/broiler/receive/4',
-    page: Broiler.Receive.Page4,
-    type: 'broiler',
-    cate: 'receive',
-    id: '4',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Broiler.Receive.Page4
   },
   {
     uri: '/broiler/receive/5',
-    page: Broiler.Receive.Page5,
-    type: 'broiler',
-    cate: 'receive',
-    id: '5',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Broiler.Receive.Page5
   },
   {
     uri: '/broiler/receive/6',
-    page: Broiler.Receive.Page6,
-    type: 'broiler',
-    cate: 'receive',
-    id: '6',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Broiler.Receive.Page6
   },
   {
     uri: '/broiler/receive/7',
-    page: Broiler.Receive.Page7,
-    type: 'broiler',
-    cate: 'receive',
-    id: '7',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Broiler.Receive.Page7
   },
   {
     uri: '/broiler/receive/8',
-    page: Broiler.Receive.Page8,
-    type: 'broiler',
-    cate: 'receive',
-    id: '8',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Broiler.Receive.Page8
   },
   {
     uri: '/broiler/receive/9',
-    page: Broiler.Receive.Page9,
-    type: 'broiler',
-    cate: 'receive',
-    id: '9',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Broiler.Receive.Page9
   },
   {
     uri: '/broiler/receive/10',
-    page: Broiler.Receive.Page10,
-    type: 'broiler',
-    cate: 'receive',
-    id: '10',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Broiler.Receive.Page10
   },
   {
     uri: '/broiler/receive/11',
-    page: Broiler.Receive.Page11,
-    type: 'broiler',
-    cate: 'receive',
-    id: '11',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Broiler.Receive.Page11
   },
   {
     uri: '/broiler/receive/12',
-    page: Broiler.Receive.Page12,
-    type: 'broiler',
-    cate: 'receive',
-    id: '12',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Broiler.Receive.Page12
   },
   {
     uri: '/broiler/receive/13',
-    page: Broiler.Receive.Page13,
-    type: 'broiler',
-    cate: 'receive',
-    id: '13',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Broiler.Receive.Page13
   },
   {
     uri: '/broiler/receive/14',
-    page: Broiler.Receive.Page14,
-    type: 'broiler',
-    cate: 'receive',
-    id: '14',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Broiler.Receive.Page14
   },
   {
     uri: '/broiler/receive/15',
-    page: Broiler.Receive.Page15,
-    type: 'broiler',
-    cate: 'receive',
-    id: '15',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Broiler.Receive.Page15
   },
   {
     uri: '/broiler/receive/16',
-    page: Broiler.Receive.Page16,
-    type: 'broiler',
-    cate: 'receive',
-    id: '16',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Broiler.Receive.Page16
   },
   {
     uri: '/broiler/receive/17',
-    page: Broiler.Receive.Page17,
-    type: 'broiler',
-    cate: 'receive',
-    id: '17',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Broiler.Receive.Page17
   },
   {
     uri: '/broiler/receive/18',
-    page: Broiler.Receive.Page18,
-    type: 'broiler',
-    cate: 'receive',
-    id: '18',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Broiler.Receive.Page18
   },
   {
     uri: '/broiler/receive/19',
-    page: Broiler.Receive.Page19,
-    type: 'broiler',
-    cate: 'receive',
-    id: '19',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Broiler.Receive.Page19
   },
   {
     uri: '/broiler/receive/20',
-    page: Broiler.Receive.Page20,
-    type: 'broiler',
-    cate: 'receive',
-    id: '20',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Broiler.Receive.Page20
   },
   {
     uri: '/broiler/receive/21',
-    page: Broiler.Receive.Page21,
-    type: 'broiler',
-    cate: 'receive',
-    id: '21',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Broiler.Receive.Page21
   },
   {
     uri: '/broiler/receive/22',
-    page: Broiler.Receive.Page22,
-    type: 'broiler',
-    cate: 'receive',
-    id: '22',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Broiler.Receive.Page22
   },
   {
     uri: '/broiler/receive/23',
-    page: Broiler.Receive.Page23,
-    type: 'broiler',
-    cate: 'receive',
-    id: '23',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Broiler.Receive.Page23
   },
   {
     uri: '/broiler/receive/24',
-    page: Broiler.Receive.Page24,
-    type: 'broiler',
-    cate: 'receive',
-    id: '24',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Broiler.Receive.Page24
   },
   {
     uri: '/broiler/receive/25',
-    page: Broiler.Receive.Page25,
-    type: 'broiler',
-    cate: 'receive',
-    id: '25',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Broiler.Receive.Page25
   },
   {
     uri: '/broiler/receive/26',
-    page: Broiler.Receive.Page26,
-    type: 'broiler',
-    cate: 'receive',
-    id: '26',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Broiler.Receive.Page26
   },
   {
     uri: '/broiler/receive/27',
-    page: Broiler.Receive.Page27,
-    type: 'broiler',
-    cate: 'receive',
-    id: '27',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Broiler.Receive.Page27
   },
   {
     uri: '/broiler/receive/28',
-    page: Broiler.Receive.Page28,
-    type: 'broiler',
-    cate: 'receive',
-    id: '28',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Broiler.Receive.Page28
   },
   {
     uri: '/broiler/receive/29',
-    page: Broiler.Receive.Page29,
-    type: 'broiler',
-    cate: 'receive',
-    id: '29',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Broiler.Receive.Page29
   },
   {
     uri: '/broiler/receive/30',
-    page: Broiler.Receive.Page30,
-    type: 'broiler',
-    cate: 'receive',
-    id: '30',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('입고'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Broiler.Receive.Page30
   },
   {
     uri: '/broiler/growing/0',
-    page: Broiler.Growing.Page0,
-    type: 'broiler',
-    cate: 'growing',
-    id: '0',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Broiler.Growing.Page0
   },
   {
     uri: '/broiler/growing/1',
-    page: Broiler.Growing.Page1,
-    type: 'broiler',
-    cate: 'growing',
-    id: '1',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Broiler.Growing.Page1
   },
   {
     uri: '/broiler/growing/2',
-    page: Broiler.Growing.Page2,
-    type: 'broiler',
-    cate: 'growing',
-    id: '2',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Broiler.Growing.Page2
   },
   {
     uri: '/broiler/growing/3',
-    page: Broiler.Growing.Page3,
-    type: 'broiler',
-    cate: 'growing',
-    id: '3',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Broiler.Growing.Page3
   },
   {
     uri: '/broiler/growing/4',
-    page: Broiler.Growing.Page4,
-    type: 'broiler',
-    cate: 'growing',
-    id: '4',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Broiler.Growing.Page4
   },
   {
     uri: '/broiler/growing/5',
-    page: Broiler.Growing.Page5,
-    type: 'broiler',
-    cate: 'growing',
-    id: '5',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Broiler.Growing.Page5
   },
   {
     uri: '/broiler/growing/6',
-    page: Broiler.Growing.Page6,
-    type: 'broiler',
-    cate: 'growing',
-    id: '6',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Broiler.Growing.Page6
   },
   {
     uri: '/broiler/growing/7',
-    page: Broiler.Growing.Page7,
-    type: 'broiler',
-    cate: 'growing',
-    id: '7',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Broiler.Growing.Page7
   },
   {
     uri: '/broiler/growing/8',
-    page: Broiler.Growing.Page8,
-    type: 'broiler',
-    cate: 'growing',
-    id: '8',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Broiler.Growing.Page8
   },
   {
     uri: '/broiler/growing/9',
-    page: Broiler.Growing.Page9,
-    type: 'broiler',
-    cate: 'growing',
-    id: '9',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Broiler.Growing.Page9
   },
   {
     uri: '/broiler/growing/10',
-    page: Broiler.Growing.Page10,
-    type: 'broiler',
-    cate: 'growing',
-    id: '10',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Broiler.Growing.Page10
   },
   {
     uri: '/broiler/growing/11',
-    page: Broiler.Growing.Page11,
-    type: 'broiler',
-    cate: 'growing',
-    id: '11',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Broiler.Growing.Page11
   },
   {
     uri: '/broiler/growing/12',
-    page: Broiler.Growing.Page12,
-    type: 'broiler',
-    cate: 'growing',
-    id: '12',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Broiler.Growing.Page12
   },
   {
     uri: '/broiler/growing/13',
-    page: Broiler.Growing.Page13,
-    type: 'broiler',
-    cate: 'growing',
-    id: '13',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Broiler.Growing.Page13
   },
   {
     uri: '/broiler/growing/14',
-    page: Broiler.Growing.Page14,
-    type: 'broiler',
-    cate: 'growing',
-    id: '14',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Broiler.Growing.Page14
   },
   {
     uri: '/broiler/growing/15',
-    page: Broiler.Growing.Page15,
-    type: 'broiler',
-    cate: 'growing',
-    id: '15',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Broiler.Growing.Page15
   },
   {
     uri: '/broiler/growing/16',
-    page: Broiler.Growing.Page16,
-    type: 'broiler',
-    cate: 'growing',
-    id: '16',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Broiler.Growing.Page16
   },
   {
     uri: '/broiler/growing/17',
-    page: Broiler.Growing.Page17,
-    type: 'broiler',
-    cate: 'growing',
-    id: '17',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Broiler.Growing.Page17
   },
   {
     uri: '/broiler/growing/18',
-    page: Broiler.Growing.Page18,
-    type: 'broiler',
-    cate: 'growing',
-    id: '18',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Broiler.Growing.Page18
   },
   {
     uri: '/broiler/growing/19',
-    page: Broiler.Growing.Page19,
-    type: 'broiler',
-    cate: 'growing',
-    id: '19',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Broiler.Growing.Page19
   },
   {
     uri: '/broiler/growing/20',
-    page: Broiler.Growing.Page20,
-    type: 'broiler',
-    cate: 'growing',
-    id: '20',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Broiler.Growing.Page20
   },
   {
     uri: '/broiler/growing/21',
-    page: Broiler.Growing.Page21,
-    type: 'broiler',
-    cate: 'growing',
-    id: '21',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Broiler.Growing.Page21
   },
   {
     uri: '/broiler/growing/22',
-    page: Broiler.Growing.Page22,
-    type: 'broiler',
-    cate: 'growing',
-    id: '22',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Broiler.Growing.Page22
   },
   {
     uri: '/broiler/growing/23',
-    page: Broiler.Growing.Page23,
-    type: 'broiler',
-    cate: 'growing',
-    id: '23',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Broiler.Growing.Page23
   },
   {
     uri: '/broiler/growing/24',
-    page: Broiler.Growing.Page24,
-    type: 'broiler',
-    cate: 'growing',
-    id: '24',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Broiler.Growing.Page24
   },
   {
     uri: '/broiler/growing/25',
-    page: Broiler.Growing.Page25,
-    type: 'broiler',
-    cate: 'growing',
-    id: '25',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Broiler.Growing.Page25
   },
   {
     uri: '/broiler/growing/26',
-    page: Broiler.Growing.Page26,
-    type: 'broiler',
-    cate: 'growing',
-    id: '26',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Broiler.Growing.Page26
   },
   {
     uri: '/broiler/growing/27',
-    page: Broiler.Growing.Page27,
-    type: 'broiler',
-    cate: 'growing',
-    id: '27',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Broiler.Growing.Page27
   },
   {
     uri: '/broiler/growing/28',
-    page: Broiler.Growing.Page28,
-    type: 'broiler',
-    cate: 'growing',
-    id: '28',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Broiler.Growing.Page28
   },
   {
     uri: '/broiler/growing/29',
-    page: Broiler.Growing.Page29,
-    type: 'broiler',
-    cate: 'growing',
-    id: '29',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Broiler.Growing.Page29
   },
   {
     uri: '/broiler/growing/30',
-    page: Broiler.Growing.Page30,
-    type: 'broiler',
-    cate: 'growing',
-    id: '30',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('육성일지'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Broiler.Growing.Page30
   },
   {
     uri: '/broiler/transfer/0',
-    page: Broiler.Transfer.Page0,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '0',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#0'),
-    is_full: false
+    page: Broiler.Transfer.Page0
   },
   {
     uri: '/broiler/transfer/1',
-    page: Broiler.Transfer.Page1,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '1',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#1'),
-    is_full: false
+    page: Broiler.Transfer.Page1
   },
   {
     uri: '/broiler/transfer/2',
-    page: Broiler.Transfer.Page2,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '2',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#2'),
-    is_full: false
+    page: Broiler.Transfer.Page2
   },
   {
     uri: '/broiler/transfer/3',
-    page: Broiler.Transfer.Page3,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '3',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#3'),
-    is_full: false
+    page: Broiler.Transfer.Page3
   },
   {
     uri: '/broiler/transfer/4',
-    page: Broiler.Transfer.Page4,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '4',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#4'),
-    is_full: false
+    page: Broiler.Transfer.Page4
   },
   {
     uri: '/broiler/transfer/5',
-    page: Broiler.Transfer.Page5,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '5',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#5'),
-    is_full: false
+    page: Broiler.Transfer.Page5
   },
   {
     uri: '/broiler/transfer/6',
-    page: Broiler.Transfer.Page6,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '6',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#6'),
-    is_full: false
+    page: Broiler.Transfer.Page6
   },
   {
     uri: '/broiler/transfer/7',
-    page: Broiler.Transfer.Page7,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '7',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#7'),
-    is_full: false
+    page: Broiler.Transfer.Page7
   },
   {
     uri: '/broiler/transfer/8',
-    page: Broiler.Transfer.Page8,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '8',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#8'),
-    is_full: false
+    page: Broiler.Transfer.Page8
   },
   {
     uri: '/broiler/transfer/9',
-    page: Broiler.Transfer.Page9,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '9',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#9'),
-    is_full: false
+    page: Broiler.Transfer.Page9
   },
   {
     uri: '/broiler/transfer/10',
-    page: Broiler.Transfer.Page10,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '10',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#10'),
-    is_full: false
+    page: Broiler.Transfer.Page10
   },
   {
     uri: '/broiler/transfer/11',
-    page: Broiler.Transfer.Page11,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '11',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#11'),
-    is_full: false
+    page: Broiler.Transfer.Page11
   },
   {
     uri: '/broiler/transfer/12',
-    page: Broiler.Transfer.Page12,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '12',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#12'),
-    is_full: false
+    page: Broiler.Transfer.Page12
   },
   {
     uri: '/broiler/transfer/13',
-    page: Broiler.Transfer.Page13,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '13',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#13'),
-    is_full: false
+    page: Broiler.Transfer.Page13
   },
   {
     uri: '/broiler/transfer/14',
-    page: Broiler.Transfer.Page14,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '14',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#14'),
-    is_full: false
+    page: Broiler.Transfer.Page14
   },
   {
     uri: '/broiler/transfer/15',
-    page: Broiler.Transfer.Page15,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '15',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#15'),
-    is_full: false
+    page: Broiler.Transfer.Page15
   },
   {
     uri: '/broiler/transfer/16',
-    page: Broiler.Transfer.Page16,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '16',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#16'),
-    is_full: false
+    page: Broiler.Transfer.Page16
   },
   {
     uri: '/broiler/transfer/17',
-    page: Broiler.Transfer.Page17,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '17',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#17'),
-    is_full: false
+    page: Broiler.Transfer.Page17
   },
   {
     uri: '/broiler/transfer/18',
-    page: Broiler.Transfer.Page18,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '18',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#18'),
-    is_full: false
+    page: Broiler.Transfer.Page18
   },
   {
     uri: '/broiler/transfer/19',
-    page: Broiler.Transfer.Page19,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '19',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#19'),
-    is_full: false
+    page: Broiler.Transfer.Page19
   },
   {
     uri: '/broiler/transfer/20',
-    page: Broiler.Transfer.Page20,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '20',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#20'),
-    is_full: false
+    page: Broiler.Transfer.Page20
   },
   {
     uri: '/broiler/transfer/21',
-    page: Broiler.Transfer.Page21,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '21',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#21'),
-    is_full: false
+    page: Broiler.Transfer.Page21
   },
   {
     uri: '/broiler/transfer/22',
-    page: Broiler.Transfer.Page22,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '22',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#22'),
-    is_full: false
+    page: Broiler.Transfer.Page22
   },
   {
     uri: '/broiler/transfer/23',
-    page: Broiler.Transfer.Page23,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '23',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#23'),
-    is_full: false
+    page: Broiler.Transfer.Page23
   },
   {
     uri: '/broiler/transfer/24',
-    page: Broiler.Transfer.Page24,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '24',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#24'),
-    is_full: false
+    page: Broiler.Transfer.Page24
   },
   {
     uri: '/broiler/transfer/25',
-    page: Broiler.Transfer.Page25,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '25',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#25'),
-    is_full: false
+    page: Broiler.Transfer.Page25
   },
   {
     uri: '/broiler/transfer/26',
-    page: Broiler.Transfer.Page26,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '26',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#26'),
-    is_full: false
+    page: Broiler.Transfer.Page26
   },
   {
     uri: '/broiler/transfer/27',
-    page: Broiler.Transfer.Page27,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '27',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#27'),
-    is_full: false
+    page: Broiler.Transfer.Page27
   },
   {
     uri: '/broiler/transfer/28',
-    page: Broiler.Transfer.Page28,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '28',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#28'),
-    is_full: false
+    page: Broiler.Transfer.Page28
   },
   {
     uri: '/broiler/transfer/29',
-    page: Broiler.Transfer.Page29,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '29',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#29'),
-    is_full: false
+    page: Broiler.Transfer.Page29
   },
   {
     uri: '/broiler/transfer/30',
-    page: Broiler.Transfer.Page30,
-    type: 'broiler',
-    cate: 'transfer',
-    id: '30',
-    type_nm: i18n.t('육계'),
-    cate_nm: i18n.t('닭 출고'),
-    page_nm: i18n.t('페이지#30'),
-    is_full: false
+    page: Broiler.Transfer.Page30
   }
 ];
 export default BroilerRouteList;

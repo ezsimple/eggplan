@@ -8,9 +8,8 @@ import { Navs } from 'components/';
 
 const BreedingRoute = props => {
   const getRouteInfo = (cate, id) => {
-    return BreedingRouteList.find(
-      item => item.type === 'breeding' && item.cate === cate && item.id === id
-    );
+    const pathname = window.location.pathname;
+    return BreedingRouteList.find(page => page.uri === pathname);
   };
 
   const url = props.match.url;

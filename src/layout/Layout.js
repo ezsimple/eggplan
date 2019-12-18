@@ -1,10 +1,11 @@
 import React from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu, Icon, Breadcrumb } from 'antd';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.gif';
 import { Trans } from 'react-i18next';
 import i18n from 'i18next';
 
+import { BreedingRouteList, HatcheryRouteList, BroilerRouteList } from 'route';
 import { BreedingMenu, BroilerMenu, HatcheryMenu } from 'layout';
 import './Layout.module.css';
 
@@ -12,24 +13,27 @@ const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
 class EggLayout extends React.Component {
-  state = {
-    collapsed: false,
-    menu: '' // breeding(종계), broiler(육계), hatchery(부화)
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      collapsed: false,
+      menu: '' // breeding(종계), broiler(육계), hatchery(부화)
+    };
+    this.pathname = window.location.pathname;
+    this.isBreeding = this.pathname.indexOf('/breeding/') > -1;
+    this.isBroiler = this.pathname.indexOf('/broiler/') > -1;
+    this.isHatchery = this.pathname.indexOf('/hatchery/') > -1;
+  }
 
   componentDidMount() {
-    const pathname = window.location.pathname;
-    const isBreeding = pathname.indexOf('/breeding/') > -1;
-    const isBroiler = pathname.indexOf('/broiler/') > -1;
-    const isHatchery = pathname.indexOf('/hatchery/') > -1;
-    if (isBreeding) {
-      this.setState({ menu: 'breeding' });
+    if (this.isBreeding) {
+      this.setState({ menu: 'breeding', typeName: i18n.t('종계') });
     }
-    if (isBroiler) {
-      this.setState({ menu: 'broiler' });
+    if (this.isHatchery) {
+      this.setState({ menu: 'hatchery', typeName: i18n.t('부화') });
     }
-    if (isHatchery) {
-      this.setState({ menu: 'hatchery' });
+    if (this.isBroiler) {
+      this.setState({ menu: 'broiler', typeName: i18n.t('육계') });
     }
   }
 
@@ -38,7 +42,8 @@ class EggLayout extends React.Component {
     this.setState({ collapsed });
   };
 
-  onCateChange = e => {
+  // 대메뉴 항목 변경 메소드
+  onTypeChange = e => {
     const menu = e.target.value || 'breeding';
     this.setState({ menu: menu });
   };
@@ -58,7 +63,7 @@ class EggLayout extends React.Component {
               name="mainCategory"
               title=""
               className=""
-              onChange={e => this.onCateChange(e)}
+              onChange={e => this.onTypeChange(e)}
               value={this.state.menu}
             >
               <option value="breeding">{i18n.t('종계')}</option>
@@ -73,18 +78,16 @@ class EggLayout extends React.Component {
         <Layout>
           <Header style={{ background: '#fff', padding: 0 }}>헤더</Header>
           <Content style={{ margin: '16px 16px' }}>
-            {/*
             <Breadcrumb style={{ margin: '16px 0' }}>
-              <Breadcrumb.Item>User</Breadcrumb.Item>
+              <Breadcrumb.Item>{this.state.typeName}</Breadcrumb.Item>
               <Breadcrumb.Item>Bill</Breadcrumb.Item>
             </Breadcrumb>
-            */}
             <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
               {children}
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            Designed as a React ©2019 Created by Ezfarm
+            Designed by React ©2019 Ezfarm
           </Footer>
         </Layout>
       </Layout>

@@ -7,10 +7,9 @@ import { EggError } from 'containers/pages/common';
 import { Navs } from 'components/';
 
 const HatcheryRoute = props => {
+  const pathname = window.location.pathname;
   const getRouteInfo = (cate, id) => {
-    return HatcheryRouteList.find(
-      item => item.type === 'hatchery' && item.cate === cate && item.id === id
-    );
+    return HatcheryRouteList.find(page => page.uri === pathname);
   };
 
   const url = props.match.url;
