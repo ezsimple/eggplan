@@ -5,7 +5,6 @@ import logo from '../images/logo.gif';
 import { Trans } from 'react-i18next';
 import i18n from 'i18next';
 
-import { BreedingRouteList, HatcheryRouteList, BroilerRouteList } from 'route';
 import { BreedingMenu, BroilerMenu, HatcheryMenu } from 'layout';
 import './Layout.module.css';
 
@@ -76,7 +75,11 @@ class EggLayout extends React.Component {
           {this.state.menu == 'broiler' && <BroilerMenu {...this.props} />}
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}>헤더</Header>
+          <Header
+            style={{ background: '#fff', padding: 0, textAlign: 'center' }}
+          >
+            <Trans>에그플랜</Trans>
+          </Header>
           <Content style={{ margin: '16px 16px' }}>
             {/*
             <Breadcrumb style={{ margin: '16px 0' }}>
@@ -88,7 +91,7 @@ class EggLayout extends React.Component {
               {children}
             </div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>
+          <Footer style={{ background: '#fff', textAlign: 'center' }}>
             Designed by React ©2019 Ezfarm
           </Footer>
         </Layout>
